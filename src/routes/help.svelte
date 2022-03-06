@@ -2,6 +2,7 @@
     <div class="country_label"><a href="/help/pl">Польща</a></div>
     <div class="country_label"><a href="/help/de">Німеччина</a></div>
     <div class="country_label"><a href="/help/cz">Чехія</a></div>
+    <div class="country_label"><a href="/help/gr">Греція</a></div>
 </div>
 
 <div style="margin: 1.5em">
