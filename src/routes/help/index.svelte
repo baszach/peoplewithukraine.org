@@ -1,10 +1,3 @@
-<div style="display: flex; justify-content: center">
-    <div class="country_label"><a href="/help/pl">Польща</a></div>
-    <div class="country_label"><a href="/help/de">Німеччина</a></div>
-    <div class="country_label"><a href="/help/cz">Чехія</a></div>
-    <div class="country_label"><a href="/help/gr">Греція</a></div>
-</div>
-
 <div style="margin: 1.5em">
     Зараз ЄС з’ясовує, який правовий статус отримають люди з України. Обговорюється застосування так званого «тимчасового захисту» згідно директиви 2001/55/EG.
     Тут Ви знайдете більше інформації, яка буде постійно оновлюватися.

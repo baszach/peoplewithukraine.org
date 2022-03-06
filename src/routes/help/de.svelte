@@ -4,20 +4,15 @@
     <div class="country_label"><a href="/help/cz">Чехія</a></div>
 </div>
 <style>
-    .country_label, .city_label{
+    .country_label{
         padding: 1em 2em;
         margin: 1em;
         background-color: #afe2ff;
         border-radius: 50px;
     }
 
-    .country_label:hover, .city_label:hover{
+    .country_label:hover{
         background-color: #ccebfa;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
     }
 </style>
 <!--FAIL copy paste-->
@@ -51,9 +46,4 @@
 <div>
     <h3></h3>
     <p>Рекомендовано зарєєструватися по приїзді, щоб отримувати фінансову підтримку.</p>
-</div>
-
-<div style="display: flex; justify-content: center">
-    <div class="city_label"><a href="/help/de/berlin">Берлін</a></div>
-    <div class="city_label"><a href="/help/de/cologne">Кельн</a></div>
 </div>
