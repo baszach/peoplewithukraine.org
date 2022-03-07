@@ -8,3 +8,16 @@
 .country_label:hover{
     background-color: #ccebfa;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    color: blue;
+}
+
+div{
+    margin: 1.5em;
+}
