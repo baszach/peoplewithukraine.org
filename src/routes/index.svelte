@@ -1,2 +1,2 @@
-<div style="background-color: blue; height: 50px;"></div>
-<div style="background-color: yellow; height: 50px"></div>
+<div class="bg-ukraine-blue" style="height: 250px;" />
+<div class="bg-ukraine-yellow" style="height: 250px" />

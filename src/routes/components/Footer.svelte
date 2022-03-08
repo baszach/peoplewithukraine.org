@@ -3,7 +3,7 @@
 		<div>
 			<div>
 				<a href="/">
-					<img class="h-16" src="muskox.png" alt="logo"/>
+					<img class="h-16" src="favicon.png" alt="logo" />
 				</a>
 			</div>
 
