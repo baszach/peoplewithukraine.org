@@ -1,11 +1,11 @@
-.country_label{
+.country_label, .city_label{
     padding: 1em 2em;
     margin: 1em;
     background-color: #afe2ff;
     border-radius: 50px;
 }
 
-.country_label:hover{
+.country_label:hover, .city_label:hover{
     background-color: #ccebfa;
 }
 

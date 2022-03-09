@@ -17,8 +17,8 @@
 </div>
 
 <div style="display: flex; justify-content: center">
-    <div class="country_label"><a href="/help/pl">Польща</a></div>
-    <div class="country_label"><a href="/help/de">Німеччина</a></div>
-    <div class="country_label"><a href="/help/cz">Чехія</a></div>
-    <div class="country_label"><a href="/help/gr">Греція</a></div>
+    <a href="/help/pl"><div class="country_label">Польща</div></a>
+    <a href="/help/de"><div class="country_label">Німеччина</div></a>
+    <a href="/help/cz"><div class="country_label">Чехія</div></a>
+    <a href="/help/gr"><div class="country_label">Греція</div></a>
 </div>
