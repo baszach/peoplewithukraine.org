@@ -2,26 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-.country_label {
-	padding: 1em 2em;
-	margin: 1em;
-	background-color: #afe2ff;
-	border-radius: 50px;
+.country_label, .city_label{
+    padding: 1em 2em;
+    margin: 1em;
+    background-color: #afe2ff;
+    border-radius: 50px;
 }
 
-.country_label:hover {
-	background-color: #ccebfa;
+.country_label:hover, .city_label:hover{
+    background-color: #ccebfa;
 }
 
-a {
-	text-decoration: none;
-	color: black;
+a{
+    text-decoration: none;
+    color: black;
 }
 
-.link {
-	color: blue;
+.link{
+    color: blue;
 }
 
-div {
-	margin: 1.5em;
+div{
+    margin: 1.5em;
 }
