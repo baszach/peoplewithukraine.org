@@ -1,1 +1,1 @@
-index help
+RECEIVE HELP INDEX
