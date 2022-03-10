@@ -26,3 +26,4 @@
 	<a href="/help/ro"><div class="country_label">Romania</div></a>
 	<a href="/help/md"><div class="country_label">Moldova</div></a>
 </div>
+</div>
