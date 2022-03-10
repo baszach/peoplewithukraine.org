@@ -1,7 +1,7 @@
-<div class="px-8 py-4 flex justify-between items-center shadow-md sm:px-24 md:px-32 lg:px-48">
+<div class="px-8 py-4 flex justify-between items-center font-merriweather shadow-md sm:px-24 md:px-32 lg:px-48">
 	<a href="/">
 		<div class="flex">
-			<img src="favicon.png" alt="logo" style="height: 50px;" />
+			<img src="ua.svg" alt="logo" style="height: 50px;" />
 			<h1 class="text-ukraine-blue">peoplewithukraine</h1>
 		</div>
 	</a>
