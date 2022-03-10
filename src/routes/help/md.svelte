@@ -1,4 +1,1 @@
-<div>
-    https://dopomoga.gov.md/index.php
-    dopomoga.life
-</div>
+<div>https://dopomoga.gov.md/index.php dopomoga.life</div>
