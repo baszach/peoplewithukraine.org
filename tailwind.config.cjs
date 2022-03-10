@@ -4,7 +4,9 @@ module.exports = {
 		extend: {
 			colors: {
 				'ukraine-blue': '#0057B8',
-				'ukraine-yellow': '#FFD700'
+				'ukraine-yellow': '#FFD700',
+				'accent-yellow': '#FFEA7F',
+				'accent-gray': '#505050'
 			}
 		}
 	},

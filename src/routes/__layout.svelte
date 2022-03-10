@@ -8,7 +8,7 @@
 	<Nav />
 </header>
 
-<main>
+<main class="px-8 sm:px-24 md:px-32 lg:px-48">
 	<slot />
 </main>
 
