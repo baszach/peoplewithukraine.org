@@ -1,5 +1,9 @@
+<script>
+	import IndexCard from './components/IndexCard.svelte';
+</script>
+
 <div class="py-16">
-	<div class="text-center grid place-items-center lg:flex lg:justify-between">
+	<div class="grid place-items-center text-center lg:flex lg:justify-between">
 		<div class="max-w-lg">
 			<span class="text-xl">
 				On the 24th of February 2022 a free and democratic country was attacked by
@@ -26,8 +30,8 @@
 	<div
 		class="mt-80 grid place-items-center lg:flex lg:justify-between lg:mt-96 lg:place-items-start"
 	>
-		<div class="grid lg:mr-6 z-30">
-			<div class="p-8 max-w-md text-center rounded-lg bg-accent-yellow shadow-xl">
+		<div class="z-30 lg:mr-6">
+			<IndexCard linkPath="/act" linkText="HOW TO HELP">
 				<p>Stay human.</p>
 				<br />
 				<p>
@@ -42,16 +46,10 @@
 				</p>
 				<br />
 				<p>Go out. Don't be scared.</p>
-			</div>
-			<a
-				href="/act"
-				class="px-6 py-2 mt-12 place-self-center z-30 rounded-2xl bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
-			>
-				HOW TO HELP
-			</a>
+			</IndexCard>
 		</div>
-		<div class="grid mt-12 lg:mt-0 z-30">
-			<div class="p-8 max-w-md text-center rounded-lg bg-accent-yellow shadow-xl">
+		<div class="z-30 mt-12 lg:mt-0">
+			<IndexCard linkPath="news" linkText="VERIFIED NEWS">
 				<p>
 					Putin's regime is spreading a massive amount of misinformation inside and outside of
 					Russia.
@@ -60,32 +58,20 @@
 				<p>Don't believe it.</p>
 				<br />
 				<p>Find multiple resources to inform yourself and try to break the bubble of fake news.</p>
-			</div>
-			<a
-				href="/help"
-				class="px-6 py-2 mt-12 place-self-center z-30 rounded-2xl bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
-			>
-				VERIFIED NEWS
-			</a>
+			</IndexCard>
 		</div>
 	</div>
 
 	<div class="grid place-items-center mt-12 lg:flex lg:justify-between lg:mt-24">
 		<div class="grid place-items-center lg:mr-8">
-			<div class="p-8 max-w-md text-center rounded-lg bg-accent-yellow shadow-xl">
+			<IndexCard linkPath="help" linkText="RECEIVE HELP">
 				<p>
 					Europe is open for every person that has to flee from the war in Ukraine. If you have fled
 					the war you will need some information.
 				</p>
 				<br />
 				<p>Find it below.</p>
-			</div>
-			<a
-				href="/help"
-				class="px-6 py-2 mt-12 z-30 rounded-2xl bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
-			>
-				RECEIVE HELP
-			</a>
+			</IndexCard>
 		</div>
 		<img src="ua_support.svg" alt="Support Ukraine" class="mt-12 h-64 lg:h-96 lg:mt-0" />
 	</div>
