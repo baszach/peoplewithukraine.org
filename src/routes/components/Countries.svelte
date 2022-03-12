@@ -16,14 +16,14 @@
 		Ви можете працювати.
 	</div>
 
-<div style="display: flex; justify-content: center">
-    <a href="/help/pl"><div class="country_label">Польща</div></a>
-    <a href="/help/de"><div class="country_label">Німеччина</div></a>
-    <a href="/help/cz"><div class="country_label">Чехія</div></a>
-    <a href="/help/gr"><div class="country_label">Греція</div></a>
-	<a href="/help/fr"><div class="country_label">France</div></a>
-	<a href="/help/hu"><div class="country_label">Hungary</div></a>
-	<a href="/help/ro"><div class="country_label">Romania</div></a>
-	<a href="/help/md"><div class="country_label">Moldova</div></a>
-</div>
+	<div style="display: flex; justify-content: center">
+		<a href="/help/pl"><div class="country_label">Польща</div></a>
+		<a href="/help/de"><div class="country_label">Німеччина</div></a>
+		<a href="/help/cz"><div class="country_label">Чехія</div></a>
+		<a href="/help/gr"><div class="country_label">Греція</div></a>
+		<a href="/help/fr"><div class="country_label">France</div></a>
+		<a href="/help/hu"><div class="country_label">Hungary</div></a>
+		<a href="/help/ro"><div class="country_label">Romania</div></a>
+		<a href="/help/md"><div class="country_label">Moldova</div></a>
+	</div>
 </div>

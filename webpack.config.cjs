@@ -1,9 +1,9 @@
 const Dotenv = require('dotenv-webpack');
 
 module.exports = {
-  plugins: [
-    new Dotenv({
-        systemvars: true
-    })
-  ]
+	plugins: [
+		new Dotenv({
+			systemvars: true
+		})
+	]
 };

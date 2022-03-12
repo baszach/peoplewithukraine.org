@@ -9,7 +9,7 @@ module.exports = {
 				'accent-gray': '#505050'
 			},
 			fontFamily: {
-				'merriweather': ['Merriweather', 'serif']
+				merriweather: ['Merriweather', 'serif']
 			}
 		}
 	},
