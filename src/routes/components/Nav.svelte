@@ -41,13 +41,16 @@
 				: 'hidden'}"
 		>
 			<div>
-				<a href="/act" class="hover:text-ukraine-blue lg:mr-6"> How To Help </a>
+				<a sveltekit:prefetch href="/act" class="hover:text-ukraine-blue lg:mr-6"> How To Help </a>
 			</div>
 			<div class="mt-6 lg:mt-0">
-				<a href="/news" class="hover:text-ukraine-blue lg:mr-6"> News Resources </a>
+				<a sveltekit:prefetch href="/news" class="hover:text-ukraine-blue lg:mr-6">
+					News Resources
+				</a>
 			</div>
 			<div class="mt-8 lg:mt-0">
 				<a
+					sveltekit:prefetch
 					href="/help"
 					class="h-full px-6 py-2 rounded-2xl bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
 				>

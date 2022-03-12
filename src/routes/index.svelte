@@ -2,6 +2,15 @@
 	import IndexCard from './components/IndexCard.svelte';
 </script>
 
+<svelte:head>
+	<title>The people stand with Ukraine!</title>
+	<meta
+		title="description"
+		content="Welcome to peoplewithukraine.org! Help us fight against the aggression against Ukraine.
+	Find ways to help or to stay informed during this crisis. We also provide some information for refugees."
+	/>
+</svelte:head>
+
 <div class="py-16">
 	<div class="grid place-items-center text-center lg:flex lg:justify-between">
 		<div class="max-w-lg">

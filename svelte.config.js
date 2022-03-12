@@ -5,7 +5,11 @@ const config = {
 	kit: {
 		adapter: adapter({
 			split: false
-		})
+		}),
+		prerender: {
+			default: true,
+			onError: 'continue'
+		}
 	}
 };
 
