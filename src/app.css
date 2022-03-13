@@ -26,11 +26,8 @@ a {
 
 @font-face {
 	font-family: 'Merriweather';
-	src: url('fonts/Merriweather-Bold.eot');
-	src: url('fonts/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Merriweather-Bold.woff2') format('woff2'),
-		url('Merriweather-Bold.woff') format('woff'),
-		url('fonts/Merriweather-Bold.ttf') format('truetype');
+	src: url('/static/fonts/Merriweather-Bold.woff2') format('woff2'),
+		url('/static/Merriweather-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -38,11 +35,8 @@ a {
 
 @font-face {
 	font-family: 'Merriweather';
-	src: url('fonts/Merriweather-Light.eot');
-	src: url('fonts/Merriweather-Light.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Merriweather-Light.woff2') format('woff2'),
-		url('Merriweather-Light.woff') format('woff'),
-		url('fonts/Merriweather-Light.ttf') format('truetype');
+	src: url('/static/fonts/Merriweather-Light.woff2') format('woff2'),
+		url('/static/Merriweather-Light.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap;
@@ -50,11 +44,8 @@ a {
 
 @font-face {
 	font-family: 'Merriweather';
-	src: url('fonts/Merriweather-LightItalic.eot');
-	src: url('fonts/Merriweather-LightItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Merriweather-LightItalic.woff2') format('woff2'),
-		url('fonts/Merriweather-LightItalic.woff') format('woff'),
-		url('fonts/Merriweather-LightItalic.ttf') format('truetype');
+	src: url('/static/fonts/Merriweather-LightItalic.woff2') format('woff2'),
+		url('/static/fonts/Merriweather-LightItalic.woff') format('woff');
 	font-weight: 300;
 	font-style: italic;
 	font-display: swap;
