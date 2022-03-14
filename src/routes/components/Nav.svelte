@@ -48,15 +48,6 @@
 					News Resources
 				</a>
 			</div>
-			<div class="mt-8 lg:mt-0">
-				<a
-					sveltekit:prefetch
-					href="/help"
-					class="h-full px-6 py-2 rounded-2xl bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
-				>
-					Receive Help
-				</a>
-			</div>
 		</div>
 	</div>
 </div>

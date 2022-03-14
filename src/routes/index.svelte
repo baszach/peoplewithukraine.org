@@ -71,17 +71,7 @@
 		</div>
 	</div>
 
-	<div class="grid place-items-center mt-12 lg:flex lg:justify-between lg:mt-24">
-		<div class="grid place-items-center lg:mr-8">
-			<IndexCard linkPath="help" linkText="RECEIVE HELP">
-				<p>
-					Europe is open for every person that has to flee from the war in Ukraine. If you have fled
-					the war you will need some information.
-				</p>
-				<br />
-				<p>Find it below.</p>
-			</IndexCard>
-		</div>
+	<div class="grid place-items-center mt-12 lg:place-items-end lg:mt-0">
 		<img src="ua_support.svg" alt="Support Ukraine" class="mt-12 h-64 lg:h-96 lg:mt-0" />
 	</div>
 </div>
