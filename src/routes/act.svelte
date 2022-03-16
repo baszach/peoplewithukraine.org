@@ -22,11 +22,11 @@
 	}
 
 	const killers = [
-		{ id: 40, name: 'Crédit Agricole', info: '', logo: 'credit_agricole.jpeg', stillEvil: true },
-		{ id: 41, name: 'Johnson & Johnson', info: '', logo: 'johnson.jpeg', linkedin:'https://www.linkedin.com/company/johnson-&-johnson/posts/?feedView=all', stillEvil: true },
-		{ id: 42, name: 'Whirlpool corporation', info: '', logo: 'whirlpool.jpeg', linkedin:'https://www.linkedin.com/company/whirlpool-corporation/posts/?feedView=all', stillEvil: true },
-		{ id: 43, name: 'Electrolux', info: '', logo: 'electrolux.jpeg', linkedin:'https://www.linkedin.com/company/electrolux/posts/?feedView=all', stillEvil: true },
-		{ id: 44, name: 'Ariston Group', info: 'Calorex, NTI, HTP, Chaffoteaux, ATAG, Racold as well as Thermowatt and Ecoflam', logo: 'ariston.jpeg', linkedin:'https://www.linkedin.com/company/ariston-group/posts/?feedView=all', stillEvil: true },
+		{ id: 40, name: 'Crédit Agricole', info: '', pic: 'credit_agricole.jpeg', stillEvil: true },
+		{ id: 41, name: 'Johnson & Johnson', info: '', pic: 'johnson.jpeg', linkedin:'https://www.linkedin.com/company/johnson-&-johnson/posts/?feedView=all', stillEvil: true },
+		{ id: 42, name: 'Whirlpool corporation', info: '', pic: 'whirlpool.jpeg', linkedin:'https://www.linkedin.com/company/whirlpool-corporation/posts/?feedView=all', stillEvil: true },
+		{ id: 43, name: 'Electrolux', info: '', pic: 'electrolux.jpeg', linkedin:'https://www.linkedin.com/company/electrolux/posts/?feedView=all', stillEvil: true },
+		{ id: 44, name: 'Ariston Group', info: 'Calorex, NTI, HTP, Chaffoteaux, ATAG, Racold as well as Thermowatt and Ecoflam', pic: 'ariston.jpeg', linkedin:'https://www.linkedin.com/company/ariston-group/posts/?feedView=all', stillEvil: true },
 		{ id: 45, name: 'The Kraft Heinz Company',
 			children:[
 				{id : 46, name: "Kraft", logo: "kraft_heinz/kraft.png", stillEvil: true},
@@ -36,7 +36,7 @@
 				{id : 50, name: "Philadelphia", logo: "kraft_heinz/philadelphia.png", stillEvil: true}
 			],
 			info: 'Lunchables, Velveeta, Planters, Maxwell House, Ore-Ida, Kool-Aid, Jell-O, Primal Kitchen, and Classico',
-			logo: 'kraft_heinz.jpeg', linkedin:'https://www.linkedin.com/company/the-kraft-heinz-company/posts/?feedView=all', stillEvil: true },
+			pic: 'kraft_heinz.jpeg', linkedin:'https://www.linkedin.com/company/the-kraft-heinz-company/posts/?feedView=all', stillEvil: true },
 		{ id: 31, name: 'Mondelez', info: '', logo: '',
 			children: [
 				{id : 60, name: "Milka", logo: "mondelez/milka.png", stillEvil: true},
@@ -47,11 +47,11 @@
 				{id : 65, name: "Halls", logo: "mondelez/halls.png", stillEvil: true},
 			],
 			stillEvil: true }, // Unlike other grocery brands it licenses from Kraft, Mondelez owns the rights to the Philadelphia brand everywhere except Canada, the U.S. and the Caribbean.
-		{ id: 5, name: 'Auchan', info: '', logo: 'auchan.jpeg', stillEvil: true },
-		{ id: 29, name: 'Metro', info: '', logo: 'metro.jpeg', stillEvil: true },
-		{ id: 26, name: 'Leroy Merlin', info: '', logo: 'leroy_merlin.jpeg', linkedin: 'https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all', stillEvil: true },
-		{ id: 27, name: 'LG Electronics', info: '', logo: 'lg.jpeg', stillEvil: true },
-		{ id: 36, name: 'Pirelli', info: '', logo: 'pirelli.jpeg',  area:'tyres', stillEvil: true },
+		{ id: 5, name: 'Auchan', info: '', pic: 'auchan.jpeg', stillEvil: true },
+		{ id: 29, name: 'Metro', info: '', pic: 'metro.jpeg', stillEvil: true },
+		{ id: 26, name: 'Leroy Merlin', info: '', pic: 'leroy_merlin.jpeg', linkedin: 'https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all', stillEvil: true },
+		{ id: 27, name: 'LG Electronics', info: '', pic: 'lg.jpeg', stillEvil: true },
+		{ id: 36, name: 'Pirelli', info: '', pic: 'pirelli.jpeg',  area:'tyres', stillEvil: true },
 		{ id: 6, name: 'Authentic Brands Group', info: 'https://www.authenticbrands.com/',
 			children: [
 				{id : 51, name: "Forever 21", logo: "authentic_brands/forever_21.png", stillEvil: true},
@@ -95,9 +95,9 @@
 			],
 			stillEvil: true },
 		{ id: 19, name: 'Greif', info: '', logo: 'greif.png', area: 'packaging', stillEvil: true },
-		{ id: 20, name: 'Gruma', info: 'tortillas', logo: '', area:'food', stillEvil: true },
-		{ id: 21, name: 'Halliburton', info: '', logo: '', area:'petroleum', stillEvil: true },
-		{ id: 22, name: 'International Paper', info: '', logo: '', stillEvil: true },
+		{ id: 20, name: 'Gruma', info: 'tortillas', logo: 'gruma.png', area:'food', stillEvil: true },
+		{ id: 21, name: 'Halliburton', info: '', logo: 'halliburton.png', area:'petroleum', stillEvil: true },
+		{ id: 22, name: 'International Paper', info: '', logo: 'paper.png', area:'paper', stillEvil: true },
 
 		//fat advertising companies
 		{ id: 23, name: 'Interpublic Group', info: '', logo: '', area:'advertising', stillEvil: true },
@@ -107,9 +107,9 @@
 			],stillEvil: true},
 		{ id: 34, name: 'Omnicom Media Group', info: '', logo: 'intepublic/omnicom.png', area:'advertising', stillEvil: true },
 
-		{ id: 24, name: 'IPG Photonics', info: '', logo: '', area:'photonics', stillEvil: true },
-		{ id: 28, name: 'Linde', info: '', logo: '', stillEvil: true },
-		{ id: 30, name: 'Mettler Toledo', info: '', logo: '', area:'scientific', stillEvil: true },
+		{ id: 24, name: 'IPG Photonics', info: '', logo: 'ipg.png', area:'photonics', stillEvil: true },
+		{ id: 28, name: 'Linde', info: '', logo: 'linde.png', area:'gas/engineering', stillEvil: true },
+		{ id: 30, name: 'Mettler Toledo', info: '', logo: 'mettler.png', area:'scientific', stillEvil: true },
 		{ id: 32, name: 'Nalco', info: '', logo: 'nalco.png', area:'chemicals', stillEvil: true },
 		{ id: 38, name: 'Schlumberger', info: '', logo: 'schlumberger.png', area:'oil', stillEvil: true }
 	];
@@ -287,13 +287,13 @@
 							<p>{killer.info}</p>
 							<img src="/killers/{killer.logo}" class="" alt="" />
 
-						{#if killer.children != null}
-							<div style="display: grid; grid-template-columns: repeat(auto-fill, 8rem); grid-gap: 2em">
-								{#each killer.children as child}
-									<img src="/killers/{child.logo}" class="" alt="" style=""/>
-								{/each}
-							</div>
-						{/if}
+							{#if killer.children != null}
+								<div style="display: grid; grid-template-columns: repeat(auto-fill, 8rem); grid-gap: 2em">
+									{#each killer.children as child}
+										<img src="/killers/{child.logo}" class="" alt="" style=""/>
+									{/each}
+								</div>
+							{/if}
 						</div>
 					{/if}
 				{/each}
