@@ -7,6 +7,9 @@ module.exports = {
 				'ukraine-yellow': '#FFD700',
 				'accent-yellow': '#FFEA7F',
 				'accent-gray': '#505050'
+			},
+			fontFamily: {
+				merriweather: ['Merriweather']
 			}
 		}
 	},

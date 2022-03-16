@@ -1,18 +1,53 @@
-<div class="px-8 py-4 flex justify-between items-center shadow-md sm:px-24 md:px-32 lg:px-48">
-	<a href="/">
-		<div class="flex">
-			<img src="favicon.png" alt="logo" style="height: 50px;" />
-			<h1 class="text-ukraine-blue">peoplewithukraine</h1>
-		</div>
-	</a>
-	<div>
-		<a href="/act" class="hover:text-ukraine-blue mr-6"> How To Help </a>
-		<a href="/news" class="hover:text-ukraine-blue mr-6"> News Resources </a>
-		<a
-			href="/help"
-			class="h-full px-6 py-2 rounded-2xl bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
-		>
-			Receive Help
+<script>
+	let linksOpen = false;
+</script>
+
+<div class="px-8 py-4 font-merriweather shadow-md sm:px-24 md:px-32 lg:px-48">
+	<div class="flex justify-between items-center">
+		<a href="/">
+			<div class="flex">
+				<img src="ua.svg" alt="logo" style="height: 50px;" />
+			</div>
 		</a>
+		<button
+			class="h-full px-6 py-2 z-50 rounded-2xl font-bold hover:shadow-lg lg:hidden {linksOpen
+				? 'bg-accent-yellow text-black'
+				: 'bg-ukraine-blue hover:text-ukraine-yellow text-white'}"
+			on:click={() => (linksOpen = !linksOpen)}
+		>
+			<svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+				{#if linksOpen}
+					<path
+						fill-rule="evenodd"
+						d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+					/>
+				{:else}
+					<path
+						fill-rule="evenodd"
+						d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+					/>
+				{/if}
+			</svg>
+		</button>
+		<button
+			class="fixed z-40 bg-black opacity-50 inset-x-0 inset-y-0 w-full h-full cursor-default lg:hidden {linksOpen
+				? 'block'
+				: 'hidden'}"
+			on:click={() => (linksOpen = false)}
+		/>
+		<div
+			class="absolute right-8 top-16 p-8 z-50 font-bold text-center rounded-md bg-accent-yellow sm:right-24 md:right-32 lg:p-0 lg:font-light lg:relative lg:right-0 lg:top-0 lg:bg-opacity-0 lg:flex {linksOpen
+				? 'block'
+				: 'hidden'}"
+		>
+			<div>
+				<a sveltekit:prefetch href="/act" class="hover:text-ukraine-blue lg:mr-6"> How To Help </a>
+			</div>
+			<div class="mt-6 lg:mt-0">
+				<a sveltekit:prefetch href="/news" class="hover:text-ukraine-blue lg:mr-6">
+					News Resources
+				</a>
+			</div>
+		</div>
 	</div>
 </div>

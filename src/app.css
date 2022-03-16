@@ -25,6 +25,35 @@ a {
 	color: black;
 }
 
-.link {
-	color: blue;
+@layer components {
+	.link {
+	  @apply text-blue-800 underline hover:text-blue-500;
+	}
+  }
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('/static/fonts/Merriweather-Bold.woff2') format('woff2'),
+		url('/static/Merriweather-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('/static/fonts/Merriweather-Light.woff2') format('woff2'),
+		url('/static/Merriweather-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('/static/fonts/Merriweather-LightItalic.woff2') format('woff2'),
+		url('/static/fonts/Merriweather-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
 }
