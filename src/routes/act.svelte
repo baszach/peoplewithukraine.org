@@ -285,7 +285,11 @@
 						<div>
 							<p class="text-red-600 font-bold">{killer.name}</p>
 							<p>{killer.info}</p>
-							<img src="/killers/{killer.logo}" class="" alt="" />
+							{#if killer.pic != null}
+								<img src="/killers/{killer.pic}" class="" alt="" />
+							{:else}
+								<img src="/killers/{killer.logo}" class="" alt="" />
+							{/if}
 
 							{#if killer.children != null}
 								<div style="display: grid; grid-template-columns: repeat(auto-fill, 8rem); grid-gap: 2em">
