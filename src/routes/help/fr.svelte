@@ -1,11 +1,33 @@
+<h3>Транспорт</h3>
 <div>
-	Paris https://www.paris.fr/pages/how-paris-is-supporting-ukraine-20549 "Urgence Ukraine" is open 7
-	days a week from 9 am to 6 pm. Since Thursday, 3 March, a reception center called "Urgence
-	Ukraine" has opened its doors, only for Ukrainian refugees, at 39, rue des cheminots in the 18th
-	arrondissement. It provides Ukrainian refugees with a first point of contact in order to assess
-	their needs and guide them towards the most appropriate solutions. звертайтесь в найближчу
-	префектуру (перейти до карти). Префектура - це установа, уповноважена французькою державою для
+	Українці, які виїхали до Франції, рятуючись від війни, зможуть безкоштовно користуватися поїздами по території країни.
+	Подивитися розклад потягів французької залізниці SNCF ви можете за <a class="link" target="_blank" href="https://www.sncf.com/en">посиланням</a>.
+	Також можете встановити мобільний додаток <a class="link" target="_blank" href="https://assistant.sncf/">Assistant SNCF</a>.
+</div>
+<h3>Париж</h3>
+<div>
+	Пунк прийому біженців <span>"Urgence Ukraine"</span>: <a class="link" target="_blank" href="https://goo.gl/maps/tZAHYq52zdzfNYRy7">39 Rue des Cheminots, 75018 Paris</a> (щодня з 9 по 6)
+	<br>
+	Послуги:
+	<ul>
+		<li>Перший прийом тимчасово переміщених осіб і надання первинної допомоги: їжа, гігієнічні набори, тести Ковід та маски</li>
+		<li>Центр попереднього запису до соціальних працівників</li>
+		<li>Надання медичних консультацій: на місці присутні лікарі</li>
+		<li>Психологічна допомога</li>
+		<li>Тимчасове поселення: на місці присутні представники Samu Social для тимчасового поселення</li>
+	</ul>
+</div>
+<h3>В інших регіонах</h3>
+<div>
+	Звертайтесь в найближчу префектуру (<a class="link" target="_blank" href="https://www.interieur.gouv.fr/Le-ministere/Prefectures">перейти до карти</a>).
+	Префектура - це установа, уповноважена французькою державою для
 	організації прийому переміщених осіб, офіційної реєстрації та доступу до житла у Франції.
-	https://www.interieur.gouv.fr/Le-ministere/Prefectures
-	https://ua.aideukraine.fr/pages/5qB2nW7qd7jCVzl2TFcjv6/meni-potribna-dopomoga
+</div>
+<h3>Ресурси з інформацією</h3>
+<div>
+	<ul>
+		<li><a class="link" target="_blank" href="https://ua.aideukraine.fr/pages/5qB2nW7qd7jCVzl2TFcjv6/meni-potribna-dopomoga">Стаття від Посольства України у Франції</a></li>
+		<li><a class="link" target="_blank" href="https://www.paris.fr/pages/how-paris-is-supporting-ukraine-20549">Стаття від міста Париж про домогу українцям (англійською)</a></li>
+		<li><a class="link" target="_blank" href="https://www.interieur.gouv.fr/Le-ministere/Prefectures">Карта Франції з адресами префектур</a></li>
+	</ul>
 </div>

@@ -4,10 +4,15 @@
 
 .country_label,
 .city_label {
-	padding: 1em 2em;
-	margin: 1em;
-	background-color: #afe2ff;
+	/*padding: 1em 2em;*/
+	width: 100%;
+	/*margin: 1em;*/
+	color: #505050;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
 	border-radius: 50px;
+	text-align: center;
 }
 
 .country_label:hover,
