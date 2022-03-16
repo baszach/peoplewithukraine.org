@@ -1,3 +1,10 @@
+<script>
+	import WebpageIcon from "./components/WebpageIcon.svelte";
+	import FacebookIcon from "./components/FacebookIcon.svelte";
+	import TwitterIcon from "./components/TwitterIcon.svelte";
+	import TelegramIcon from "./components/TelegramIcon.svelte";
+</script>
+
 <div>
 	<h1 class="text-3xl font-bold text-accent-gray">NEWS RESOURCES</h1>
 	<div class="flex mt-8">
@@ -29,26 +36,52 @@
 		<div class="mr-16">
 			<h3 class="text-xl font-bold text-accent-gray">GOVERNEMENT</h3>
 			<ul>
-				<li>Volodimr Zelenskiy the President of Ukraine
-					<a class="link p-2" target="_blank" href="https://www.facebook.com/V_Zelenskiy_official/">f</a>
-					<a class="link p-2" target="_blank" href="https://twitter.com/ZelenskyyUa"><TwitterIcon></TwitterIcon></a>
+				<li class="flex">
+					<span class="p-2">Volodimr Zelenskiy, President of Ukraine -</span>
+					<div class="flex">
+						<a></a>
+						<a class="link p-2" target="_blank" href="https://www.president.gov.ua/en"><WebpageIcon></WebpageIcon></a>
+						<a class="link p-2" target="_blank" href="https://www.facebook.com/zelenskiy.official"><FacebookIcon></FacebookIcon></a>
+						<a class="link p-2" target="_blank" href="https://twitter.com/ZelenskyyUa"><TwitterIcon></TwitterIcon></a>
+						<a class="link p-2" target="_blank" href="https://t.me/V_Zelenskiy_official"><TelegramIcon></TelegramIcon></a>
+					</div>
 				</li>
-				<li>Minister of Defence of Ukraine Oleksii Reznikow
-					<a class="link p-2" target="_blank" href="https://twitter.com/oleksiireznikov"><TwitterIcon></TwitterIcon></a>
+				<li class="flex">
+					<span class="p-2">Oleksii Reznikow, Minister of Defence of Ukraine -</span>
+					<div class="flex">
+						<a class="link p-2" target="_blank" href="https://twitter.com/oleksiireznikov"><TwitterIcon></TwitterIcon></a>
+					</div>
 				</li>
-				<li>Dmytro Kuleba Minister of Foreign Affairs of Ukraine
-					<a class="link p-2" target="_blank" href=">https://twitter.com/DmytroKuleba"><TwitterIcon></TwitterIcon></a>
-					<a class="link p-2" target="_blank" href=">https://twitter.com/MFA_Ukraine">@MFA_Ukraine</a>
+				<li class="flex">
+					<span class="p-2">Ministery of Defence of Ukraine -</span>
+					<div class="flex">
+						<a class="link p-2" target="_blank" href="https://www.facebook.com/modofukraine"><FacebookIcon></FacebookIcon></a>
+					</div>
 				</li>
-
-				<li>Podolyak doubled in ru en ua
-					<a class="link p-2" target="_blank" href="https://twitter.com/Podolyak_M">
-						<TwitterIcon></TwitterIcon>
-					</a>
+				<li class="flex">
+					<span class="p-2">Dmytro Kuleba, Minister of Foreign Affairs of Ukraine -</span>
+					<div class="flex">
+						<a class="link p-2" target="_blank" href="https://twitter.com/DmytroKuleba"><TwitterIcon></TwitterIcon></a>
+					</div>
 				</li>
-				<li>Parliament of Ukraine
-					<a class="link p-2" target="_blank" href="https://twitter.com/ua_parliament"><TwitterIcon></TwitterIcon></a>
-					<a class="link p-2" target="_blank" href="https://t.me/verkhovnaradaofukraine">@verkhovnaradaofukraine</a>
+				<li class="flex">
+					<span class="p-2">Ministery of Foreign Affairs of Ukraine -</span>
+					<div class="flex">
+						<a class="link p-2" target="_blank" href="https://twitter.com/MFA_Ukraine"><TwitterIcon></TwitterIcon></a>
+					</div>
+				</li>
+				<li class="flex">
+					<span class="p-2">Myhkailo Podolyak, Adviser to the Head of the Office of President -</span>
+					<div class="flex">
+						<a class="link p-2" target="_blank" href="https://twitter.com/Podolyak_M"><TwitterIcon></TwitterIcon></a>
+					</div>
+				</li>
+				<li class="flex">
+					<span class="p-2">Parliament of Ukraine -</span>
+					<div class="flex">
+						<a class="link p-2" target="_blank" href="https://twitter.com/ua_parliament"><TwitterIcon></TwitterIcon></a>
+						<a class="link p-2" target="_blank" href="https://t.me/verkhovnaradaofukraine"><TelegramIcon></TelegramIcon></a>
+					</div>
 				</li>
 			</ul>
 		</div>
