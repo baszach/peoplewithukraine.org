@@ -6,7 +6,7 @@
 	<div class="flex justify-between items-center">
 		<a href="/">
 			<div class="flex">
-				<img src="ua.svg" alt="logo" style="height: 50px;" />
+				<img src="ua.svg" alt="logo" class="h-16" />
 			</div>
 		</a>
 		<button
@@ -36,15 +36,27 @@
 			on:click={() => (linksOpen = false)}
 		/>
 		<div
-			class="absolute right-8 top-16 p-8 z-50 font-bold text-center rounded-md bg-accent-yellow sm:right-24 md:right-32 lg:p-0 lg:font-light lg:relative lg:right-0 lg:top-0 lg:bg-opacity-0 lg:flex {linksOpen
+			class="absolute right-8 top-20 p-16 z-50 font-bold text-center rounded-md bg-accent-yellow sm:right-24 md:right-32 lg:p-0 lg:font-light lg:relative lg:right-0 lg:top-0 lg:bg-opacity-0 lg:flex {linksOpen
 				? 'block'
 				: 'hidden'}"
 		>
 			<div>
-				<a sveltekit:prefetch href="/act" class="hover:text-ukraine-blue lg:mr-6"> How To Help </a>
+				<a
+					sveltekit:prefetch
+					on:click={() => (linksOpen = false)}
+					href="/act"
+					class="hover:text-ukraine-blue text-lg lg:mr-12"
+				>
+					How To Help
+				</a>
 			</div>
-			<div class="mt-6 lg:mt-0">
-				<a sveltekit:prefetch href="/news" class="hover:text-ukraine-blue lg:mr-6">
+			<div class="mt-10 lg:mt-0">
+				<a
+					sveltekit:prefetch
+					on:click={() => (linksOpen = false)}
+					href="/news"
+					class="hover:text-ukraine-blue text-lg"
+				>
 					News Resources
 				</a>
 			</div>

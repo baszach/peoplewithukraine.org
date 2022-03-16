@@ -1,9 +1,3 @@
-<script>
-	import TwitterIcon from "./components/TwitterIcon.svelte";
-	import WebpageIcon from "./components/WebpageIcon.svelte";
-	import FacebookIcon from "./components/FacebookIcon.svelte";
-</script>
-
 <div>
 	<h1 class="text-3xl font-bold text-accent-gray">NEWS RESOURCES</h1>
 	<div class="flex mt-8">
@@ -28,7 +22,7 @@
 				</li>
 			</ul>
 		</div>
-		<img src="ua_news.svg" alt="People" class="h-24"/>
+		<img src="ua_news.svg" alt="People" class="h-24" />
 	</div>
 
 	<div class="flex mt-8">
@@ -58,7 +52,7 @@
 				</li>
 			</ul>
 		</div>
-		<img src="ua_politicians.svg" alt="People" class="h-24"/>
+		<img src="ua_politicians.svg" alt="People" class="h-24" />
 	</div>
 
 	<div class="flex mt-8">
@@ -70,6 +64,6 @@
 				<li>C</li>
 			</ul>
 		</div>
-		<img src="ua_people.svg" alt="People" class="h-24"/>
+		<img src="ua_people.svg" alt="People" class="h-24" />
 	</div>
 </div>
