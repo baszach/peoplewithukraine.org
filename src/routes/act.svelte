@@ -51,6 +51,7 @@
 		{ id: 29, name: 'Metro', info: '', logo: 'metro.jpeg', stillEvil: true },
 		{ id: 26, name: 'Leroy Merlin', info: '', logo: 'leroy_merlin.jpeg', linkedin: 'https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all', stillEvil: true },
 		{ id: 27, name: 'LG Electronics', info: '', logo: 'lg.jpeg', stillEvil: true },
+		{ id: 36, name: 'Pirelli', info: '', logo: 'pirelli.jpeg',  area:'tyres', stillEvil: true },
 		{ id: 6, name: 'Authentic Brands Group', info: 'https://www.authenticbrands.com/',
 			children: [
 				{id : 51, name: "Forever 21", logo: "authentic_brands/forever_21.png", stillEvil: true},
@@ -109,10 +110,7 @@
 		{ id: 24, name: 'IPG Photonics', info: '', logo: '', area:'photonics', stillEvil: true },
 		{ id: 28, name: 'Linde', info: '', logo: '', stillEvil: true },
 		{ id: 30, name: 'Mettler Toledo', info: '', logo: '', area:'scientific', stillEvil: true },
-		{ id: 32, name: 'Nalco', info: '', logo: '', stillEvil: true },
-
-		{ id: 36, name: 'Pirelli', info: '', logo: '', stillEvil: true },
-
+		{ id: 32, name: 'Nalco', info: '', logo: 'nalco.png', area:'chemicals', stillEvil: true },
 		{ id: 38, name: 'Schlumberger', info: '', logo: 'schlumberger.png', area:'oil', stillEvil: true }
 	];
 </script>
