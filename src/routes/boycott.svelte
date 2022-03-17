@@ -1,5 +1,6 @@
 <script>
 	import war_contributors from '../../static/war_contributors.json';
+	import Company from "./components/Company.svelte";
 
 	function filterCompanies() {
 		filteredKillers = killers.filter((killer) => {
@@ -39,31 +40,17 @@
 	</p>
 	<ul class="mt-8">
 		<p>Below is a list of some contributors to war (as of 15th of March 2022):</p>
-		<div style="display: grid; grid-template-columns: repeat(auto-fill, 18rem); grid-gap: 2em">
+		<div style="display: grid; grid-template-columns: repeat(auto-fill, 36rem); grid-gap: 2em; justify-content: center">
 			{#each war_contributors as killer}
-				{#if killer.stillEvil}
-					<div class="bg-slate-200 py-2 text-center h-max">
-						<p class="text-red-600 font-bold text-xl">{killer.name}</p>
-						<p>{killer.info}</p>
-						<div class="grid place-items-center">
-							{#if killer.pic != null}
-								<img src="/killers/{killer.pic}" alt="" class="mt-2 h-64" />
-							{:else}
-								<img src="/killers/{killer.logo}" alt="" class="mt-2" style="width: 9rem" />
-							{/if}
-						</div>
-
-						{#if killer.children != null}
-							<div
-								class="place-items-center"
-								style="display: grid; grid-template-columns: repeat(auto-fill, 8rem); grid-gap: 2em"
-							>
-								{#each killer.children as child}
-									<img src="/killers/{child.logo}" alt="" class="	" />
-								{/each}
-							</div>
-						{/if}
-					</div>
+				{#if killer.stillEvil && killer.children != null}
+					<Company killer="{killer}" />
+				{/if}
+			{/each}
+		</div>
+		<div style="display: grid; grid-template-columns: repeat(auto-fill, 18rem); grid-gap: 2em; justify-content: center;" class="mt-4">
+			{#each war_contributors as killer}
+				{#if killer.stillEvil && killer.children == null}
+					<Company killer="{killer}" />
 				{/if}
 			{/each}
 		</div>
