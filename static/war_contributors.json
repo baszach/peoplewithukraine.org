@@ -15,11 +15,6 @@
 		"pic": "nestle/nestle.jpeg",
 		"linkedin":"https://www.linkedin.com/company/nestle-s-a-/posts/?feedView=all",
 		"stillEvil": true },
-	{ "id": 40, "name": "Crédit Agricole", "info": "", "pic": "credit_agricole.jpeg", "linkedin":"https://www.linkedin.com/company/credit-agricole/posts/?feedView=all", "stillEvil": true },
-	{ "id": 41, "name": "Johnson & Johnson", "info": "", "pic": "johnson.jpeg", "linkedin": "https://www.linkedin.com/company/johnson-&-johnson/posts/?feedView=all", "stillEvil": true },
-	{ "id": 42, "name": "Whirlpool corporation", "info": "", "pic": "whirlpool.jpeg", "linkedin": "https://www.linkedin.com/company/whirlpool-corporation/posts/?feedView=all", "stillEvil": true },
-	{ "id": 43, "name": "Electrolux", "info": "", "pic": "electrolux.jpeg", "linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all", "stillEvil": true },
-	{ "id": 44, "name": "Ariston Group", "info": "", "area":"water/space heating", "pic": "ariston.jpeg", "linkedin": "https://www.linkedin.com/company/ariston-group/posts/?feedView=all", "stillEvil": true },
 	{ "id": 45, "name": "The Kraft Heinz Company",
 		"children":[
 			{"id": 46, "name": "Kraft", "logo": "kraft_heinz/kraft.png", "stillEvil": true},
@@ -32,16 +27,11 @@
 		"info": "",
 		"pic": "kraft_heinz.jpeg", "area":"food",
 		"linkedin": "https://www.linkedin.com/company/the-kraft-heinz-company/posts/?feedView=all", "stillEvil": true },
-	{ "id": 31, "name": "Mondelez", "info": "", "logo": "", "area":"food",
-		"info": "unchables, Velveeta, Planters, Maxwell House, Ore-Ida, Kool-Aid, Jell-O, Primal Kitchen, and Classico",
-		"pic": "kraft_heinz.jpeg",
-		"linkedin": "https://www.linkedin.com/company/the-kraft-heinz-company/posts/?feedView=all",
-		"stillEvil": true
-	},
 	{
 		"id": 17,
 		"name": "Focus Brands",
 		"info": "Moe's Southwest Grill, Cinnabon, Carvel & more",
+		"area": "food",
 		"children": [
 			{ "id": 72, "name": "Cinnabon", "logo": "focus_brands/cinnabon.svg", "stillEvil": true },
 			{
@@ -68,6 +58,7 @@
 		"name": "Mondelez",
 		"info": "",
 		"logo": "",
+		"area": "food",
 		"children": [
 			{ "id": 60, "name": "Milka", "logo": "mondelez/milka.png", "stillEvil": true },
 			{ "id": 61, "name": "Toblerone", "logo": "mondelez/toblerone.png", "stillEvil": true },
@@ -78,25 +69,13 @@
 		],
 		"linkedin" : "https://www.linkedin.com/company/mondelezinternational/posts/?feedView=all",
 		"stillEvil": true },
-	{ "id": 5, "name": "Auchan", "info": "", "pic": "auchan.jpeg", "area":"retailer", "stillEvil": true },
-	{ "id": 29, "name": "Metro", "info": "", "pic": "metro.jpeg", "area":"retailer", "stillEvil": true },
-	{ "id": 26, "name": "Leroy Merlin", "info": "", "pic": "leroy_merlin.jpeg", "area":"retailer", "linkedin": "https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all", "stillEvil": true },
-	{ "id": 27, "name": "LG Electronics", "info": "", "pic": "lg.jpeg", "stillEvil": true, "area":"electronics"},
-	{ "id": 36, "name": "Pirelli", "info": "", "pic": "pirelli.jpeg",  "area": "tyres", "stillEvil": true },
-	{ "id": 6, "name": "Authentic Brands Group", "info": "", "area":"clothes",
-		"children": [
-			{ "id": 74, "name": "Forever 21", "logo": "authentic_brands/forever_21.png", "stillEvil": true },
-			{ "id": 75, "name": "Reebok", "logo": "authentic_brands/reebok.png", "stillEvil": true },
-			{ "id": 76, "name": "Juicy Couture", "logo": "authentic_brands/juicy_couture.png", "stillEvil": true }
-		],
-		"stillEvil": true
-	},
 	{
 		"id": 40,
 		"name": "Crédit Agricole",
 		"info": "",
 		"pic": "credit_agricole.jpeg",
-		"stillEvil": true
+		"stillEvil": true,
+		"area": "bank"
 	},
 	{
 		"id": 41,
@@ -106,17 +85,18 @@
 		"linkedin": "https://www.linkedin.com/company/johnson-&-johnson/posts/?feedView=all",
 		"stillEvil": true
 	},
-	{ "id": 5, "name": "Auchan", "info": "", "pic": "auchan.jpeg", "stillEvil": true },
-	{ "id": 29, "name": "Metro", "info": "", "pic": "metro.jpeg", "stillEvil": true },
+	{ "id": 5, "name": "Auchan", "info": "", "area": "retailer", "pic": "auchan.jpeg", "stillEvil": true },
+	{ "id": 29, "name": "Metro", "info": "", "pic": "metro.jpeg", "area": "retailer", "stillEvil": true },
 	{
 		"id": 26,
 		"name": "Leroy Merlin",
 		"info": "",
+		"area": "retailer",
 		"pic": "leroy_merlin.jpeg",
 		"linkedin": "https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all",
 		"stillEvil": true
 	},
-	{ "id": 27, "name": "LG Electronics", "info": "", "pic": "lg.jpeg", "stillEvil": true },
+	{ "id": 27, "name": "LG Electronics", "info": "", "pic": "lg.jpeg", "stillEvil": true, "area":"electronics" },
 	{
 		"id": 36,
 		"name": "Pirelli",
@@ -146,32 +126,11 @@
 		],
 		"linkedin": "https://www.linkedin.com/company/abg_nyc/posts/?feedView=all",
 		"logo": "", "stillEvil": true },
+
+	{ "id": 16, "name": "Dentsu International", "info": "", "logo": "dentsu.png", "area": "advertising", "stillEvil": true },
 	{ "id": 10, "name": "Bosch", "info": "", "pic": "ua_bosch.svg", "stillEvil": true, "area":"electronics"},
 	{ "id": 4, "name": "Asus", "info": "", "pic": "ua_asus.svg", "stillEvil": true,"area":"electronics"},
 	{ "id": 15, "name": "Decathlon", "info": "", "pic": "ua_decathlon.svg", "stillEvil": true,"area":"sport goods"},
-	{ "id": 39, "name": "Subway", "info": "", "logo": "", "stillEvil": true,"area":"food"},
-	{ "id": 35, "name": "Oriflame Cosmetics", "info": "", "pic": "ua_oriflame.svg", "linkedin": "https://www.linkedin.com/company/oriflame/posts/?feedView=all", "stillEvil": true,"area":"cosmetics"},
-
-	{ "id": 0, "name": "AbbVie", "info": "", "logo": "", "area": "medicine", "stillEvil": true },
-	{ "id": 1, "name": "Accor", "info": "", "logo": "", "stillEvil": true, "area":"hotel"},
-	{ "id": 2, "name": "Air Liquide", "info": "", "logo": "", "stillEvil": true },
-	{ "id": 3, "name": "Air Products", "info": "", "logo": "", "area": "gas", "stillEvil": true },
-	{ "id": 7, "name": "Baker Hughes", "info": "", "logo": "", "area": "gas", "stillEvil": true	 },
-	{ "id": 8, "name": "Baker Tilley", "info": "", "logo": "", "stillEvil": true },
-	{ "id": 9, "name": "BBDO Group", "info": "", "logo": "", "area": "advertising", "stillEvil": true },
-	{ "id": 11, "name": "Cargill", "info": "", "logo": "cargill.png", "area": "agriculture", "linkedin": "https://www.linkedin.com/company/cargill/posts/?feedView=all", "stillEvil": true },
-	{ "id": 12, "name": "Citrix", "info": "", "logo": "", "area": "software", "linkedin": "https://www.linkedin.com/company/citrix/posts/?feedView=all", "stillEvil": true },
-	{ "id": 13, "name": "Cloudflare", "info": "", "logo": "cloudfare.png", "area": "internet", "stillEvil": true },
-	{ "id": 14, "name": "DDB", "info": "", "logo": "ddb.png", "area":  "advertising", "stillEvil": true },
-	{ "id": 16, "name": "Dentsu International", "info": "", "logo": "dentsu.png", "area": "advertising", "stillEvil": true },
-	{ "id": 17, "name": "Focus Brands", "info": "", "logo": "", "all_brands" : "https://www.focusbrands.com/contact/", "stillEvil": true },
-	{ "id": 18, "name": "General Mills", "info": "", "logo": "","area":"food",
-		"logo": "",
-		"stillEvil": true
-	},
-	{ "id": 10, "name": "Bosch", "info": "", "pic": "ua_bosch.svg", "stillEvil": true },
-	{ "id": 4, "name": "Asus", "info": "", "pic": "ua_asus.svg", "stillEvil": true },
-	{ "id": 15, "name": "Decathlon", "info": "", "pic": "ua_decathlon.svg", "stillEvil": true },
 	{
 		"id": 43,
 		"name": "Electrolux",
@@ -202,6 +161,7 @@
 		"name": "Oriflame Cosmetics",
 		"info": "",
 		"pic": "ua_oriflame.svg",
+		"area" : "cosmetics",
 		"linkedin": "https://www.linkedin.com/company/oriflame/posts/?feedView=all",
 		"stillEvil": true
 	},
@@ -210,6 +170,7 @@
 		"name": "Whirlpool corporation",
 		"info": "",
 		"pic": "whirlpool.jpeg",
+		"area": "",
 		"linkedin": "https://www.linkedin.com/company/whirlpool-corporation/posts/?feedView=all",
 		"stillEvil": true
 	},
@@ -218,6 +179,7 @@
 		"name": "Ariston Group",
 		"info": "alorex, NTI, HTP, Chaffoteaux, ATAG, Racold as well as Thermowatt and Ecoflam",
 		"pic": "ariston.jpeg",
+		"area": "water/space heating",
 		"linkedin": "https://www.linkedin.com/company/ariston-group/posts/?feedView=all",
 		"stillEvil": true
 	},
@@ -295,14 +257,14 @@
 		"id": 37,
 		"name": "Publicis Groupe",
 		"info": "",
-		"logo": "interpublic/publics.png",
+		"logo": "publics/publics.png",
 		"area": "advertising",
 		"children": [
 			{
 				"id": 25,
 				"name": "Leo Burnett",
 				"info": "",
-				"logo": "interpublic/leo_burnett.jpeg",
+				"logo": "publics/leo_burnett.jpeg",
 				"linkedin": "https://www.linkedin.com/company/leo-burnett/posts/?feedView=all",
 				"stillEvil": true
 			}
@@ -362,7 +324,7 @@
 	},
 
 	{ "id": 23, "name": "Interpublic Group", "info": "", "logo": "", "area": "advertising", "stillEvil": true },
-	{ "id": 34, "name": "Omnicom Media Group", "info": "", "logo": "intepublic/omnicom.png", "area": "advertising", "stillEvil": true },
+	{ "id": 34, "name": "Omnicom Media Group", "info": "", "logo": "omnicom.png", "area": "advertising", "stillEvil": true },
 
 	{ "id": 24, "name": "IPG Photonics", "info": "", "logo": "ipg.png", "area": "photonics", "stillEvil": true },
 	{ "id": 28, "name": "Linde", "info": "", "logo": "linde.png", "area": "gas/engineering", "stillEvil": true },
