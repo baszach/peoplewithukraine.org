@@ -1,4 +1,7 @@
 <script>
+	import war_contributors from '../../static/war_contributors.json';
+	import LinkedInComponent from "./components/LinkedInComponent.svelte";
+	import Company from "./components/Company.svelte";
 	import Boycott from './boycott.svelte';
 
 	let donateSection = false;
@@ -22,6 +25,16 @@
 		actSection = false;
 		boycottSection = true;
 	}
+
+	function filterCompanies() {
+		filteredKillers = killers.filter(killer => {
+			let input = document.getElementById('searchbar').textContent.toLowerCase();
+			return killer.name.toLowerCase().includes(input);
+		})
+	}
+
+	const killers = war_contributors;
+	let filteredKillers = killers;
 </script>
 
 <svelte:head>
