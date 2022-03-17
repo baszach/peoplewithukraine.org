@@ -13,10 +13,12 @@
 </script>
 
 <svelte:head>
-	<title>Boycott company overview</title>
+	<title>These companies continue business in Russia.</title>
 	<meta
 		title="description"
-		content="Quickly find companies that continue operating in Russia. Boycott or contact them via social media."
+		content="Many companies have found smart ways to either close businesses in Russia or evade paying taxes. These actions
+		contribute to stopping the cruel war in Ukraine. The companies still paying taxes and supporting Russia... are listed here.
+		Boycott them."
 	/>
 </svelte:head>
 
@@ -34,9 +36,6 @@
 		placeholder="Search.."
 		class="bg-gray-100"
 	/> -->
-	<p>
-		Find the overview list here: <a href="/boycott_overview">peoplewithukraine.org/boyott_overview</a>
-	</p>
 	<ul class="mt-8">
 		<p>Below is a list of some contributors to war (as of 15th of March 2022):</p>
 		<div style="display: grid; grid-template-columns: repeat(auto-fill, 18rem); grid-gap: 2em">
@@ -44,22 +43,19 @@
 				{#if killer.stillEvil}
 					<div class="bg-slate-200 py-2 text-center h-max">
 						<p class="text-red-600 font-bold text-xl">{killer.name}</p>
-						<p>{killer.info}</p>
-						<div class="grid place-items-center">
+						<!-- <p>{killer.info}</p> -->
+						<!-- <div class="grid place-items-center">
 							{#if killer.pic != null}
 								<img src="/killers/{killer.pic}" alt="" class="mt-2 h-64" />
 							{:else}
 								<img src="/killers/{killer.logo}" alt="" class="mt-2" style="width: 9rem" />
 							{/if}
-						</div>
+						</div> -->
 
 						{#if killer.children != null}
-							<div
-								class="place-items-center"
-								style="display: grid; grid-template-columns: repeat(auto-fill, 8rem); grid-gap: 2em"
-							>
+							<div>
 								{#each killer.children as child}
-									<img src="/killers/{child.logo}" alt="" class="	" />
+									<p>{child.name}</p>
 								{/each}
 							</div>
 						{/if}

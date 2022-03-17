@@ -1,5 +1,5 @@
 <script>
-	import war_contributors from '../../static/war_contributors.json';
+	import Boycott from './boycott.svelte';
 
 	let donateSection = false;
 	let actSection = false;
@@ -22,17 +22,16 @@
 		actSection = false;
 		boycottSection = true;
 	}
-
-	function filterCompanies() {
-		filteredKillers = killers.filter(killer => {
-			let input = document.getElementById('searchbar').textContent.toLowerCase();
-			return killer.name.toLowerCase().includes(input);
-		})
-	}
-
-	const killers = war_contributors;
-	let filteredKillers = killers;
 </script>
+
+<svelte:head>
+	<title>Help Ukrainian people</title>
+	<meta
+		title="description"
+		content="Find some ways to help Ukrainian people by donating or taking action. Also, we listed many resources
+		of organizations and initiatives under the 'Act' section. Check them out."
+	/>
+</svelte:head>
 
 <div class="py-16">
 	<div class="grid place-items-center sm:flex sm:justify-between">
@@ -198,7 +197,7 @@
 					</a>.
 				</li>
 				<li>
-					&bull; Card with ways to help and general information 
+					&bull; Card with ways to help and general information
 					<a href="https://ukrainewar.carrd.co/" target="_blank" class="link">
 						ukrainewar.carrd.co
 					</a>.
@@ -214,35 +213,36 @@
 				for Putin. Contact the companies via social media like LinkedIn or Twitter and urge them to
 				stop.
 			</p>
-			<input on:keyup={filterCompanies}  id="searchbar" type="text" placeholder="Search.." class="bg-gray-100">
-			<ul class="mt-8">
-				<p>Below is a list of some contributors to war (as of 15th of March 2022):</p>
-				<div style="display: grid; grid-template-columns: repeat(auto-fill, 18rem); grid-gap: 2em">
-				{#each war_contributors as killer}
-					{#if killer.stillEvil}
-						<div class="bg-slate-200 py-2 text-center h-max">
-							<p class="text-red-600 font-bold text-xl">{killer.name}</p>
-							<p>{killer.info}</p>
-							<div class="grid place-items-center">
-								{#if killer.pic != null}
-									<img src="/killers/{killer.pic}" alt="" class="mt-2 h-64"/>
-								{:else}
-									<img src="/killers/{killer.logo}" alt="" class="mt-2" style="width: 9rem"/>
-								{/if}
-							</div>
-
-							{#if killer.children != null}
-								<div class="place-items-center" style="display: grid; grid-template-columns: repeat(auto-fill, 8rem); grid-gap: 2em">
-									{#each killer.children as child}
-										<img src="/killers/{child.logo}" alt="" class="	"/>
-									{/each}
-								</div>
-							{/if}
-						</div>
-					{/if}
-				{/each}
+			<div class="mt-4 text-center grid place-items-center lg:flex lg:justify-between lg:place-items-start">
+				<div class="px-8 py-4 max-w-md rounded-lg bg-slate-200 lg:mr-12">
+					<h3 class="text-lg font-bold">Detailed & graphic overview</h3>
+					<p class="mb-12">
+						The detail page is very graphic and good for sharing in social media. It also depicts
+						slogans of many companies, next to images of war in Ukraine. We have to make them feel
+						responsible.
+					</p>
+					<a
+						sveltekit:prefetch
+						href="boycott"
+						class="px-6 py-2 rounded-2xl whitespace-nowrap bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
+					>
+						Boycott Details
+					</a>
 				</div>
-			</ul>
+				<div class="px-8 py-4 mt-12 max-w-md rounded-lg bg-slate-200 lg:mt-0">
+					<h3 class="text-lg font-bold">Quick overview</h3>
+					<p class="mb-12">
+						This overview is very good to quickly check if a company is in our boycott list.
+					</p>
+					<a
+						sveltekit:prefetch
+						href="boycott_overview"
+						class="px-6 py-2 rounded-2xl whitespace-nowrap bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
+					>
+						Boycott Overview
+					</a>
+				</div>
+			</div>
 		</div>
 	{/if}
 

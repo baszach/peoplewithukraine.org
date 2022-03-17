@@ -7,7 +7,7 @@
 	<meta
 		title="description"
 		content="Welcome to peoplewithukraine.org! Help us fight against the aggression against Ukraine.
-	Find ways to help or to stay informed during this crisis. We also provide some information for refugees."
+	Find ways to help and companies to boycott during this crisis. We also provide some a few resources."
 	/>
 </svelte:head>
 
@@ -58,6 +58,21 @@
 			</IndexCard>
 		</div>
 		<div class="z-30 mt-12 lg:mt-0">
+			<IndexCard linkPath="boycott" linkText="BOYCOTT">
+				<p>
+					Businesses continue operating and paying taxes in Russia. This money is being used for
+					weapons to kill civilians. Try to evade these companies as long as they're staying there.
+				</p>
+				<br />
+				<p>There are many alternatives to buy from.</p>
+				<br />
+				<p>Call them out. Urge them to stop.</p>
+			</IndexCard>
+		</div>
+	</div>
+
+	<div class="grid place-items-center mt-12 lg:flex lg:justify-between lg:mt-24">
+		<div class="grid place-items-center lg:mr-8">
 			<IndexCard linkPath="news" linkText="VERIFIED NEWS">
 				<p>
 					Putin's regime is spreading a massive amount of misinformation inside and outside of
@@ -69,9 +84,6 @@
 				<p>Find multiple resources to inform yourself and try to break the bubble of fake news.</p>
 			</IndexCard>
 		</div>
-	</div>
-
-	<div class="grid place-items-center mt-12 lg:place-items-end lg:mt-0">
 		<img src="ua_support.svg" alt="Support Ukraine" class="mt-12 h-64 lg:h-96 lg:mt-0" />
 	</div>
 </div>
