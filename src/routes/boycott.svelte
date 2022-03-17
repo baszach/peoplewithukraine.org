@@ -36,7 +36,7 @@
 		class="bg-gray-100"
 	/> -->
 	<p>
-		Find the overview list here: <a href="/boycott_overview">peoplewithukraine.org/boyott_overview</a>
+		Find the overview list here: <a href="/boycott_overview">peoplewithukraine.org/boycott_overview</a>
 	</p>
 	<ul class="mt-8">
 		<p>Below is a list of some contributors to war (as of 15th of March 2022):</p>
