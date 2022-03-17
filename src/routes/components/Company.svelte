@@ -1,11 +1,16 @@
 <script>
     import LinkedInComponent from "./LinkedInComponent.svelte";
+    import FacebookIcon from "./FacebookIcon.svelte";
+    import TwitterIcon from "./TwitterIcon.svelte";
+    import InstagramIcon from "./InstagramIcon.svelte";
+
     export let killer;
     let flipped = false;
 </script>
-<div class="bg-slate-200 py-2 text-center h-max flex justify-between" on:click={() => flipped = !flipped}>
+<!--bg-slate-200-->
+<div class="py-2 text-center h-max flex justify-between" on:click={() => flipped = !flipped}>
     <div style="width: {killer.children == null ? '100%' : '50%'}">
-        <p class="text-red-600 font-bold text-xl">{killer.name}</p>
+        <p class="bg-accent-yellow text-red-600 font-bold text-xl">{killer.name}</p>
         <p>{killer.info}</p>
         {#if !flipped}
             <div class="grid place-items-center mt-2">
@@ -19,7 +24,12 @@
             <div class="p-6 text-left" style="min-height: {killer.pic != null ? '16rem' : '8rem'}">
                 <p class="p-2 bg-ukraine-blue text-white font-bold rounded-lg">{killer.area}</p>
                 {#if killer.all_brands != null}<a class="link p-2" target="_blank" href="{killer.all_brands}">view all brands</a>{/if}
-                {#if killer.linkedin != null}<a class="link p-2" target="_blank" href="{killer.linkedin}"><LinkedInComponent/></a>{/if}
+                <div class="flex">
+                    {#if killer.linkedin != null}<a class="link p-2" target="_blank" href="{killer.linkedin}"><LinkedInComponent/></a>{/if}
+                    {#if killer.facebook != null}<a class="link p-2" target="_blank" href="{killer.facebook}"><FacebookIcon/></a>{/if}
+                    {#if killer.twitter != null}<a class="link p-2" target="_blank" href="{killer.twitter}"><TwitterIcon/></a>{/if}
+                    {#if killer.instagram != null}<a class="link p-2" target="_blank" href="{killer.instagram}"><InstagramIcon/></a>{/if}
+                </div>
             </div>
         {/if}
     </div>

@@ -14,6 +14,9 @@
 		"info": "",
 		"pic": "nestle/nestle.jpeg",
 		"linkedin":"https://www.linkedin.com/company/nestle-s-a-/posts/?feedView=all",
+		"facebook" : "https://www.facebook.com/nestle/",
+		"twitter" : "https://twitter.com/nestle",
+		"instagram" : "https://www.instagram.com/nestle/",
 		"stillEvil": true },
 	{ "id": 45, "name": "The Kraft Heinz Company",
 		"children":[
@@ -26,7 +29,9 @@
 		"all_brands" : "https://www.kraftheinzcompany.com/brands.html",
 		"info": "",
 		"pic": "kraft_heinz.jpeg", "area":"food",
-		"linkedin": "https://www.linkedin.com/company/the-kraft-heinz-company/posts/?feedView=all", "stillEvil": true },
+		"linkedin": "https://www.linkedin.com/company/the-kraft-heinz-company/posts/?feedView=all",
+		"twitter" : "https://twitter.com/KraftHeinzCo",
+		"stillEvil": true },
 	{
 		"id": 17,
 		"name": "Focus Brands",
@@ -50,6 +55,7 @@
 				"stillEvil": true
 			}
 		],
+		"linkedin" : "https://www.linkedin.com/company/focus-brands/posts/?feedView=all",
 		"logo": "focus_brands/focusbrands.png",
 		"stillEvil": true
 	},
@@ -68,6 +74,9 @@
 			{ "id": 65, "name": "Halls", "logo": "mondelez/halls.png", "stillEvil": true }
 		],
 		"linkedin" : "https://www.linkedin.com/company/mondelezinternational/posts/?feedView=all",
+		"facebook" : "https://www.facebook.com/mondelezinternational/",
+		"twitter" : "https://twitter.com/MDLZ",
+		"instagram" : "https://www.instagram.com/mondelez_international/",
 		"stillEvil": true },
 	{
 		"id": 40,
@@ -75,7 +84,11 @@
 		"info": "",
 		"pic": "credit_agricole.jpeg",
 		"stillEvil": true,
-		"area": "bank"
+		"area": "bank",
+		"linkedin" : "https://www.linkedin.com/company/credit-agricole/posts/?feedView=all",
+		"facebook" : "https://www.facebook.com/CreditAgricole/",
+		"twitter" : "https://twitter.com/creditagricole",
+		"instagram" : "https://www.instagram.com/creditagricole/"
 	},
 	{
 		"id": 41,
@@ -83,10 +96,24 @@
 		"info": "",
 		"pic": "johnson.jpeg",
 		"linkedin": "https://www.linkedin.com/company/johnson-&-johnson/posts/?feedView=all",
+		"facebook" : "https://www.facebook.com/jnj",
+		"twitter" : "https://twitter.com/jnjnews",
+		"instagram" : "https://www.instagram.com/jnj/",
 		"stillEvil": true
 	},
-	{ "id": 5, "name": "Auchan", "info": "", "area": "retailer", "pic": "auchan.jpeg", "stillEvil": true },
-	{ "id": 29, "name": "Metro", "info": "", "pic": "metro.jpeg", "area": "retailer", "stillEvil": true },
+	{ "id": 5, "name": "Auchan", "info": "",
+		"area": "retailer",
+		"pic": "auchan.jpeg",
+		"twitter" : "https://twitter.com/Auchannews",
+		"linkedin" : "https://www.linkedin.com/company/auchan/posts/?feedView=all",
+		"instagram" : "https://www.instagram.com/auchanretail/",
+		"stillEvil": true
+	},
+	{ "id": 29, "name": "Metro", "info": "",
+		"pic": "metro.jpeg",
+		"area": "retailer",
+		"stillEvil": true
+	},
 	{
 		"id": 26,
 		"name": "Leroy Merlin",
@@ -94,15 +121,20 @@
 		"area": "retailer",
 		"pic": "leroy_merlin.jpeg",
 		"linkedin": "https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all",
+		"facebook" : "https://www.facebook.com/leroymerlin",
+		"twitter" : "https://twitter.com/leroymerlinfr",
 		"stillEvil": true
 	},
-	{ "id": 27, "name": "LG Electronics", "info": "", "pic": "lg.jpeg", "stillEvil": true, "area":"electronics" },
+	{ "id": 27, "name": "LG Electronics", "info": "",
+		"pic": "lg.jpeg",
+		"stillEvil": true, "area":"electronics"
+	},
 	{
 		"id": 36,
 		"name": "Pirelli",
 		"info": "",
 		"pic": "pirelli.jpeg",
-		"area": "tyres'",
+		"area": "tyres",
 		"stillEvil": true
 	},
 	{
@@ -177,7 +209,7 @@
 	{
 		"id": 44,
 		"name": "Ariston Group",
-		"info": "alorex, NTI, HTP, Chaffoteaux, ATAG, Racold as well as Thermowatt and Ecoflam",
+		"info": "",
 		"pic": "ariston.jpeg",
 		"area": "water/space heating",
 		"linkedin": "https://www.linkedin.com/company/ariston-group/posts/?feedView=all",

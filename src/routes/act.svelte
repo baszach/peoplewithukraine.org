@@ -224,7 +224,7 @@
 				Putin's war drains millions of dollars every minute. Upholding business operations in Russia
 				funds this war. This has to stop immediately. Boycott companies that continue creating value
 				for Putin. Contact the companies via social media like LinkedIn or Twitter and urge them to
-				stop.
+				<stop class=""></stop>
 			</p>
 			<div class="mt-4 text-center grid place-items-center lg:flex lg:justify-between lg:place-items-start">
 				<div class="px-8 py-4 max-w-md rounded-lg bg-slate-200 lg:mr-12">
