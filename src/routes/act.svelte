@@ -218,7 +218,7 @@
 			<ul class="mt-8">
 				<p>Below is a list of some contributors to war (as of 15th of March 2022):</p>
 				<div style="display: grid; grid-template-columns: repeat(auto-fill, 18rem); grid-gap: 2em">
-				{#each filteredKillers as killer}
+				{#each war_contributors as killer}
 					{#if killer.stillEvil}
 						<div class="bg-slate-200 py-2 text-center h-max">
 							<p class="text-red-600 font-bold text-xl">{killer.name}</p>
