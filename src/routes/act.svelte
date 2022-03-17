@@ -26,15 +26,11 @@
 	function filterCompanies() {
 		filteredKillers = killers.filter(killer => {
 			let input = document.getElementById('searchbar').textContent.toLowerCase();
-			if (killer.name.toLowerCase().includes(input)) {
-				return true;
-			}
-			return false;
+			return killer.name.toLowerCase().includes(input);
 		})
 	}
 
 	const killers = war_contributors;
-
 	let filteredKillers = killers;
 </script>
 
@@ -224,19 +220,21 @@
 				<div style="display: grid; grid-template-columns: repeat(auto-fill, 18rem); grid-gap: 2em">
 				{#each filteredKillers as killer}
 					{#if killer.stillEvil}
-						<div class="bg-slate-200 py-2 rounded-md text-center h-max grid place-items-center">
+						<div class="bg-slate-200 py-2 text-center h-max">
 							<p class="text-red-600 font-bold text-xl">{killer.name}</p>
 							<p>{killer.info}</p>
-							{#if killer.pic != null}
-								<img src="/killers/{killer.pic}" alt="" class="mt-2 h-64 rounded-md"/>
-							{:else}
-								<img src="/killers/{killer.logo}" alt="" class="mt-2"/>
-							{/if}
+							<div class="grid place-items-center">
+								{#if killer.pic != null}
+									<img src="/killers/{killer.pic}" alt="" class="mt-2 h-64"/>
+								{:else}
+									<img src="/killers/{killer.logo}" alt="" class="mt-2" style="width: 9rem"/>
+								{/if}
+							</div>
 
 							{#if killer.children != null}
 								<div class="place-items-center" style="display: grid; grid-template-columns: repeat(auto-fill, 8rem); grid-gap: 2em">
 									{#each killer.children as child}
-										<img src="/killers/{child.logo}" alt="" class="h-16 w-auto"/>
+										<img src="/killers/{child.logo}" alt="" class="	"/>
 									{/each}
 								</div>
 							{/if}

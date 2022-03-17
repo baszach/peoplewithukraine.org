@@ -1,4 +1,14 @@
 [
+	{ "id": 66, "name": "'Nestle",
+		"children":[
+			{"id" : 67, "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true},
+			{"id" : 68, "name": "Movenpick", "logo": "nestle/movenpick.png", "stillEvil": true},
+			{"id" : 69, "name": "Nescafe", "logo": "nestle/nescafe.png", "stillEvil": true},
+			{"id" : 70, "name": "Nespresso", "logo": "nestle/nespresso.png", "stillEvil": true},
+			{"id" : 71, "name": "Nesquik", "logo": "nestle/nesquik.png", "stillEvil": true}
+		],
+		"info": "",
+		"pic": "neste/kitkat.png", ",linkedin":"", ",stillEvil": true },
 	{ "id": 40, "name": "Crédit Agricole", "info": "", "pic": "credit_agricole.jpeg", "stillEvil": true },
 	{ "id": 41, "name": "Johnson & Johnson", "info": "", "pic": "johnson.jpeg", "linkedin": "https://www.linkedin.com/company/johnson-&-johnson/posts/?feedView=all", "stillEvil": true },
 	{ "id": 42, "name": "Whirlpool corporation", "info": "", "pic": "whirlpool.jpeg", "linkedin": "https://www.linkedin.com/company/whirlpool-corporation/posts/?feedView=all", "stillEvil": true },
