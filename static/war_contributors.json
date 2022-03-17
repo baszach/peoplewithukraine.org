@@ -1,33 +1,28 @@
 [
-	{
-		"id": 66,
-		"name": "Nestle",
-		"children": [
-			{ "id": 67, "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true },
-			{ "id": 68, "name": "Movenpick", "logo": "nestle/movenpick.png", "stillEvil": true },
-			{ "id": 69, "name": "Nescafe", "logo": "nestle/nescafe.png", "stillEvil": true },
-			{ "id": 70, "name": "Nespresso", "logo": "nestle/nespresso.png", "stillEvil": true },
-			{ "id": 71, "name": "Nesquik", "logo": "nestle/nesquik.png", "stillEvil": true }
+	{ "id": 66, "name": "Nestle",
+		"children":[
+			{"id" : 67, "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true},
+			{"id" : 68, "name": "Movenpick", "logo": "nestle/movenpick.png", "stillEvil": true},
+			{"id" : 69, "name": "Nescafe", "logo": "nestle/nescafe.png", "stillEvil": true},
+			{"id" : 70, "name": "Nespresso", "logo": "nestle/nespresso.png", "stillEvil": true},
+			{"id" : 71, "name": "Nesquik", "logo": "nestle/nesquik.png", "stillEvil": true},
+			{"id" : 72, "name": "San Pellegrino", "logo": "nestle/pellegrino.png", "stillEvil": true},
+			{"id" : 73, "name": "Purina", "logo": "nestle/purina.png", "stillEvil": true}
 		],
 		"info": "",
-		"logo": "nestle/nestle.svg",
-		",linkedin": "",
-		"stillEvil": true
-	},
-	{
-		"id": 45,
-		"name": "The Kraft Heinz Company",
-		"children": [
-			{ "id": 46, "name": "Kraft", "logo": "kraft_heinz/kraft.png", "stillEvil": true },
-			{ "id": 47, "name": "Heinz", "logo": "kraft_heinz/heinz.png", "stillEvil": true },
-			{ "id": 48, "name": "Oscar Mayer", "logo": "kraft_heinz/oscar_mayer.png", "stillEvil": true },
-			{ "id": 49, "name": "Capri Sun", "logo": "kraft_heinz/capri_sun.png", "stillEvil": true },
-			{
-				"id": 50,
-				"name": "Philadelphia",
-				"logo": "kraft_heinz/philadelphia.png",
-				"stillEvil": true
-			}
+		"pic": "neste/kitkat.png", ",linkedin":"", "stillEvil": true },
+	{ "id": 40, "name": "Crédit Agricole", "info": "", "pic": "credit_agricole.jpeg", "stillEvil": true },
+	{ "id": 41, "name": "Johnson & Johnson", "info": "", "pic": "johnson.jpeg", "linkedin": "https://www.linkedin.com/company/johnson-&-johnson/posts/?feedView=all", "stillEvil": true },
+	{ "id": 42, "name": "Whirlpool corporation", "info": "", "pic": "whirlpool.jpeg", "linkedin": "https://www.linkedin.com/company/whirlpool-corporation/posts/?feedView=all", "stillEvil": true },
+	{ "id": 43, "name": "Electrolux", "info": "", "pic": "electrolux.jpeg", "linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all", "stillEvil": true },
+	{ "id": 44, "name": "Ariston Group", "info": "alorex, NTI, HTP, Chaffoteaux, ATAG, Racold as well as Thermowatt and Ecoflam", "pic": "ariston.jpeg", "linkedin": "https://www.linkedin.com/company/ariston-group/posts/?feedView=all", "stillEvil": true },
+	{ "id": 45, "name": "The Kraft Heinz Company",
+		"children":[
+			{"id": 46, "name": "Kraft", "logo": "kraft_heinz/kraft.png", "stillEvil": true},
+			{"id": 47, "name": "Heinz", "logo": "kraft_heinz/heinz.png", "stillEvil": true},
+			{"id": 48, "name": "Oscar Mayer", "logo": "kraft_heinz/oscar_mayer.png", "stillEvil": true},
+			{"id": 49, "name": "Capri Sun", "logo": "kraft_heinz/capri_sun.png", "stillEvil": true},
+			{"id": 50, "name": "Philadelphia", "logo": "kraft_heinz/philadelphia.png", "stillEvil": true}
 		],
 		"info": "unchables, Velveeta, Planters, Maxwell House, Ore-Ida, Kool-Aid, Jell-O, Primal Kitchen, and Classico",
 		"pic": "kraft_heinz.jpeg",
@@ -323,69 +318,16 @@
 		"stillEvil": true
 	},
 
-	{
-		"id": 23,
-		"name": "Interpublic Group",
-		"info": "",
-		"logo": "IPG.svg",
-		"area": "advertising",
-		"stillEvil": true
-	},
-	{
-		"id": 16,
-		"name": "Dentsu International",
-		"info": "",
-		"logo": "dentsu.png",
-		"area": "advertising",
-		"stillEvil": true
-	},
-	{
-		"id": 34,
-		"name": "Omnicom Media Group",
-		"info": "",
-		"logo": "intepublic/omnicom.png",
-		"area": "advertising",
-		"stillEvil": true
-	},
+	{ "id": 23, "name": "Interpublic Group", "info": "", "logo": "", "area": "advertising", "stillEvil": true },
+	{ "id": 37, "name": "Publicis Groupe", "info": "", "logo": "interpublic/publics.png", "area": "advertising",
+		"children": [
+			{ "id": 25, "name": "Leo Burnett", "info": "", "logo": "interpublic/leo_burnett.jpeg", "linkedin":"https://www.linkedin.com/company/leo-burnett/posts/?feedView=all", "stillEvil": true }
+		],"stillEvil": true},
+	{ "id": 34, "name": "Omnicom Media Group", "info": "", "logo": "intepublic/omnicom.png", "area": "advertising", "stillEvil": true },
 
-	{
-		"id": 24,
-		"name": "IPG Photonics",
-		"info": "",
-		"logo": "ipg.png",
-		"area": "photonics",
-		"stillEvil": true
-	},
-	{
-		"id": 28,
-		"name": "Linde",
-		"info": "",
-		"logo": "linde.png",
-		"area": "gas/engineering",
-		"stillEvil": true
-	},
-	{
-		"id": 30,
-		"name": "Mettler Toledo",
-		"info": "",
-		"logo": "mettler.png",
-		"area": "scientific",
-		"stillEvil": true
-	},
-	{
-		"id": 32,
-		"name": "Nalco",
-		"info": "",
-		"logo": "nalco.png",
-		"area": "chemicals",
-		"stillEvil": true
-	},
-	{
-		"id": 38,
-		"name": "Schlumberger",
-		"info": "",
-		"logo": "schlumberger.png",
-		"area": "oil",
-		"stillEvil": true
-	}
+	{ "id": 24, "name": "IPG Photonics", "info": "", "logo": "ipg.png", "area": "photonics", "stillEvil": true },
+	{ "id": 28, "name": "Linde", "info": "", "logo": "linde.png", "area": "gas/engineering", "stillEvil": true },
+	{ "id": 30, "name": "Mettler Toledo", "info": "", "logo": "mettler.png", "area": "scientific", "stillEvil": true },
+	{ "id": 32, "name": "Nalco", "info": "", "logo": "nalco.png", "area": "chemicals", "stillEvil": true },
+	{ "id": 38, "name": "Schlumberger", "info": "", "logo": "schlumberger.png", "area": "oil", "stillEvil": true }
 ]
