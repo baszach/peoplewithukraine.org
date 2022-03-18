@@ -1,7 +1,7 @@
 <script>
 	import war_contributors from '../../static/war_contributors.json';
-	import LinkedInComponent from "./components/LinkedInComponent.svelte";
-	import Company from "./components/Company.svelte";
+	import LinkedInComponent from './components/LinkedInComponent.svelte';
+	import Company from './components/Company.svelte';
 	import Boycott from './boycott.svelte';
 
 	let donateSection = false;
@@ -27,10 +27,10 @@
 	}
 
 	function filterCompanies() {
-		filteredKillers = killers.filter(killer => {
+		filteredKillers = killers.filter((killer) => {
 			let input = document.getElementById('searchbar').textContent.toLowerCase();
 			return killer.name.toLowerCase().includes(input);
-		})
+		});
 	}
 
 	const killers = war_contributors;
@@ -224,9 +224,11 @@
 				Putin's war drains millions of dollars every minute. Upholding business operations in Russia
 				funds this war. This has to stop immediately. Boycott companies that continue creating value
 				for Putin. Contact the companies via social media like LinkedIn or Twitter and urge them to
-				<stop class=""></stop>
+				<stop class="" />
 			</p>
-			<div class="mt-4 text-center grid place-items-center lg:flex lg:justify-between lg:place-items-start">
+			<div
+				class="mt-4 text-center grid place-items-center lg:flex lg:justify-between lg:place-items-start"
+			>
 				<div class="px-8 py-4 max-w-md rounded-lg bg-slate-200 lg:mr-12">
 					<h3 class="text-lg font-bold">Detailed & graphic overview</h3>
 					<p class="mb-12">
