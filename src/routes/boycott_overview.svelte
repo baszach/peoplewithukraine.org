@@ -4,9 +4,17 @@
 
 	let term = writable('');
 	const items = writable(war_contributors);
-	let filtered = derived(
-		[term, items],
-		([$term, $items]) => $items.filter(x => x.name.toLowerCase().includes($term.toLowerCase()))
+	let filtered = derived([term, items], ([$term, $items]) =>
+		$items.filter((company) => {
+			let companyName = company.name.toLowerCase();
+			let searchTerm = $term.toLowerCase();
+
+			return (
+				companyName.includes(searchTerm) ||
+				(company.children != null &&
+					company.children.some((child) => child.name.toLowerCase().includes(searchTerm)))
+			);
+		})
 	);
 </script>
 
@@ -31,12 +39,26 @@
 			bind:value={$term}
 			id="searchbar"
 			type="text"
-			placeholder="Search not working yet..."
+			placeholder="Search for company name..."
 			class="p-2 my-4 w-full rounded-lg bg-slate-200 placeholder-red-600"
 		/>
 		<div style="display: grid; grid-template-columns: repeat(auto-fill, 18rem); grid-gap: 2em">
 			{#each $filtered as killer}
-				{#if killer.stillEvil}
+				{#if killer.stillEvil && killer.children != null}
+					<div class="bg-slate-200 py-2 text-center h-max">
+						<p class="text-red-600 font-bold text-xl">{killer.name}</p>
+						{#if killer.children != null}
+							<div>
+								{#each killer.children as child}
+									<p>{child.name}</p>
+								{/each}
+							</div>
+						{/if}
+					</div>
+				{/if}
+			{/each}
+			{#each $filtered as killer}
+				{#if killer.stillEvil && killer.children == null}
 					<div class="bg-slate-200 py-2 text-center h-max">
 						<p class="text-red-600 font-bold text-xl">{killer.name}</p>
 						{#if killer.children != null}
