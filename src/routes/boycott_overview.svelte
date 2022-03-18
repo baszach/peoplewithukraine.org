@@ -31,7 +31,7 @@
 <div class="m-12">
 	<h1 class="text-3xl font-bold text-accent-gray text-center">Boycott</h1>
 	<p class="mt-4">
-		Find the detailed boycott list here: <a href="/boycott" class="link">Boycott overview</a>
+		Find the detailed boycott list here: <a sveltekit:prefetch href="/boycott" class="link">Boycott overview</a>
 	</p>
 	<ul class="mt-8">
 		<p>Below is a list of some contributors to war (as of 15th of March 2022):</p>

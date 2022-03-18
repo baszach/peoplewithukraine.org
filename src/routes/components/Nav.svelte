@@ -4,7 +4,7 @@
 
 <div class="px-8 py-4 font-merriweather shadow-md sm:px-24 md:px-32 lg:px-48">
 	<div class="flex justify-between items-center">
-		<a href="/">
+		<a sveltekit:prefetch href="/">
 			<div class="flex">
 				<img src="ua.svg" alt="logo" class="h-16" />
 			</div>

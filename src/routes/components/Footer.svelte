@@ -6,9 +6,9 @@
 		<p class="place-self-center ml-4 text-white font-bold">Save Ukraine, close the sky.</p>
 	</div>
 	<div class="my-8 grid place-items-center font-bold sm:flex sm:justify-between">
-		<a href="/act" class="mt-6 text-white md:mt-0">How to help</a>
-		<a href="/news" class="mt-6 text-white md:mt-0">News</a>
-		<a href="/boycott" class="mt-6 text-white md:mt-0">Boycott detail</a>
-		<a href="/boycott_overview" class="mt-6 text-white md:mt-0">Boycott overview</a>
+		<a sveltekit:prefetch href="/act" class="mt-6 text-white md:mt-0">How to help</a>
+		<a sveltekit:prefetch href="/news" class="mt-6 text-white md:mt-0">News</a>
+		<a sveltekit:prefetch href="/boycott" class="mt-6 text-white md:mt-0">Boycott detail</a>
+		<a sveltekit:prefetch href="/boycott_overview" class="mt-6 text-white md:mt-0">Boycott overview</a>
 	</div>
 </nav>
