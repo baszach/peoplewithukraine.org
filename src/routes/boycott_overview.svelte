@@ -39,7 +39,7 @@
 			bind:value={$term}
 			id="searchbar"
 			type="text"
-			placeholder="Search for company name..."
+			placeholder="Search company..."
 			class="p-2 my-4 w-full rounded-lg bg-slate-200 placeholder-red-600"
 		/>
 		<div style="display: grid; grid-template-columns: repeat(auto-fill, 18rem); grid-gap: 2em">
