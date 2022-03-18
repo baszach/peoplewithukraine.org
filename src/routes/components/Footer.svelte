@@ -9,6 +9,8 @@
 		<a sveltekit:prefetch href="/act" class="mt-6 text-white md:mt-0">How to help</a>
 		<a sveltekit:prefetch href="/news" class="mt-6 text-white md:mt-0">News</a>
 		<a sveltekit:prefetch href="/boycott" class="mt-6 text-white md:mt-0">Boycott detail</a>
-		<a sveltekit:prefetch href="/boycott_overview" class="mt-6 text-white md:mt-0">Boycott overview</a>
+		<a sveltekit:prefetch href="/boycott_overview" class="mt-6 text-white md:mt-0"
+			>Boycott overview</a
+		>
 	</div>
 </nav>

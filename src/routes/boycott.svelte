@@ -19,7 +19,9 @@
 		Putin. Contact the companies via social media like LinkedIn or Twitter and urge them to stop.
 	</p>
 	<p class="mt-4">
-		Find the quick overview list here: <a sveltekit:prefetch href="/boycott_overview" class="link">Boycott overview</a>
+		Find the quick overview list here: <a sveltekit:prefetch href="/boycott_overview" class="link"
+			>Boycott overview</a
+		>
 	</p>
 	<ul class="mt-8">
 		<p>Below is a list of some contributors to war (as of 15th of March 2022):</p>
