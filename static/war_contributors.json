@@ -1,18 +1,17 @@
 [
 	{
-		"id": 66,
-		"name": "P&G",
+"name": "P&G",
 		"area": "consumer goods",
 		"children": [
-			{ "id": 67, "name": "Pampers", "logo": "p&g/pampers.png", "stillEvil": true },
-			{ "id": 67, "name": "Ariel", "logo": "p&g/ariel.png", "stillEvil": true },
-			{ "id": 67, "name": "Tide", "logo": "p&g/tide.png", "stillEvil": true },
-			{ "id": 67, "name": "Always", "logo": "p&g/always.png", "stillEvil": true },
-			{ "id": 67, "name": "Braun", "logo": "p&g/braun.png", "stillEvil": true },
-			{ "id": 67, "name": "Gillette", "logo": "p&g/gillette.png", "stillEvil": true },
-			{ "id": 67, "name": "Herbal essences", "logo": "p&g/herbal_essences.png", "stillEvil": true },
-			{ "id": 67, "name": "Oral-B", "logo": "p&g/oral_b.png", "stillEvil": true },
-			{ "id": 67, "name": "Olay", "logo": "p&g/olay.png", "stillEvil": true }
+			{ "name": "Pampers", "logo": "p&g/pampers.png", "stillEvil": true },
+			{ "name": "Ariel", "logo": "p&g/ariel.png", "stillEvil": true },
+			{ "name": "Tide", "logo": "p&g/tide.png", "stillEvil": true },
+			{ "name": "Always", "logo": "p&g/always.png", "stillEvil": true },
+			{ "name": "Braun", "logo": "p&g/braun.png", "stillEvil": true },
+			{ "name": "Gillette", "logo": "p&g/gillette.png", "stillEvil": true },
+			{ "name": "Herbal essences", "logo": "p&g/herbal_essences.png", "stillEvil": true },
+			{ "name": "Oral-B", "logo": "p&g/oral_b.png", "stillEvil": true },
+			{ "name": "Olay", "logo": "p&g/olay.png", "stillEvil": true }
 		],
 		"all_brands": "https://us.pg.com/brands/",
 		"info": "",
@@ -23,15 +22,14 @@
 		"stillEvil": true
 	},
 	{
-		"id": 66,
-		"name": "Danone",
+"name": "Danone",
 		"area": "consumer goods",
 		"children": [
-			{ "id": 67, "name": "Actimel", "logo": "danone/actimel.png", "stillEvil": true },
-			{ "id": 67, "name": "Activia", "logo": "danone/activia.png", "stillEvil": true },
-			{ "id": 67, "name": "Alpro", "logo": "danone/alpro.png", "stillEvil": true },
-			{ "id": 67, "name": "Evian", "logo": "danone/evian.png", "stillEvil": true },
-			{ "id": 67, "name": "Volvic", "logo": "danone/volvic.png", "stillEvil": true }
+			{ "name": "Actimel", "logo": "danone/actimel.png", "stillEvil": true },
+			{ "name": "Activia", "logo": "danone/activia.png", "stillEvil": true },
+			{ "name": "Alpro", "logo": "danone/alpro.png", "stillEvil": true },
+			{ "name": "Evian", "logo": "danone/evian.png", "stillEvil": true },
+			{ "name": "Volvic", "logo": "danone/volvic.png", "stillEvil": true }
 		],
 		"all_brands": "https://www.danone.com/brands.html",
 		"info": "",
@@ -42,16 +40,15 @@
 		"stillEvil": true
 	},
 	{
-		"id": 66,
-		"name": "Unilever",
+"name": "Unilever",
 		"area": "consumer goods",
 		"children": [
-			{ "id": 67, "name": "Ben & Jerry's", "logo": "unilever/ben_jerry.png", "stillEvil": true },
-			{ "id": 67, "name": "Rexona", "logo": "unilever/rexona.png", "stillEvil": true },
-			{ "id": 67, "name": "Dove", "logo": "unilever/dove.png", "stillEvil": true },
-			{ "id": 67, "name": "Cif", "logo": "unilever/cif.png", "stillEvil": true },
-			{ "id": 67, "name": "Axe", "logo": "unilever/axe.png", "stillEvil": true },
-			{ "id": 67, "name": "Domestos", "logo": "unilever/domestos.png", "stillEvil": true }
+			{ "name": "Ben & Jerry's", "logo": "unilever/ben_jerry.png", "stillEvil": true },
+			{ "name": "Rexona", "logo": "unilever/rexona.png", "stillEvil": true },
+			{ "name": "Dove", "logo": "unilever/dove.png", "stillEvil": true },
+			{ "name": "Cif", "logo": "unilever/cif.png", "stillEvil": true },
+			{ "name": "Axe", "logo": "unilever/axe.png", "stillEvil": true },
+			{ "name": "Domestos", "logo": "unilever/domestos.png", "stillEvil": true }
 		],
 		"all_brands": "https://www.danone.com/brands.html",
 		"info": "",
@@ -62,18 +59,17 @@
 		"stillEvil": true
 	},
 	{
-		"id": 66,
-		"name": "Nestle",
+"name": "Nestle",
 		"area": "food",
 		"children":[
-			{"id" : 67, "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true},
-			{"id" : 68, "name": "Smarties", "logo": "nestle/smarties.png", "stillEvil": true},
-			{"id" : 69, "name": "Nescafe", "logo": "nestle/nescafe.png", "stillEvil": true},
-			{"id" : 70, "name": "Nespresso", "logo": "nestle/nespresso.png", "stillEvil": true},
-			{"id" : 71, "name": "Nesquik", "logo": "nestle/nesquik.png", "stillEvil": true},
-			{"id" : 72, "name": "San Pellegrino", "logo": "nestle/pellegrino.png", "stillEvil": true},
-			{"id" : 73, "name": "Purina", "logo": "nestle/purina.png", "stillEvil": true},
-			{"id" : 78, "name": "Garden Gourmet", "logo": "nestle/garden_gourmet.svg", "stillEvil": true}
+			{ "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true},
+			{ "name": "Smarties", "logo": "nestle/smarties.png", "stillEvil": true},
+			{ "name": "Nescafe", "logo": "nestle/nescafe.png", "stillEvil": true},
+			{ "name": "Nespresso", "logo": "nestle/nespresso.png", "stillEvil": true},
+			{ "name": "Nesquik", "logo": "nestle/nesquik.png", "stillEvil": true},
+			{ "name": "San Pellegrino", "logo": "nestle/pellegrino.png", "stillEvil": true},
+			{ "name": "Purina", "logo": "nestle/purina.png", "stillEvil": true},
+			{ "name": "Garden Gourmet", "logo": "nestle/garden_gourmet.svg", "stillEvil": true}
 		],
 		"all_brands": "https://www.nestle.com/brands/brandssearchlist",
 		"info": "",
@@ -85,16 +81,14 @@
 		"stillEvil": true
 	},
 	{
-		"id": 45,
-		"name": "The Kraft Heinz Company",
+"name": "The Kraft Heinz Company",
 		"children": [
-			{ "id": 46, "name": "Kraft", "logo": "kraft_heinz/kraft.png", "stillEvil": true },
-			{ "id": 47, "name": "Heinz", "logo": "kraft_heinz/heinz.png", "stillEvil": true },
-			{ "id": 48, "name": "Oscar Mayer", "logo": "kraft_heinz/oscar_mayer.png", "stillEvil": true },
-			{ "id": 49, "name": "Capri Sun", "logo": "kraft_heinz/capri_sun.png", "stillEvil": true },
+			{ "name": "Kraft", "logo": "kraft_heinz/kraft.png", "stillEvil": true },
+			{ "name": "Heinz", "logo": "kraft_heinz/heinz.png", "stillEvil": true },
+			{ "name": "Oscar Mayer", "logo": "kraft_heinz/oscar_mayer.png", "stillEvil": true },
+			{ "name": "Capri Sun", "logo": "kraft_heinz/capri_sun.png", "stillEvil": true },
 			{
-				"id": 50,
-				"name": "Philadelphia",
+						"name": "Philadelphia",
 				"logo": "kraft_heinz/philadelphia.png",
 				"stillEvil": true
 			}
@@ -108,24 +102,21 @@
 		"stillEvil": true
 	},
 	{
-		"id": 17,
-		"name": "Focus Brands",
+"name": "Focus Brands",
 		"info": "Moe's Southwest Grill, Cinnabon, Carvel & more",
 		"area": "food",
 		"children": [
-			{ "id": 72, "name": "Cinnabon", "logo": "focus_brands/cinnabon.svg", "stillEvil": true },
+			{ "name": "Cinnabon", "logo": "focus_brands/cinnabon.svg", "stillEvil": true },
 			{
-				"id": 73,
-				"name": "Auntie Anne's",
+						"name": "Auntie Anne's",
 				"logo": "focus_brands/auntieanne.svg",
 				"stillEvil": true
 			},
-			{ "id": 74, "name": "Schlotzky's", "logo": "focus_brands/schlotzky.svg", "stillEvil": true },
-			{ "id": 75, "name": "Carvel", "logo": "focus_brands/carvel.svg", "stillEvil": true },
-			{ "id": 76, "name": "Jamba", "logo": "focus_brands/jamba.svg", "stillEvil": true },
+			{ "name": "Schlotzky's", "logo": "focus_brands/schlotzky.svg", "stillEvil": true },
+			{ "name": "Carvel", "logo": "focus_brands/carvel.svg", "stillEvil": true },
+			{ "name": "Jamba", "logo": "focus_brands/jamba.svg", "stillEvil": true },
 			{
-				"id": 77,
-				"name": "McAlister's Deli",
+						"name": "McAlister's Deli",
 				"logo": "focus_brands/mcalistersdeli.svg",
 				"stillEvil": true
 			}
@@ -135,18 +126,17 @@
 		"stillEvil": true
 	},
 	{
-		"id": 31,
-		"name": "Mondelez",
+"name": "Mondelez",
 		"info": "",
 		"logo": "",
 		"area": "food",
 		"children": [
-			{ "id": 60, "name": "Milka", "logo": "mondelez/milka.png", "stillEvil": true },
-			{ "id": 61, "name": "Toblerone", "logo": "mondelez/toblerone.png", "stillEvil": true },
-			{ "id": 62, "name": "Oreo", "logo": "mondelez/oreo.png", "stillEvil": true },
-			{ "id": 63, "name": "Belvita", "logo": "mondelez/belvita.png", "stillEvil": true },
-			{ "id": 64, "name": "Côte d'Or", "logo": "mondelez/cote.png", "stillEvil": true },
-			{ "id": 65, "name": "Halls", "logo": "mondelez/halls.png", "stillEvil": true }
+			{ "name": "Milka", "logo": "mondelez/milka.png", "stillEvil": true },
+			{ "name": "Toblerone", "logo": "mondelez/toblerone.png", "stillEvil": true },
+			{ "name": "Oreo", "logo": "mondelez/oreo.png", "stillEvil": true },
+			{ "name": "Belvita", "logo": "mondelez/belvita.png", "stillEvil": true },
+			{ "name": "Côte d'Or", "logo": "mondelez/cote.png", "stillEvil": true },
+			{ "name": "Halls", "logo": "mondelez/halls.png", "stillEvil": true }
 		],
 		"linkedin": "https://www.linkedin.com/company/mondelezinternational/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/mondelezinternational/",
@@ -155,10 +145,9 @@
 		"stillEvil": true
 	},
 	{
-		"id": 40,
 		"name": "Crédit Agricole",
 		"info": "",
-		"pic": "credit_agricole.jpeg",
+		"pic": "credit_agricole.jpg",
 		"stillEvil": true,
 		"area": "bank",
 		"linkedin": "https://www.linkedin.com/company/credit-agricole/posts/?feedView=all",
@@ -167,10 +156,9 @@
 		"instagram": "https://www.instagram.com/creditagricole/"
 	},
 	{
-		"id": 41,
 		"name": "Johnson & Johnson",
 		"info": "",
-		"pic": "johnson.jpeg",
+		"pic": "johnson.jpg",
 		"linkedin": "https://www.linkedin.com/company/johnson-&-johnson/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/jnj",
 		"twitter": "https://twitter.com/jnjnews",
@@ -178,66 +166,58 @@
 		"stillEvil": true
 	},
 	{
-		"id": 5,
 		"name": "Auchan",
 		"info": "",
 		"area": "retailer",
-		"pic": "auchan.jpeg",
+		"pic": "auchan.jpg",
 		"twitter": "https://twitter.com/Auchannews",
 		"linkedin": "https://www.linkedin.com/company/auchan/posts/?feedView=all",
 		"instagram": "https://www.instagram.com/auchanretail/",
 		"stillEvil": true
 	},
 	{
-		"id": 29,
 		"name": "Metro",
 		"info": "",
-		"pic": "metro.jpeg",
+		"pic": "metro.jpg",
 		"area": "retailer",
 		"stillEvil": true
 	},
 	{
-		"id": 26,
 		"name": "Leroy Merlin",
 		"info": "",
 		"area": "retailer",
-		"pic": "leroy_merlin.jpeg",
+		"pic": "leroy_merlin.jpg",
 		"linkedin": "https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/leroymerlin",
 		"twitter": "https://twitter.com/leroymerlinfr",
 		"stillEvil": true
 	},
 	{
-		"id": 27,
 		"name": "LG Electronics",
 		"info": "",
-		"pic": "lg.jpeg",
+		"pic": "lg.jpg",
 		"stillEvil": true,
 		"area": "electronics"
 	},
 	{
-		"id": 36,
 		"name": "Pirelli",
 		"info": "",
-		"pic": "pirelli.jpeg",
+		"pic": "pirelli.jpg",
 		"area": "tyres",
 		"stillEvil": true
 	},
 	{
-		"id": 6,
 		"name": "Authentic Brands Group",
 		"info": "https://www.authenticbrands.com/",
 		"children": [
 			{
-				"id": 51,
-				"name": "Forever 21",
+						"name": "Forever 21",
 				"logo": "authentic_brands/forever_21.png",
 				"stillEvil": true
 			},
-			{ "id": 52, "name": "Reebok", "logo": "authentic_brands/reebok.png", "stillEvil": true },
+			{ "name": "Reebok", "logo": "authentic_brands/reebok.png", "stillEvil": true },
 			{
-				"id": 53,
-				"name": "Juicy Couture",
+						"name": "Juicy Couture",
 				"logo": "authentic_brands/juicy_couture.png",
 				"stillEvil": true
 			}
@@ -248,7 +228,6 @@
 	},
 
 	{
-		"id": 16,
 		"name": "Dentsu International",
 		"info": "",
 		"logo": "dentsu.png",
@@ -256,7 +235,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 10,
 		"name": "Bosch",
 		"info": "",
 		"pic": "ua_bosch.svg",
@@ -264,7 +242,6 @@
 		"area": "electronics"
 	},
 	{
-		"id": 4,
 		"name": "Asus",
 		"info": "",
 		"pic": "ua_asus.svg",
@@ -272,7 +249,6 @@
 		"area": "electronics"
 	},
 	{
-		"id": 15,
 		"name": "Decathlon",
 		"info": "",
 		"pic": "ua_decathlon.svg",
@@ -280,32 +256,28 @@
 		"area": "sport goods"
 	},
 	{
-		"id": 43,
 		"name": "Electrolux",
 		"info": "",
-		"pic": "electrolux.jpeg",
+		"pic": "electrolux.jpg",
 		"linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all",
 		"stillEvil": true
 	},
 	{
-		"id": 18,
 		"name": "General Mills",
 		"info": "",
 		"logo": "",
 		"children": [
-			{ "id": 54, "name": "Häagen-Dazs", "logo": "general_mills/haagen.png", "stillEvil": true },
+			{ "name": "Häagen-Dazs", "logo": "general_mills/haagen.png", "stillEvil": true },
 			{
-				"id": 55,
-				"name": "Lucky Charms",
+						"name": "Lucky Charms",
 				"logo": "general_mills/lucky_charms.png",
 				"stillEvil": true
 			},
-			{ "id": 56, "name": "Cheerios", "logo": "general_mills/cheerios.png", "stillEvil": true }
+			{ "name": "Cheerios", "logo": "general_mills/cheerios.png", "stillEvil": true }
 		],
 		"stillEvil": true
 	},
 	{
-		"id": 35,
 		"name": "Oriflame Cosmetics",
 		"info": "",
 		"pic": "ua_oriflame.svg",
@@ -314,36 +286,32 @@
 		"stillEvil": true
 	},
 	{
-		"id": 42,
 		"name": "Whirlpool corporation",
 		"info": "",
-		"pic": "whirlpool.jpeg",
+		"pic": "whirlpool.jpg",
 		"area": "",
 		"linkedin": "https://www.linkedin.com/company/whirlpool-corporation/posts/?feedView=all",
 		"stillEvil": true
 	},
 	{
-		"id": 44,
 		"name": "Ariston Group",
 		"info": "",
-		"pic": "ariston.jpeg",
+		"pic": "ariston.jpg",
 		"area": "water/space heating",
 		"linkedin": "https://www.linkedin.com/company/ariston-group/posts/?feedView=all",
 		"stillEvil": true
 	},
-	{ "id": 39, "name": "Subway", "info": "", "logo": "subway.svg", "stillEvil": true },
+	{ "name": "Subway", "info": "", "logo": "subway.svg", "stillEvil": true },
 	{
-		"id": 0,
 		"name": "AbbVie",
 		"info": "",
 		"logo": "abbvie.svg",
 		"area": "medicine",
 		"stillEvil": true
 	},
-	{ "id": 1, "name": "Accor", "info": "", "logo": "accor.svg", "stillEvil": true },
-	{ "id": 2, "name": "Air Liquide", "info": "", "logo": "airliquide.svg", "stillEvil": true },
+	{ "name": "Accor", "info": "", "logo": "accor.svg", "stillEvil": true },
+	{ "name": "Air Liquide", "info": "", "logo": "airliquide.svg", "stillEvil": true },
 	{
-		"id": 3,
 		"name": "Air Products",
 		"info": "",
 		"logo": "airproducts.svg",
@@ -351,16 +319,14 @@
 		"stillEvil": true
 	},
 	{
-		"id": 7,
 		"name": "Baker Hughes",
 		"info": "",
 		"logo": "bakerhughes.svg",
 		"area": "gas",
 		"stillEvil": true
 	},
-	{ "id": 8, "name": "Baker Tilly", "info": "", "logo": "bakertilly.svg", "stillEvil": true },
+	{ "name": "Baker Tilly", "info": "", "logo": "bakertilly.svg", "stillEvil": true },
 	{
-		"id": 9,
 		"name": "BBDO Group",
 		"info": "",
 		"logo": "BBDO.svg",
@@ -368,7 +334,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 11,
 		"name": "Cargill",
 		"info": "",
 		"logo": "cargill.png",
@@ -377,7 +342,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 12,
 		"name": "Citrix",
 		"info": "",
 		"logo": "citrix.svg",
@@ -386,7 +350,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 13,
 		"name": "Cloudflare",
 		"info": "",
 		"logo": "cloudfare.png",
@@ -394,7 +357,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 19,
 		"name": "Greif",
 		"info": "",
 		"logo": "greif.png",
@@ -402,15 +364,13 @@
 		"stillEvil": true
 	},
 	{
-		"id": 37,
 		"name": "Publicis Groupe",
 		"info": "",
 		"logo": "publics/publics.png",
 		"area": "advertising",
 		"children": [
 			{
-				"id": 25,
-				"name": "Leo Burnett",
+						"name": "Leo Burnett",
 				"info": "",
 				"logo": "publics/leo_burnett.jpeg",
 				"linkedin": "https://www.linkedin.com/company/leo-burnett/posts/?feedView=all",
@@ -420,7 +380,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 14,
 		"name": "DDB",
 		"info": "",
 		"logo": "ddb.png",
@@ -428,26 +387,23 @@
 		"stillEvil": true
 	},
 	{
-		"id": 33,
 		"name": "Natura and Company",
 		"info": "",
 		"logo": "",
 		"area": "cosmetics",
 		"linkedin": "https://www.linkedin.com/company/the-body-shop/posts/?feedView=all",
 		"children": [
-			{ "id": 57, "name": "Avon", "logo": "natura_and_co/avon.png", "stillEvil": true },
+			{ "name": "Avon", "logo": "natura_and_co/avon.png", "stillEvil": true },
 			{
-				"id": 58,
-				"name": "The Body Shop",
+						"name": "The Body Shop",
 				"logo": "natura_and_co/the_body_shop.png",
 				"stillEvil": true
 			},
-			{ "id": 59, "name": "Aesop", "logo": "natura_and_co/aesop.png", "stillEvil": true }
+			{ "name": "Aesop", "logo": "natura_and_co/aesop.png", "stillEvil": true }
 		],
 		"stillEvil": true
 	},
 	{
-		"id": 20,
 		"name": "Gruma",
 		"info": "Tortillas",
 		"logo": "gruma.png",
@@ -455,7 +411,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 21,
 		"name": "Halliburton",
 		"info": "",
 		"logo": "halliburton.png",
@@ -463,7 +418,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 22,
 		"name": "International Paper",
 		"info": "",
 		"logo": "paper.png",
@@ -472,7 +426,6 @@
 	},
 
 	{
-		"id": 23,
 		"name": "Interpublic Group",
 		"info": "",
 		"logo": "",
@@ -480,7 +433,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 34,
 		"name": "Omnicom Media Group",
 		"info": "",
 		"logo": "omnicom.png",
@@ -489,7 +441,6 @@
 	},
 
 	{
-		"id": 24,
 		"name": "IPG Photonics",
 		"info": "",
 		"logo": "ipg.png",
@@ -497,7 +448,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 28,
 		"name": "Linde",
 		"info": "",
 		"logo": "linde.png",
@@ -505,7 +455,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 30,
 		"name": "Mettler Toledo",
 		"info": "",
 		"logo": "mettler.png",
@@ -513,7 +462,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 32,
 		"name": "Nalco",
 		"info": "",
 		"logo": "nalco.png",
@@ -521,7 +469,6 @@
 		"stillEvil": true
 	},
 	{
-		"id": 38,
 		"name": "Schlumberger",
 		"info": "",
 		"logo": "schlumberger.png",
