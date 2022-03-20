@@ -15,9 +15,9 @@
 		{#if !flipped}
 			<div class="grid place-items-center mt-2">
 				{#if killer.pic != null}
-					<img src="/killers/{killer.pic}" alt="" class="h-64" />
+					<img src="/killers/{killer.pic}" alt="" loading="lazy" class="h-64" />
 				{:else}
-					<img src="/killers/{killer.logo}" alt="" style="width: 9rem" />
+					<img src="/killers/{killer.logo}" alt="" loading="lazy" style="width: 9rem" />
 				{/if}
 			</div>
 		{:else}
@@ -49,7 +49,7 @@
 			style="display: grid; grid-template-columns: repeat(auto-fill, 6em); grid-gap: 2em; width: 50%"
 		>
 			{#each killer.children as child}
-				<img src="/killers/{child.logo}" alt="" style="" />
+				<img src="/killers/{child.logo}" alt="" loading="lazy" style="" />
 			{/each}
 		</div>
 	{/if}
