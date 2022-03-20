@@ -115,3 +115,12 @@ a {
 		grid-template-columns: 1fr;
 	}
 }
+
+.company-image{
+	grid-area: 1/1/1/1;
+	z-index: 10;
+}
+
+.company-image:hover{
+	cursor: pointer;
+}
