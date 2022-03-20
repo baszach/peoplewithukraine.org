@@ -52,7 +52,7 @@
 		],
 		"all_brands": "https://www.danone.com/brands.html",
 		"info": "",
-		"pic": "unilever/unilever.jpeg",
+		"pic": "unilever/unilever.jpg",
 		"linkedin": "https://www.linkedin.com/company/procter-and-gamble/danone/?feedView=all",
 		"twitter": "https://twitter.com/Danone",
 		"facebook": "https://www.facebook.com/Danone/",
@@ -73,7 +73,7 @@
 		],
 		"all_brands": "https://www.nestle.com/brands/brandssearchlist",
 		"info": "",
-		"pic": "nestle/nestle.jpeg",
+		"pic": "nestle/nestle.jpg",
 		"linkedin": "https://www.linkedin.com/company/nestle-s-a-/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/nestle/",
 		"twitter": "https://twitter.com/nestle",
@@ -95,7 +95,7 @@
 		],
 		"all_brands": "https://www.kraftheinzcompany.com/brands.html",
 		"info": "",
-		"pic": "kraft_heinz.jpeg",
+		"pic": "kraft_heinz.jpg",
 		"area": "food",
 		"linkedin": "https://www.linkedin.com/company/the-kraft-heinz-company/posts/?feedView=all",
 		"twitter": "https://twitter.com/KraftHeinzCo",
@@ -128,7 +128,7 @@
 	{
 		"name": "Mondelez",
 		"info": "",
-		"logo": "",
+		"logo": "mondelez/mondelez.svg",
 		"area": "food",
 		"children": [
 			{ "name": "Milka", "logo": "mondelez/milka.png", "stillEvil": true },
@@ -223,7 +223,7 @@
 			}
 		],
 		"linkedin": "https://www.linkedin.com/company/abg_nyc/posts/?feedView=all",
-		"logo": "",
+		"logo": "authentic_brands/abg.png",
 		"stillEvil": true
 	},
 
@@ -265,7 +265,7 @@
 	{
 		"name": "General Mills",
 		"info": "",
-		"logo": "",
+		"logo": "general_mills/generalmills.svg",
 		"children": [
 			{ "name": "Häagen-Dazs", "logo": "general_mills/haagen.png", "stillEvil": true },
 			{
@@ -389,7 +389,7 @@
 	{
 		"name": "Natura and Company",
 		"info": "",
-		"logo": "",
+		"logo": "natura_and_co/naturacompany.svg",
 		"area": "cosmetics",
 		"linkedin": "https://www.linkedin.com/company/the-body-shop/posts/?feedView=all",
 		"children": [
@@ -428,7 +428,7 @@
 	{
 		"name": "Interpublic Group",
 		"info": "",
-		"logo": "",
+		"logo": "IPG.svg",
 		"area": "advertising",
 		"stillEvil": true
 	},

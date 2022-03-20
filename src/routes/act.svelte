@@ -1,8 +1,5 @@
 <script>
 	import war_contributors from '../../static/war_contributors.json';
-	import LinkedInComponent from './components/LinkedInComponent.svelte';
-	import Company from './components/Company.svelte';
-	import Boycott from './boycott.svelte';
 
 	let donateSection = false;
 	let actSection = false;
@@ -154,12 +151,12 @@
 						to support Ukraine. IT specialists can help with cyberdefense, logistic experts can help
 						with transportation of supply to Ukraine, photographers can take pictures of demonstrations,
 						designers can make supportive art and influencers can call out Russia for their actions and
-						share the truth. There’s no limit to human creativity.
+						share the truth. There's no limit to human creativity.
 					</p>
 					<p class="mt-4">
 						<strong>Reach out to politicians and companies:</strong> In the last days many companies
 						have cut ties with Russia or temporarily stopped operating businesses there. It is important
-						that many people raise their voice to hurt Russia’s economy. Write letters, emails or comments
+						that many people raise their voice to hurt Russia's economy. Write letters, emails or comments
 						to companies and politicians and urge them to reconsider their views (e.g. drawing back from
 						Russia).
 					</p>
@@ -236,13 +233,13 @@
 							>. It also depicts slogans of many companies, next to images of war in Ukraine. We
 							have to make them feel responsible.
 						</p>
-						<div style=" display: flex; justify-content: flex-end">
+						<div style="display: flex; justify-content: center">
 							<a
 								sveltekit:prefetch
 								href="boycott"
 								class="px-6 py-2 rounded-2xl whitespace-nowrap bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
 							>
-								Show companies with designs
+								Visual overview
 							</a>
 						</div>
 					</div>
@@ -251,13 +248,13 @@
 						<p class="mb-12 mt-4">
 							This overview is very good to quickly check if a company is in our boycott list.
 						</p>
-						<div style=" display: flex; justify-content: flex-end">
+						<div style="display: flex; justify-content: center">
 							<a
 								sveltekit:prefetch
 								href="boycott_overview"
 								class="px-6 py-2 rounded-2xl whitespace-nowrap bg-ukraine-blue text-white font-bold hover:shadow-lg hover:text-ukraine-yellow"
 							>
-								Show company names
+								Name overview
 							</a>
 						</div>
 					</div>

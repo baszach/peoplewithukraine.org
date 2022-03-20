@@ -8,7 +8,7 @@
 	<Nav />
 </header>
 
-<main class="px-8 sm:px-24 md:px-16 font-merriweather my-12" style="text-align: center">
+<main class="px-8 sm:px-24 md:px-32 lg:px-48 font-merriweather my-12" style="text-align: center">
 	<slot />
 </main>
 
