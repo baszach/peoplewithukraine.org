@@ -51,7 +51,7 @@
 			{ "name": "Domestos", "logo": "unilever/domestos.png", "stillEvil": true }
 		],
 		"all_brands": "https://www.danone.com/brands.html",
-		"pic": "unilever/unilever.jpeg",
+		"pic": "unilever/unilever.jpg",
 		"pic": "unilever/unilever_logo.png",
 		"linkedin": "https://www.linkedin.com/company/procter-and-gamble/danone/?feedView=all",
 		"twitter": "https://twitter.com/Danone",
@@ -72,7 +72,7 @@
 			{ "name": "Garden Gourmet", "logo": "nestle/garden_gourmet.svg", "stillEvil": true }
 		],
 		"all_brands": "https://www.nestle.com/brands/brandssearchlist",
-		"pic": "nestle/nestle.jpeg",
+		"pic": "nestle/nestle.jpg",
 		"logo": "nestle/nestle_logo.png",
 		"linkedin": "https://www.linkedin.com/company/nestle-s-a-/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/nestle/",
@@ -94,7 +94,7 @@
 			}
 		],
 		"all_brands": "https://www.kraftheinzcompany.com/brands.html",
-		"pic": "kraft_heinz/kraft_heinz.jpeg",
+		"pic": "kraft_heinz/kraft_heinz.jpg",
 		"logo" : "kraft_heinz/kraft_heinz_logo.png",
 		"area": "food",
 		"linkedin": "https://www.linkedin.com/company/the-kraft-heinz-company/posts/?feedView=all",
@@ -229,10 +229,10 @@
 			}
 		],
 		"linkedin": "https://www.linkedin.com/company/abg_nyc/posts/?feedView=all",
+		"logo": "authentic_brands/abg.png",
 		"facebook" : "https://www.facebook.com/AuthenticBrandsGroup/",
 		"twitter" : "https://twitter.com/authenticbrands",
 		"instagram" : "https://www.instagram.com/abg_nyc/",
-		"logo": "authentic_brands/authentic_brands_logo.png",
 		"stillEvil": true
 	},
 
@@ -410,7 +410,7 @@
 	},
 	{
 		"name": "Natura and Company",
-		"logo": "",
+		"logo": "natura_and_co/naturacompany.svg",
 		"area": "cosmetics",
 		"linkedin": "https://www.linkedin.com/company/the-body-shop/posts/?feedView=all",
 		"children": [
@@ -446,7 +446,7 @@
 
 	{
 		"name": "Interpublic Group",
-		"logo": "",
+		"logo": "IPG.svg",
 		"area": "advertising",
 		"stillEvil": true
 	},

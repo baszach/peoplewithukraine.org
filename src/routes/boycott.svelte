@@ -1,6 +1,7 @@
 <script>
 	import war_contributors from '../../static/war_contributors.json';
 	import Company from './components/Company.svelte';
+	import LastUpdatedCompanies from './components/LastUpdatedCompanies.svelte';
 </script>
 
 <svelte:head>
@@ -26,9 +27,13 @@
 				>Boycott overview</a
 			>
 		</p>
+		<p class="mt-4 text-left">
+			You may notice that some of these companies announced to draw back from Russia. We will leave them in this list
+			for a bit longer. They kept us and the Ukrainian people waiting too, after all.
+		</p>
 	</div>
 	<ul class="mt-8">
-		<p>Below is a list of some contributors to war (as of 15th of March 2022):</p>
+		<p>Below is a list of some contributors to war (<LastUpdatedCompanies/>):</p>
 		<div class="companies-group">
 			{#each war_contributors as killer}
 				{#if killer.stillEvil && killer.children != null}

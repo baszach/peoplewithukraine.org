@@ -1,6 +1,7 @@
 <script>
 	import { writable, derived } from 'svelte/store';
 	import war_contributors from '../../static/war_contributors.json';
+	import LastUpdatedCompanies from './components/LastUpdatedCompanies.svelte';
 
 	let term = writable('');
 	const items = writable(war_contributors);
@@ -28,17 +29,21 @@
 	/>
 </svelte:head>
 
-<div class="m-12">
+<div class="my-12 text-left">
 	<h1 class="text-3xl font-bold text-accent-gray text-center">
 		Boycott companies that operate in Russia
 	</h1>
-	<p class="mt-4">
+	<p class="mt-4 text-left">
 		Find the detailed boycott list here: <a sveltekit:prefetch href="/boycott" class="link"
 			>Boycott overview</a
 		>
 	</p>
+	<p class="mt-4 text-left">
+		You may notice that some of these companies announced to draw back from Russia. We will leave them in this list
+		for a bit longer. They kept us and the Ukrainian people waiting too, after all.
+	</p>
 	<ul class="mt-8">
-		<p>Below is a list of some contributors to war (as of 15th of March 2022):</p>
+		<p>Below is a list of some contributors to war (<LastUpdatedCompanies/>):</p>
 		<input
 			bind:value={$term}
 			id="searchbar"
