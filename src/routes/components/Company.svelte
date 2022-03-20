@@ -21,9 +21,9 @@
 	}
 </script>
 
-<div class="company-holder" on:click={click}>
+<div class="company-holder">
 	<div style="display: inline-block;" class="{killer.children != null ? 'companies-group-image-holder' : 'companies-image-holder'}">
-			<div class="grid place-items-center mt-2 hover:cursor-pointer" on:mouseenter={hover} on:mouseleave={unhover}>
+			<div class="grid place-items-center mt-2 hover:cursor-pointer" on:mouseenter={hover} on:mouseleave={unhover} on:click={click}>
 				<img src="/killers/{killer.pic != null ? killer.pic : killer.logo}" alt="" loading="lazy" class="h-max company-image" style="opacity: {flipped ? '0%' : '100%'}"/>
 				{#if hovering}
 					<div style="z-index: 20; grid-area: 1/1/1/1; height: 100%; width: 100%; opacity: 40%" class="bg-white" in:fade></div>
