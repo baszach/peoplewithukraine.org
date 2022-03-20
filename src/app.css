@@ -40,25 +40,27 @@ a {
 	font-display: swap;
 }
 
-.companies-group, .companies-with-pic, .companies-with-logo{
+.companies-group,
+.companies-with-pic,
+.companies-with-logo {
 	display: grid;
 	grid-gap: 2em;
 	justify-content: center;
 }
 
-.companies-group{
+.companies-group {
 	grid-template-columns: repeat(auto-fill, 32rem);
 }
 
-.companies-with-pic{
+.companies-with-pic {
 	grid-template-columns: repeat(auto-fill, 18rem);
 }
 
-.companies-with-logo{
+.companies-with-logo {
 	grid-template-columns: repeat(auto-fill, 11rem);
 }
 
-.companies-children-grid{
+.companies-children-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, 6em);
 	grid-gap: 2em;
@@ -66,61 +68,59 @@ a {
 	padding: 0.5em;
 	margin-left: 2em;
 	justify-content: center;
-	@apply bg-background-color
 }
 
-.company-holder{
+.company-holder {
 	min-height: 11rem;
 	@apply py-2 text-center flex justify-between;
 }
 
 @media screen and (max-width: 768px) {
-	.companies-with-pic{
+	.companies-with-pic {
 		grid-template-columns: 1fr 1fr;
-	/*	FIXME does not work*/
+		/*	FIXME does not work*/
 	}
 }
 
-.companies-group-image-holder{
+.companies-group-image-holder {
 	width: 50%;
-	padding: 100px 0;
 }
 
-.companies-image-holder{
+.companies-image-holder {
 	width: 100%;
 }
 
 @media screen and (max-width: 550px) {
-	.company-holder{
+	.company-holder {
 		display: block;
 		text-align: center;
 	}
 
-	.companies-children-grid{
+	.companies-children-grid {
 		width: 100%;
 		margin-left: 0em;
 	}
 
-	.companies-group-image-holder{
+	.companies-group-image-holder {
 		width: 100%;
 	}
 
-	.companies-group{
+	.companies-group {
 		grid-template-columns: 1fr;
 	}
 }
 
 @media screen and (max-width: 450px) {
-	.companies-with-pic{
+	.companies-with-pic {
 		grid-template-columns: 1fr;
 	}
 }
 
-.company-image{
+.company-image {
 	grid-area: 1/1/1/1;
 	z-index: 10;
 }
 
-.company-image:hover{
+.company-image:hover {
 	cursor: pointer;
 }

@@ -65,15 +65,14 @@
 		"id": 66,
 		"name": "Nestle",
 		"area": "food",
-		"children":[
-			{"id" : 67, "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true},
-			{"id" : 68, "name": "Smarties", "logo": "nestle/smarties.png", "stillEvil": true},
-			{"id" : 69, "name": "Nescafe", "logo": "nestle/nescafe.png", "stillEvil": true},
-			{"id" : 70, "name": "Nespresso", "logo": "nestle/nespresso.png", "stillEvil": true},
-			{"id" : 71, "name": "Nesquik", "logo": "nestle/nesquik.png", "stillEvil": true},
-			{"id" : 72, "name": "San Pellegrino", "logo": "nestle/pellegrino.png", "stillEvil": true},
-			{"id" : 73, "name": "Purina", "logo": "nestle/purina.png", "stillEvil": true},
-			{"id" : 78, "name": "Garden Gourmet", "logo": "nestle/garden_gourmet.svg", "stillEvil": true}
+		"children": [
+			{ "id": 67, "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true },
+			{ "id": 68, "name": "Smarties", "logo": "nestle/smarties.png", "stillEvil": true },
+			{ "id": 69, "name": "Nescafe", "logo": "nestle/nescafe.png", "stillEvil": true },
+			{ "id": 70, "name": "Nespresso", "logo": "nestle/nespresso.png", "stillEvil": true },
+			{ "id": 71, "name": "Nesquik", "logo": "nestle/nesquik.png", "stillEvil": true },
+			{ "id": 72, "name": "San Pellegrino", "logo": "nestle/pellegrino.png", "stillEvil": true },
+			{ "id": 73, "name": "Purina", "logo": "nestle/purina.png", "stillEvil": true }
 		],
 		"all_brands": "https://www.nestle.com/brands/brandssearchlist",
 		"info": "",
@@ -309,7 +308,7 @@
 		"name": "Oriflame Cosmetics",
 		"info": "",
 		"pic": "ua_oriflame.svg",
-		"area" : "cosmetics",
+		"area": "cosmetics",
 		"linkedin": "https://www.linkedin.com/company/oriflame/posts/?feedView=all",
 		"stillEvil": true
 	},

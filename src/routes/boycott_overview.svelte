@@ -29,7 +29,9 @@
 </svelte:head>
 
 <div class="m-12">
-	<h1 class="text-3xl font-bold text-accent-gray text-center">Boycott</h1>
+	<h1 class="text-3xl font-bold text-accent-gray text-center">
+		Boycott companies that operate in Russia
+	</h1>
 	<p class="mt-4">
 		Find the detailed boycott list here: <a sveltekit:prefetch href="/boycott" class="link"
 			>Boycott overview</a
