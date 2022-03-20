@@ -15,7 +15,7 @@
 		],
 		"all_brands": "https://us.pg.com/brands/",
 		"pic": "p&g/p&g.jpeg",
-		"logo" : "p&g/p&g_logo.png",
+		"logo": "p&g/p&g_logo.png",
 		"linkedin": "https://www.linkedin.com/company/procter-and-gamble/posts/?feedView=all",
 		"twitter": "https://twitter.com/proctergamble",
 		"instagram": "https://www.instagram.com/proctergamble/",
@@ -33,7 +33,7 @@
 		],
 		"all_brands": "https://www.danone.com/brands.html",
 		"pic": "danone/danone.jpeg",
-		"logo" : "danone/danone_logo.png",
+		"logo": "danone/danone_logo.png",
 		"linkedin": "https://www.linkedin.com/company/procter-and-gamble/danone/?feedView=all",
 		"twitter": "https://twitter.com/Danone",
 		"facebook": "https://www.facebook.com/Danone/",
@@ -95,7 +95,7 @@
 		],
 		"all_brands": "https://www.kraftheinzcompany.com/brands.html",
 		"pic": "kraft_heinz/kraft_heinz.jpg",
-		"logo" : "kraft_heinz/kraft_heinz_logo.png",
+		"logo": "kraft_heinz/kraft_heinz_logo.png",
 		"area": "food",
 		"linkedin": "https://www.linkedin.com/company/the-kraft-heinz-company/posts/?feedView=all",
 		"twitter": "https://twitter.com/KraftHeinzCo",
@@ -146,7 +146,7 @@
 	{
 		"name": "Crédit Agricole",
 		"pic": "credit_agricole.jpg",
-		"logo" : "credit_agricole_logo.png",
+		"logo": "credit_agricole_logo.png",
 		"stillEvil": true,
 		"area": "banking",
 		"linkedin": "https://www.linkedin.com/company/credit-agricole/posts/?feedView=all",
@@ -157,8 +157,8 @@
 	{
 		"name": "Johnson & Johnson",
 		"pic": "johnson.jpg",
-		"area" : "pharma/consumer healthcare",
-		"logo" : "johnson_logo.png",
+		"area": "pharma/consumer healthcare",
+		"logo": "johnson_logo.png",
 		"linkedin": "https://www.linkedin.com/company/johnson-&-johnson/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/jnj",
 		"twitter": "https://twitter.com/jnjnews",
@@ -168,7 +168,7 @@
 	{
 		"name": "Auchan",
 		"area": "retailer",
-		"logo" : "auchan_logo.png",
+		"logo": "auchan_logo.png",
 		"pic": "auchan.jpg",
 		"twitter": "https://twitter.com/Auchannews",
 		"linkedin": "https://www.linkedin.com/company/auchan/posts/?feedView=all",
@@ -178,18 +178,18 @@
 	{
 		"name": "Metro",
 		"pic": "metro.jpg",
-		"logo" : "metro_logo.png",
+		"logo": "metro_logo.png",
 		"area": "retailer",
-		"facebook" : "https://www.facebook.com/metro.deutschland",
-		"instagram" : "https://www.instagram.com/metro_deutschland/",
-		"linkedin" : "https://www.linkedin.com/company/metro-ag/posts/?feedView=all",
+		"facebook": "https://www.facebook.com/metro.deutschland",
+		"instagram": "https://www.instagram.com/metro_deutschland/",
+		"linkedin": "https://www.linkedin.com/company/metro-ag/posts/?feedView=all",
 		"stillEvil": true
 	},
 	{
 		"name": "Leroy Merlin",
 		"area": "retailer",
 		"pic": "leroy_merlin.jpg",
-		"logo" : "leroy_merlin_logo.png",
+		"logo": "leroy_merlin_logo.png",
 		"linkedin": "https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/leroymerlin",
 		"twitter": "https://twitter.com/leroymerlinfr",
@@ -204,11 +204,11 @@
 	{
 		"name": "Pirelli",
 		"pic": "pirelli.jpg",
-		"logo" : "pirelli_logo.png",
+		"logo": "pirelli_logo.png",
 		"area": "automotive",
-		"twitter" : "https://twitter.com/pirelli",
-		"facebook" : "https://www.facebook.com/Pirelli",
-		"instagram" : "https://www.instagram.com/pirelli/",
+		"twitter": "https://twitter.com/pirelli",
+		"facebook": "https://www.facebook.com/Pirelli",
+		"instagram": "https://www.instagram.com/pirelli/",
 		"linkedin": "https://www.linkedin.com/company/pirelli/posts/?feedView=all",
 		"stillEvil": true
 	},
@@ -230,9 +230,9 @@
 		],
 		"linkedin": "https://www.linkedin.com/company/abg_nyc/posts/?feedView=all",
 		"logo": "authentic_brands/abg.png",
-		"facebook" : "https://www.facebook.com/AuthenticBrandsGroup/",
-		"twitter" : "https://twitter.com/authenticbrands",
-		"instagram" : "https://www.instagram.com/abg_nyc/",
+		"facebook": "https://www.facebook.com/AuthenticBrandsGroup/",
+		"twitter": "https://twitter.com/authenticbrands",
+		"instagram": "https://www.instagram.com/abg_nyc/",
 		"stillEvil": true
 	},
 
@@ -240,18 +240,18 @@
 		"name": "Dentsu International",
 		"logo": "dentsu.png",
 		"area": "advertising",
-		"instagram" : "https://www.instagram.com/dentsuusa/",
+		"instagram": "https://www.instagram.com/dentsuusa/",
 		"stillEvil": false
 	},
 	{
 		"name": "Bosch",
 		"pic": "ua_bosch.svg",
-		"logo" : "bosch_logo.png",
+		"logo": "bosch_logo.png",
 		"stillEvil": true,
 		"area": "electronics",
-		"facebook" : "https://www.facebook.com/BoschGlobal",
-		"twitter" : "https://twitter.com/BoschGlobal",
-		"instagram" : "https://www.instagram.com/boschglobal/",
+		"facebook": "https://www.facebook.com/BoschGlobal",
+		"twitter": "https://twitter.com/BoschGlobal",
+		"instagram": "https://www.instagram.com/boschglobal/",
 		"linkedin": "https://www.linkedin.com/company/bosch/"
 	},
 	{
@@ -260,8 +260,8 @@
 		"logo": "asus_logo.png",
 		"stillEvil": true,
 		"area": "electronics",
-		"twitter" : "https://twitter.com/ASUS",
-		"instagram" : "https://www.instagram.com/asus/",
+		"twitter": "https://twitter.com/ASUS",
+		"instagram": "https://www.instagram.com/asus/",
 		"linkedin": "https://www.linkedin.com/company/asus/posts/?feedView=all"
 	},
 	{
@@ -270,7 +270,7 @@
 		"logo": "decathlon_logo.png",
 		"stillEvil": true,
 		"area": "sport goods",
-		"twitter" : "https://twitter.com/Decathlon",
+		"twitter": "https://twitter.com/Decathlon",
 		"linkedin": "https://www.linkedin.com/company/decathlon/posts/?feedView=all"
 	},
 	{
@@ -278,18 +278,18 @@
 		"pic": "electrolux.jpg",
 		"linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all",
 		"stillEvil": true,
-		"twitter" : "https://twitter.com/Electrolux",
-		"instagram" : "https://www.instagram.com/electrolux/",
-		"linkedin" : "https://www.linkedin.com/company/electrolux/posts/?feedView=all"
+		"twitter": "https://twitter.com/Electrolux",
+		"instagram": "https://www.instagram.com/electrolux/",
+		"linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all"
 	},
 	{
 		"name": "General Mills",
 		"logo": "general_mills/general_mills_logo.png",
-		"twitter" : "https://twitter.com/generalmills",
-		"instagram" : "https://www.instagram.com/generalmills/",
-		"facebook" : "https://www.facebook.com/GeneralMills",
-		"linkedin" : "https://www.linkedin.com/company/general-mills/posts/?feedView=all",
-		"area" : "food",
+		"twitter": "https://twitter.com/generalmills",
+		"instagram": "https://www.instagram.com/generalmills/",
+		"facebook": "https://www.facebook.com/GeneralMills",
+		"linkedin": "https://www.linkedin.com/company/general-mills/posts/?feedView=all",
+		"area": "food",
 		"children": [
 			{ "name": "Häagen-Dazs", "logo": "general_mills/haagen.png", "stillEvil": true },
 			{
@@ -306,33 +306,34 @@
 		"pic": "ua_oriflame.svg",
 		"area": "cosmetics",
 		"linkedin": "https://www.linkedin.com/company/oriflame/posts/?feedView=all",
-		"instagram" : "https://www.instagram.com/oriflame/",
-		"logo" : "oriflame_logo.png",
+		"instagram": "https://www.instagram.com/oriflame/",
+		"logo": "oriflame_logo.png",
 		"stillEvil": true
 	},
 	{
 		"name": "Whirlpool corporation",
 		"pic": "whirlpool.jpg",
-		"logo" : "whirlpool_logo.png",
+		"logo": "whirlpool_logo.png",
 		"area": "home appliances",
 		"linkedin": "https://www.linkedin.com/company/whirlpool-corporation/posts/?feedView=all",
-		"instagram" : "https://www.instagram.com/whirlpoolusa/",
+		"instagram": "https://www.instagram.com/whirlpoolusa/",
 		"stillEvil": true
 	},
 	{
 		"name": "Ariston Group",
 		"pic": "ariston.jpg",
-		"logo" : "ariston_logo.png",
+		"logo": "ariston_logo.png",
 		"area": "water/space heating",
 		"linkedin": "https://www.linkedin.com/company/ariston-group/posts/?feedView=all",
 		"stillEvil": true
 	},
-	{ "name": "Subway",
+	{
+		"name": "Subway",
 		"logo": "subway.svg",
-		"linkedin" : "https://www.linkedin.com/company/subway/posts/?feedView=all",
-		"facebook" : "https://www.facebook.com/subway",
-		"instagram" : "https://www.instagram.com/subway/",
-		"twitter" : "https://twitter.com/Subway",
+		"linkedin": "https://www.linkedin.com/company/subway/posts/?feedView=all",
+		"facebook": "https://www.facebook.com/subway",
+		"instagram": "https://www.instagram.com/subway/",
+		"twitter": "https://twitter.com/Subway",
 		"stillEvil": true
 	},
 	{

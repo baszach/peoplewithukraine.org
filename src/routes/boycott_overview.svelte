@@ -39,11 +39,12 @@
 		>
 	</p>
 	<p class="mt-4 text-left">
-		You may notice that some of these companies announced to draw back from Russia. We will leave them in this list
-		for a bit longer. They kept us and the Ukrainian people waiting too, after all.
+		You may notice that some of these companies announced to draw back from Russia. We will leave
+		them in this list for a bit longer. They kept us and the Ukrainian people waiting too, after
+		all.
 	</p>
 	<ul class="mt-8">
-		<p>Below is a list of some contributors to war (<LastUpdatedCompanies/>):</p>
+		<p>Below is a list of some contributors to war (<LastUpdatedCompanies />):</p>
 		<input
 			bind:value={$term}
 			id="searchbar"

@@ -28,12 +28,13 @@
 			>
 		</p>
 		<p class="mt-4 text-left">
-			You may notice that some of these companies announced to draw back from Russia. We will leave them in this list
-			for a bit longer. They kept us and the Ukrainian people waiting too, after all.
+			You may notice that some of these companies announced to draw back from Russia. We will leave
+			them in this list for a bit longer. They kept us and the Ukrainian people waiting too, after
+			all.
 		</p>
 	</div>
 	<ul class="mt-8">
-		<p>Below is a list of some contributors to war (<LastUpdatedCompanies/>):</p>
+		<p>Below is a list of some contributors to war (<LastUpdatedCompanies />):</p>
 		<div class="companies-group">
 			{#each war_contributors as killer}
 				{#if killer.stillEvil && killer.children != null}
@@ -51,7 +52,7 @@
 		<div class="mt-4 companies-with-logo">
 			{#each war_contributors as killer}
 				{#if killer.stillEvil && killer.children == null && killer.pic == null && killer.logo != null}
-					<div class="bg-background-color">
+					<div class="bg-slate-200">
 						<Company {killer} />
 					</div>
 				{/if}

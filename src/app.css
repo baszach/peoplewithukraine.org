@@ -42,7 +42,8 @@ a {
 
 .companies-group,
 .companies-with-pic,
-.companies-with-logo {
+.companies-with-logo,
+.companies-children-grid{
 	display: grid;
 	grid-gap: 2em;
 	justify-content: center;
@@ -61,18 +62,15 @@ a {
 }
 
 .companies-children-grid {
-	display: grid;
 	grid-template-columns: repeat(auto-fill, 6em);
-	grid-gap: 2em;
 	width: 50%;
 	padding: 0.5em;
 	margin-left: 2em;
-	justify-content: center;
 }
 
 .company-holder {
 	min-height: 11rem;
-	@apply py-2 text-center flex justify-between;
+	@apply text-center flex justify-between;
 }
 
 @media screen and (max-width: 768px) {
