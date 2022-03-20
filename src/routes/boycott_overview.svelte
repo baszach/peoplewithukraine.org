@@ -29,7 +29,7 @@
 	/>
 </svelte:head>
 
-<div class="m-12 text-left">
+<div class="my-12 text-left">
 	<h1 class="text-3xl font-bold text-accent-gray text-center">
 		Boycott companies that operate in Russia
 	</h1>
