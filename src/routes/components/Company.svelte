@@ -66,16 +66,16 @@
 					{killer.area}
 				</div>
 				<div class="flex">
-					{#if killer.linkedin != null}<a class="link p-2" target="_blank" href={killer.linkedin}
+					{#if killer.linkedin != null}<a class="link p-2" target="_blank" href={killer.linkedin} style="z-index: 40"
 							><LinkedInComponent /></a
 						>{/if}
-					{#if killer.facebook != null}<a class="link p-2" target="_blank" href={killer.facebook}
+					{#if killer.facebook != null}<a class="link p-2" target="_blank" href={killer.facebook} style="z-index: 40"
 							><FacebookIcon /></a
 						>{/if}
-					{#if killer.twitter != null}<a class="link p-2" target="_blank" href={killer.twitter}
+					{#if killer.twitter != null}<a class="link p-2" target="_blank" href={killer.twitter} style="z-index: 40"
 							><TwitterIcon /></a
 						>{/if}
-					{#if killer.instagram != null}<a class="link p-2" target="_blank" href={killer.instagram}
+					{#if killer.instagram != null}<a class="link p-2" target="_blank" href={killer.instagram} style="z-index: 40"
 							><InstagramIcon /></a
 						>{/if}
 				</div>

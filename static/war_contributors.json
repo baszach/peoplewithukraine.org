@@ -278,12 +278,18 @@
 		"pic": "electrolux.jpg",
 		"linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all",
 		"stillEvil": true,
-		"twitter" : "",
-		"instagram" : ""
+		"twitter" : "https://twitter.com/Electrolux",
+		"instagram" : "https://www.instagram.com/electrolux/",
+		"linkedin" : "https://www.linkedin.com/company/electrolux/posts/?feedView=all"
 	},
 	{
 		"name": "General Mills",
-		"logo": "",
+		"logo": "general_mills/general_mills_logo.png",
+		"twitter" : "https://twitter.com/generalmills",
+		"instagram" : "https://www.instagram.com/generalmills/",
+		"facebook" : "https://www.facebook.com/GeneralMills",
+		"linkedin" : "https://www.linkedin.com/company/general-mills/posts/?feedView=all",
+		"area" : "food",
 		"children": [
 			{ "name": "Häagen-Dazs", "logo": "general_mills/haagen.png", "stillEvil": true },
 			{
@@ -300,27 +306,39 @@
 		"pic": "ua_oriflame.svg",
 		"area": "cosmetics",
 		"linkedin": "https://www.linkedin.com/company/oriflame/posts/?feedView=all",
+		"instagram" : "https://www.instagram.com/oriflame/",
+		"logo" : "oriflame_logo.png",
 		"stillEvil": true
 	},
 	{
 		"name": "Whirlpool corporation",
 		"pic": "whirlpool.jpg",
-		"area": "",
+		"logo" : "whirlpool_logo.png",
+		"area": "home appliances",
 		"linkedin": "https://www.linkedin.com/company/whirlpool-corporation/posts/?feedView=all",
+		"instagram" : "https://www.instagram.com/whirlpoolusa/",
 		"stillEvil": true
 	},
 	{
 		"name": "Ariston Group",
 		"pic": "ariston.jpg",
+		"logo" : "ariston_logo.png",
 		"area": "water/space heating",
 		"linkedin": "https://www.linkedin.com/company/ariston-group/posts/?feedView=all",
 		"stillEvil": true
 	},
-	{ "name": "Subway", "logo": "subway.svg", "stillEvil": true },
+	{ "name": "Subway",
+		"logo": "subway.svg",
+		"linkedin" : "https://www.linkedin.com/company/subway/posts/?feedView=all",
+		"facebook" : "https://www.facebook.com/subway",
+		"instagram" : "https://www.instagram.com/subway/",
+		"twitter" : "https://twitter.com/Subway",
+		"stillEvil": true
+	},
 	{
 		"name": "AbbVie",
 		"logo": "abbvie.svg",
-		"area": "medicine",
+		"area": "pharma",
 		"stillEvil": true
 	},
 	{ "name": "Accor", "logo": "accor.svg", "stillEvil": true },
