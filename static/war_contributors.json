@@ -1,6 +1,6 @@
 [
 	{
-"name": "P&G",
+		"name": "P&G",
 		"area": "consumer goods",
 		"children": [
 			{ "name": "Pampers", "logo": "p&g/pampers.png", "stillEvil": true },
@@ -22,7 +22,7 @@
 		"stillEvil": true
 	},
 	{
-"name": "Danone",
+		"name": "Danone",
 		"area": "consumer goods",
 		"children": [
 			{ "name": "Actimel", "logo": "danone/actimel.png", "stillEvil": true },
@@ -40,7 +40,7 @@
 		"stillEvil": true
 	},
 	{
-"name": "Unilever",
+		"name": "Unilever",
 		"area": "consumer goods",
 		"children": [
 			{ "name": "Ben & Jerry's", "logo": "unilever/ben_jerry.png", "stillEvil": true },
@@ -59,17 +59,17 @@
 		"stillEvil": true
 	},
 	{
-"name": "Nestle",
+		"name": "Nestle",
 		"area": "food",
-		"children":[
-			{ "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true},
-			{ "name": "Smarties", "logo": "nestle/smarties.png", "stillEvil": true},
-			{ "name": "Nescafe", "logo": "nestle/nescafe.png", "stillEvil": true},
-			{ "name": "Nespresso", "logo": "nestle/nespresso.png", "stillEvil": true},
-			{ "name": "Nesquik", "logo": "nestle/nesquik.png", "stillEvil": true},
-			{ "name": "San Pellegrino", "logo": "nestle/pellegrino.png", "stillEvil": true},
-			{ "name": "Purina", "logo": "nestle/purina.png", "stillEvil": true},
-			{ "name": "Garden Gourmet", "logo": "nestle/garden_gourmet.svg", "stillEvil": true}
+		"children": [
+			{ "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true },
+			{ "name": "Smarties", "logo": "nestle/smarties.png", "stillEvil": true },
+			{ "name": "Nescafe", "logo": "nestle/nescafe.png", "stillEvil": true },
+			{ "name": "Nespresso", "logo": "nestle/nespresso.png", "stillEvil": true },
+			{ "name": "Nesquik", "logo": "nestle/nesquik.png", "stillEvil": true },
+			{ "name": "San Pellegrino", "logo": "nestle/pellegrino.png", "stillEvil": true },
+			{ "name": "Purina", "logo": "nestle/purina.png", "stillEvil": true },
+			{ "name": "Garden Gourmet", "logo": "nestle/garden_gourmet.svg", "stillEvil": true }
 		],
 		"all_brands": "https://www.nestle.com/brands/brandssearchlist",
 		"info": "",
@@ -81,14 +81,14 @@
 		"stillEvil": true
 	},
 	{
-"name": "The Kraft Heinz Company",
+		"name": "The Kraft Heinz Company",
 		"children": [
 			{ "name": "Kraft", "logo": "kraft_heinz/kraft.png", "stillEvil": true },
 			{ "name": "Heinz", "logo": "kraft_heinz/heinz.png", "stillEvil": true },
 			{ "name": "Oscar Mayer", "logo": "kraft_heinz/oscar_mayer.png", "stillEvil": true },
 			{ "name": "Capri Sun", "logo": "kraft_heinz/capri_sun.png", "stillEvil": true },
 			{
-						"name": "Philadelphia",
+				"name": "Philadelphia",
 				"logo": "kraft_heinz/philadelphia.png",
 				"stillEvil": true
 			}
@@ -102,13 +102,13 @@
 		"stillEvil": true
 	},
 	{
-"name": "Focus Brands",
+		"name": "Focus Brands",
 		"info": "Moe's Southwest Grill, Cinnabon, Carvel & more",
 		"area": "food",
 		"children": [
 			{ "name": "Cinnabon", "logo": "focus_brands/cinnabon.svg", "stillEvil": true },
 			{
-						"name": "Auntie Anne's",
+				"name": "Auntie Anne's",
 				"logo": "focus_brands/auntieanne.svg",
 				"stillEvil": true
 			},
@@ -116,7 +116,7 @@
 			{ "name": "Carvel", "logo": "focus_brands/carvel.svg", "stillEvil": true },
 			{ "name": "Jamba", "logo": "focus_brands/jamba.svg", "stillEvil": true },
 			{
-						"name": "McAlister's Deli",
+				"name": "McAlister's Deli",
 				"logo": "focus_brands/mcalistersdeli.svg",
 				"stillEvil": true
 			}
@@ -126,7 +126,7 @@
 		"stillEvil": true
 	},
 	{
-"name": "Mondelez",
+		"name": "Mondelez",
 		"info": "",
 		"logo": "",
 		"area": "food",
@@ -211,13 +211,13 @@
 		"info": "https://www.authenticbrands.com/",
 		"children": [
 			{
-						"name": "Forever 21",
+				"name": "Forever 21",
 				"logo": "authentic_brands/forever_21.png",
 				"stillEvil": true
 			},
 			{ "name": "Reebok", "logo": "authentic_brands/reebok.png", "stillEvil": true },
 			{
-						"name": "Juicy Couture",
+				"name": "Juicy Couture",
 				"logo": "authentic_brands/juicy_couture.png",
 				"stillEvil": true
 			}
@@ -269,7 +269,7 @@
 		"children": [
 			{ "name": "Häagen-Dazs", "logo": "general_mills/haagen.png", "stillEvil": true },
 			{
-						"name": "Lucky Charms",
+				"name": "Lucky Charms",
 				"logo": "general_mills/lucky_charms.png",
 				"stillEvil": true
 			},
@@ -281,7 +281,7 @@
 		"name": "Oriflame Cosmetics",
 		"info": "",
 		"pic": "ua_oriflame.svg",
-		"area" : "cosmetics",
+		"area": "cosmetics",
 		"linkedin": "https://www.linkedin.com/company/oriflame/posts/?feedView=all",
 		"stillEvil": true
 	},
@@ -370,7 +370,7 @@
 		"area": "advertising",
 		"children": [
 			{
-						"name": "Leo Burnett",
+				"name": "Leo Burnett",
 				"info": "",
 				"logo": "publics/leo_burnett.jpeg",
 				"linkedin": "https://www.linkedin.com/company/leo-burnett/posts/?feedView=all",
@@ -395,7 +395,7 @@
 		"children": [
 			{ "name": "Avon", "logo": "natura_and_co/avon.png", "stillEvil": true },
 			{
-						"name": "The Body Shop",
+				"name": "The Body Shop",
 				"logo": "natura_and_co/the_body_shop.png",
 				"stillEvil": true
 			},
