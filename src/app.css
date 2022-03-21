@@ -50,7 +50,7 @@ a {
 }
 
 .companies-group {
-	grid-template-columns: repeat(auto-fill, 32rem);
+	grid-template-columns: repeat(auto-fill, 38rem);
 }
 
 .companies-with-pic {
