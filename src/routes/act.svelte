@@ -74,8 +74,8 @@
 				<div class="mt-4">
 					<p>
 						By donating money you can help the Ukrainian people defend themselves against this
-						invasion. The money is used for food, medicine, clothes and more. Details can be found in
-						the sources below.
+						invasion. The money is used for food, medicine, clothes and more. Details can be found
+						in the sources below.
 					</p>
 					<p class="italic text-accent-gray">
 						Some banks even ease the transfer of money to Ukrainian IBANs by removing commisions.

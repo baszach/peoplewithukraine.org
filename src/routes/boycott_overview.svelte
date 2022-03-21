@@ -38,8 +38,7 @@
 	</p>
 	<p class="mt-4 text-left">
 		You may notice that some of these companies announced to draw back from Russia. We will leave
-		them in this list for now. They kept us and the Ukrainian people waiting too, after
-		all.
+		them in this list for now. They kept us and the Ukrainian people waiting too, after all.
 	</p>
 	<ul class="mt-8">
 		<p>Below is a list of contributors to war (<LastUpdatedCompanies />):</p>
