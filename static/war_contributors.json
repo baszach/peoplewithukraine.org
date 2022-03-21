@@ -24,7 +24,7 @@
 	{
 		"name": "Danone",
 		"area": "food",
-		"stage" : 4,
+		"stage": 4,
 		"children": [
 			{ "name": "Actimel", "logo": "danone/actimel.png", "stillEvil": true },
 			{ "name": "Activia", "logo": "danone/activia.png", "stillEvil": true },
@@ -62,7 +62,7 @@
 	{
 		"name": "Nestle",
 		"area": "food",
-		"stage" : 4,
+		"stage": 4,
 		"children": [
 			{ "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true },
 			{ "name": "Smarties", "logo": "nestle/smarties.png", "stillEvil": true },
@@ -84,7 +84,7 @@
 	},
 	{
 		"name": "The Kraft Heinz Company",
-		"stage" : 4,
+		"stage": 4,
 		"children": [
 			{ "name": "Kraft", "logo": "kraft_heinz/kraft.png", "stillEvil": true },
 			{ "name": "Heinz", "logo": "kraft_heinz/heinz.png", "stillEvil": true },
@@ -107,7 +107,7 @@
 	{
 		"name": "Focus Brands",
 		"info": "Moe's Southwest Grill, Cinnabon, Carvel & more",
-		"stage" : 4,
+		"stage": 4,
 		"area": "food",
 		"children": [
 			{ "name": "Cinnabon", "logo": "focus_brands/cinnabon.svg", "stillEvil": true },
@@ -132,8 +132,9 @@
 	{
 		"name": "Mondelez",
 		"logo": "mondelez/mondelez_logo.png",
-		"stage" : 4,
+		"stage": 4,
 		"area": "food",
+		"all_brands": "https://www.mondelezinternational.com/Our-Brands",
 		"children": [
 			{ "name": "Milka", "logo": "mondelez/milka.png", "stillEvil": true },
 			{ "name": "Toblerone", "logo": "mondelez/toblerone.png", "stillEvil": true },
@@ -161,7 +162,7 @@
 	},
 	{
 		"name": "Johnson & Johnson",
-		"stage" : 4,
+		"stage": 4,
 		"pic": "johnson.jpg",
 		"area": "pharma/consumer healthcare",
 		"logo": "johnson_logo.png",
@@ -174,7 +175,7 @@
 	{
 		"name": "Auchan",
 		"area": "retailer",
-		"stage" : 5,
+		"stage": 5,
 		"logo": "auchan_logo.png",
 		"pic": "auchan.jpg",
 		"twitter": "https://twitter.com/Auchannews",
@@ -196,7 +197,7 @@
 		"name": "Leroy Merlin",
 		"area": "retailer",
 		"pic": "leroy_merlin.jpg",
-		"stage" : 5,
+		"stage": 5,
 		"logo": "leroy_merlin_logo.png",
 		"linkedin": "https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/leroymerlin",
@@ -213,7 +214,7 @@
 		"name": "Pirelli",
 		"pic": "pirelli.jpg",
 		"logo": "pirelli_logo.png",
-		"stage" : 4,
+		"stage": 4,
 		"area": "automotive",
 		"twitter": "https://twitter.com/pirelli",
 		"facebook": "https://www.facebook.com/Pirelli",
@@ -223,8 +224,9 @@
 	},
 	{
 		"name": "Authentic Brands Group",
-		"stage" : 3,
+		"stage": 3,
 		"area": "retail",
+		"all_brands": "https://www.authenticbrands.com/",
 		"children": [
 			{
 				"name": "Forever 21",
@@ -256,7 +258,7 @@
 	{
 		"name": "Bosch",
 		"pic": "ua_bosch.svg",
-		"stage" : 3,
+		"stage": 3,
 		"logo": "bosch_logo.png",
 		"stillEvil": true,
 		"area": "electronics",
@@ -267,7 +269,7 @@
 	},
 	{
 		"name": "Asus",
-		"stage" : 5,
+		"stage": 5,
 		"pic": "ua_asus.svg",
 		"logo": "asus_logo.png",
 		"stillEvil": true,
@@ -280,7 +282,7 @@
 		"name": "Decathlon",
 		"pic": "ua_decathlon.svg",
 		"logo": "decathlon_logo.png",
-		"stage" : 5,
+		"stage": 5,
 		"stillEvil": true,
 		"area": "sport goods",
 		"twitter": "https://twitter.com/Decathlon",
@@ -298,7 +300,8 @@
 	{
 		"name": "General Mills",
 		"logo": "general_mills/general_mills_logo.png",
-		"stage" : 4,
+		"stage": 4,
+		"all_brands": "https://www.generalmills.com/food-we-make/brands",
 		"twitter": "https://twitter.com/generalmills",
 		"instagram": "https://www.instagram.com/generalmills/",
 		"facebook": "https://www.facebook.com/GeneralMills",
@@ -316,10 +319,26 @@
 		"stillEvil": true
 	},
 	{
+		"name": "Henkel",
+		"logo": "henkel/henkel_logo.png",
+		"all_brands": "https://www.henkel.com/brands-and-businesses#selectFilterByParameter=",
+		"twitter": "https://twitter.com/henkel",
+		"instagram": "https://www.instagram.com/henkel/",
+		"facebook": "https://www.facebook.com/henkel",
+		"linkedin": "https://www.linkedin.com/company/henkel/posts/?feedView=all",
+		"area": "laundry/cleaning",
+		"children": [
+			{ "name": "Persil", "logo": "henkel/persil.png", "stillEvil": true },
+			{ "name": "Fa", "logo": "henkel/fa.png", "stillEvil": true },
+			{ "name": "Ceresit", "logo": "henkel/ceresit.png", "stillEvil": true }
+		],
+		"stillEvil": true
+	},
+	{
 		"name": "Oriflame Cosmetics",
 		"pic": "ua_oriflame.svg",
 		"area": "cosmetics",
-		"stage" : 5,
+		"stage": 5,
 		"linkedin": "https://www.linkedin.com/company/oriflame/posts/?feedView=all",
 		"instagram": "https://www.instagram.com/oriflame/",
 		"logo": "oriflame_logo.png",
@@ -327,7 +346,7 @@
 	},
 	{
 		"name": "Whirlpool corporation",
-		"stage" : 3,
+		"stage": 3,
 		"pic": "whirlpool.jpg",
 		"logo": "whirlpool_logo.png",
 		"area": "home appliances",
@@ -347,7 +366,7 @@
 		"name": "Subway",
 		"logo": "subway.svg",
 		"area": "fast food",
-		"stage" : 5,
+		"stage": 5,
 		"linkedin": "https://www.linkedin.com/company/subway/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/subway",
 		"instagram": "https://www.instagram.com/subway/",
@@ -357,7 +376,7 @@
 	{
 		"name": "AbbVie",
 		"logo": "abbvie.svg",
-		"stage" : 3,
+		"stage": 3,
 		"area": "pharma",
 		"twitter": "https://twitter.com/abbvie",
 		"instagram": "https://www.instagram.com/abbvie/",
@@ -368,8 +387,8 @@
 	{
 		"name": "Accor",
 		"logo": "accor.svg",
-		"stage" : 4,
-		"area" : "hospitality",
+		"stage": 4,
+		"area": "hospitality",
 		"twitter": "https://twitter.com/accor",
 		"instagram": "https://www.instagram.com/accor/",
 		"facebook": "https://www.facebook.com/Accor/",
@@ -379,18 +398,18 @@
 	{
 		"name": "Air Liquide",
 		"logo": "airliquide.png",
-		"stage" : 4,
+		"stage": 4,
 		"twitter": "https://twitter.com/AirLiquideGroup",
 		"facebook": "https://www.facebook.com/AirLiquide",
 		"linkedin": "https://www.linkedin.com/company/airliquide/",
-		"onHold" : true,
+		"onHold": true,
 		"stillEvil": true
 	},
 	{
 		"name": "Air Products",
 		"logo": "airproducts.svg",
 		"area": "gas",
-		"stage" : 5,
+		"stage": 5,
 		"twitter": "https://twitter.com/AirProducts",
 		"instagram": "https://www.instagram.com/airproductsglobal/",
 		"facebook": "https://www.facebook.com/airproducts",
@@ -400,7 +419,7 @@
 	{
 		"name": "Baker Hughes",
 		"logo": "bakerhughes.svg",
-		"stage" : 4,
+		"stage": 4,
 		"area": "gas",
 		"twitter": "https://twitter.com/bakerhughesco",
 		"instagram": "https://www.instagram.com/bakerhughesco/",
@@ -411,7 +430,7 @@
 	{
 		"name": "Baker Tilly",
 		"logo": "bakertilly.svg",
-		"area" : "",
+		"area": "",
 		"twitter": "https://twitter.com/abbvie",
 		"instagram": "https://www.instagram.com//",
 		"facebook": "",
@@ -430,7 +449,7 @@
 	{
 		"name": "Cargill",
 		"logo": "cargill.png",
-		"stage" : 4,
+		"stage": 4,
 		"area": "agriculture",
 		"twitter": "https://twitter.com/cargill",
 		"facebook": "https://www.facebook.com/Cargill/",
@@ -441,7 +460,7 @@
 		"name": "Citrix",
 		"logo": "citrix.svg",
 		"area": "software",
-		"stage" : 2,
+		"stage": 2,
 		"twitter": "https://twitter.com/citrix",
 		"instagram": "https://www.instagram.com/citrix/",
 		"facebook": "https://www.facebook.com/Citrix/",
@@ -452,7 +471,7 @@
 		"name": "Cloudflare",
 		"logo": "cloudfare.png",
 		"area": "internet",
-		"stage" : 5,
+		"stage": 5,
 		"twitter": "https://twitter.com/cloudflare",
 		"facebook": "https://www.facebook.com/Cloudflare/",
 		"linkedin": "https://www.linkedin.com/company/cloudflare/posts/?feedView=all",
@@ -462,7 +481,7 @@
 		"name": "Greif",
 		"logo": "greif.webp",
 		"area": "packaging",
-		"stage" : 5,
+		"stage": 5,
 		"twitter": "https://twitter.com/greifinc",
 		"facebook": "https://www.facebook.com/GreifInc/",
 		"linkedin": "https://www.linkedin.com/company/greif/posts/?feedView=all",
@@ -500,19 +519,21 @@
 		"name": "Natura and Company",
 		"logo": "natura_and_co/naturacompany.svg",
 		"area": "cosmetics",
-		"stage" : 3,
+		"stage": 3,
 		"children": [
-			{ "name": "Avon",
+			{
+				"name": "Avon",
 				"logo": "natura_and_co/avon.png",
-				"linkedin" : "https://www.linkedin.com/company/avon/posts/?feedView=all",
-				"facebook" : "https://www.facebook.com/avonworldwide/",
-				"twitter" : "https://twitter.com/avonworldwide",
+				"linkedin": "https://www.linkedin.com/company/avon/posts/?feedView=all",
+				"facebook": "https://www.facebook.com/avonworldwide/",
+				"twitter": "https://twitter.com/avonworldwide",
 				"instagram": "https://www.instagram.com/avonworldwide/",
-				"stillEvil": true },
+				"stillEvil": true
+			},
 			{
 				"name": "The Body Shop",
 				"logo": "natura_and_co/the_body_shop.png",
-				"twitter" : "https://twitter.com/thebodyshop",
+				"twitter": "https://twitter.com/thebodyshop",
 				"instagram": "https://www.instagram.com/thebodyshop/",
 				"linkedin": "https://www.linkedin.com/company/the-body-shop/posts/?feedView=all",
 				"stillEvil": true
@@ -525,7 +546,7 @@
 		"name": "Gruma",
 		"info": "Tortillas",
 		"logo": "gruma.png",
-		"stage" : 5,
+		"stage": 5,
 		"area": "food processing",
 		"twitter": "https://twitter.com/GrumaGlobal",
 		"facebook": "https://www.facebook.com/GrumaGlobal",
@@ -534,7 +555,7 @@
 	{
 		"name": "Halliburton",
 		"logo": "halliburton.png",
-		"stage" : 4,
+		"stage": 4,
 		"area": "petroleum",
 		"twitter": "https://twitter.com/halliburton",
 		"instagram": "https://www.instagram.com/halliburton/",
@@ -546,7 +567,7 @@
 		"name": "International Paper",
 		"logo": "paper.png",
 		"area": "paper",
-		"stage" : 5,
+		"stage": 5,
 		"twitter": "https://twitter.com/IntlPaperCo",
 		"facebook": "https://www.facebook.com/InternationalPaper",
 		"linkedin": "https://www.linkedin.com/company/international-paper/posts/?feedView=all",
@@ -577,7 +598,7 @@
 	{
 		"name": "IPG Photonics",
 		"logo": "ipg.png",
-		"stage" : 5,
+		"stage": 5,
 		"area": "photonics",
 		"linkedin": "https://www.linkedin.com/company/ipg-photonics/posts/?feedView=all",
 		"stillEvil": true
@@ -586,7 +607,7 @@
 		"name": "Linde",
 		"logo": "linde.png",
 		"area": "gas/engineering",
-		"stage" : 4,
+		"stage": 4,
 		"twitter": "https://twitter.com/abbvie",
 		"instagram": "https://www.instagram.com//",
 		"facebook": "",
@@ -597,7 +618,7 @@
 		"name": "Mettler Toledo",
 		"logo": "mettler.png",
 		"area": "scientific",
-		"stage" : 2,
+		"stage": 2,
 		"twitter": "https://twitter.com/abbvie",
 		"instagram": "https://www.instagram.com//",
 		"facebook": "",
@@ -610,7 +631,7 @@
 		"area": "chemicals",
 		"twitter": "https://twitter.com/abbvie",
 		"instagram": "https://www.instagram.com//",
-		"stage" : 3,
+		"stage": 3,
 		"facebook": "",
 		"linkedin": "",
 		"stillEvil": true
@@ -619,7 +640,7 @@
 		"name": "Schlumberger",
 		"logo": "schlumberger.png",
 		"area": "oil",
-		"stage" : 4,
+		"stage": 4,
 		"twitter": "https://twitter.com/abbvie",
 		"instagram": "https://www.instagram.com//",
 		"facebook": "",

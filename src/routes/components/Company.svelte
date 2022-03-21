@@ -47,7 +47,7 @@
 		{/if}
 
 		<div
-			class="p-3 text-left bg-spade-200"
+			class="p-3 text-left bg-slate-200"
 			style="height: 100%; width: 100%; grid-area: 1/1/1/1; opacity: {flipped ? '100%' : '0%'};"
 		>
 			<div class="p-2 m-1 font-bold inline-block bg-white rounded-lg">{killer.name}</div>
