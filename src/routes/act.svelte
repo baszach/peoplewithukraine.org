@@ -38,12 +38,12 @@
 	<title>Help Ukrainian people</title>
 	<meta
 		title="description"
-		content="Find some ways to help Ukrainian people by donating or taking action. Also, we listed many resources
-		of organizations and initiatives under the 'Act' section. Check them out."
+		content="Find ways to help Ukrainian people by donating or taking action. Also, we listed many resources
+		of organizations and initiatives under the 'Act' section. Check them out and share them."
 	/>
 </svelte:head>
 
-<div class="py-16">
+<div>
 	<div style="max-width: 64rem; display: inline-block">
 		<div class="grid place-items-center sm:flex sm:justify-center">
 			<button
@@ -74,7 +74,7 @@
 				<div class="mt-4">
 					<p>
 						By donating money you can help the Ukrainian people defend themselves against this
-						invasion. The money is used for food, medicine clothes and more. Details can be found in
+						invasion. The money is used for food, medicine, clothes and more. Details can be found in
 						the sources below.
 					</p>
 					<p class="italic text-accent-gray">
@@ -151,7 +151,7 @@
 						to support Ukraine. IT specialists can help with cyberdefense, logistic experts can help
 						with transportation of supply to Ukraine, photographers can take pictures of demonstrations,
 						designers can make supportive art and influencers can call out Russia for their actions and
-						share the truth. There's no limit to human creativity.
+						share the truth.
 					</p>
 					<p class="mt-4">
 						<strong>Reach out to politicians and companies:</strong> In the last days many companies
@@ -222,7 +222,6 @@
 					Russia funds this war. This has to stop immediately. Boycott companies that continue
 					creating value for Putin. Contact the companies via social media like LinkedIn or Twitter
 					and urge them to stop operating in Russia.
-					<stop class="" />
 				</p>
 				<div class="mt-4 grid place-items-center lg:flex lg:justify-between lg:place-items-start">
 					<div class="px-8 py-4 max-w-md rounded-lg bg-slate-200 lg:mr-12">
