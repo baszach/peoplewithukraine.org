@@ -16,8 +16,7 @@
 		<div class="max-w-lg">
 			<span class="text-xl">
 				On the 24th of February 2022 a free and democratic country was attacked by
-				<span class="font-bold text-red-500">Russia</span>.
-				The world has to act right now. 
+				<span class="font-bold text-red-500">Russia</span>. The world has to act right now.
 			</span>
 			<h1 class="text-5xl pt-4 font-bold text-ukraine-blue lg:pt-24 ">SUPPORT UKRAINE</h1>
 		</div>
@@ -43,8 +42,8 @@
 		<div class="z-30 lg:mr-6">
 			<IndexCard linkPath="/act" linkText="HOW TO HELP">
 				<p>
-					Millions of people from Ukraine have fled the destruction of their
-					country. We need to help both the people inside Ukraine and the ones who left her.
+					Millions of people from Ukraine have fled the destruction of their country. We need to
+					help both the people inside Ukraine and the ones who left her.
 				</p>
 				<br />
 				<p>
@@ -59,8 +58,9 @@
 		<div class="z-30 mt-12 lg:mt-0">
 			<IndexCard linkPath="boycott" linkText="BOYCOTT">
 				<p>
-					Businesses continue operating and paying taxes in Russia. This money is being used by Russia
-					to strengthen it's army. An army that is bombing civilians and blocks humanitarian aid.
+					Businesses continue operating and paying taxes in Russia. This money is being used by
+					Russia to strengthen it's army. An army that is bombing civilians and blocks humanitarian
+					aid.
 				</p>
 				<br />
 				<p>Boycott them. There are many alternative and better companies to buy from.</p>

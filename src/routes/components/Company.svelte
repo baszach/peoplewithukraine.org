@@ -3,7 +3,8 @@
 	import FacebookIcon from './FacebookIcon.svelte';
 	import TwitterIcon from './TwitterIcon.svelte';
 	import InstagramIcon from './InstagramIcon.svelte';
-	import { fade } from 'svelte/transition';
+	import {fade} from 'svelte/transition';
+	import DownloadIcon from "./DownloadIcon.svelte";
 
 	export let killer;
 	let flipped = false;
@@ -14,9 +15,11 @@
 	function hover() {
 		if (!flipped) hovering = true;
 	}
+
 	function unhover() {
 		if (!flipped) hovering = false;
 	}
+
 	function click() {
 		flipped = !flipped;
 		hovering = !flipped;
@@ -39,6 +42,8 @@
 			class="company-image px-2"
 			style="width: 100%; z-index: {flipped ? '10' : '0'}; opacity: {flipped ? '0%' : '100%'}"
 		/>
+<!--		<DownloadIcon style="z-index: {flipped ? '10' : '0'}; opacity: {flipped ? '0%' : '100%'}"-->
+<!--		></DownloadIcon>-->
 		{#if hovering}
 			<div
 				style="z-index: 20; grid-area: 1/1/1/1; height: 100%; width: 100%; opacity: 40%"
