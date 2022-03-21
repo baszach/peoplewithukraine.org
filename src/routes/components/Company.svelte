@@ -26,9 +26,9 @@
 	}
 </script>
 
-<div class="company-holder bg-slate-200" style="height: 100%;">
+<div class="company-holder" style="height: 100%;">
 	<div
-		class="grid place-items-center hover:cursor-pointer {killer.children != null
+		class="grid place-items-center bg-accent-yellow hover:cursor-pointer {killer.children != null
 			? 'companies-group-image-holder'
 			: 'companies-image-holder'}"
 		on:mouseenter={hover}
