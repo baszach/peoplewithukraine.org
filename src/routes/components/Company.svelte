@@ -3,7 +3,8 @@
 	import FacebookIcon from './FacebookIcon.svelte';
 	import TwitterIcon from './TwitterIcon.svelte';
 	import InstagramIcon from './InstagramIcon.svelte';
-	import { fade } from 'svelte/transition';
+	import {fade} from 'svelte/transition';
+	import DownloadIcon from "./DownloadIcon.svelte";
 
 	export let killer;
 	let flipped = false;
@@ -14,18 +15,20 @@
 	function hover() {
 		if (!flipped) hovering = true;
 	}
+
 	function unhover() {
 		if (!flipped) hovering = false;
 	}
+
 	function click() {
 		flipped = !flipped;
 		hovering = !flipped;
 	}
 </script>
 
-<div class="company-holder bg-slate-200" style="height: 100%;">
+<div class="company-holder" style="height: 100%;">
 	<div
-		class="grid place-items-center hover:cursor-pointer {killer.children != null
+		class="grid place-items-center bg-accent-yellow hover:cursor-pointer {killer.children != null
 			? 'companies-group-image-holder'
 			: 'companies-image-holder'}"
 		on:mouseenter={hover}
@@ -39,6 +42,8 @@
 			class="company-image px-2"
 			style="width: 100%; z-index: {flipped ? '10' : '0'}; opacity: {flipped ? '0%' : '100%'}"
 		/>
+<!--		<DownloadIcon style="z-index: {flipped ? '10' : '0'}; opacity: {flipped ? '0%' : '100%'}"-->
+<!--		></DownloadIcon>-->
 		{#if hovering}
 			<div
 				style="z-index: 20; grid-area: 1/1/1/1; height: 100%; width: 100%; opacity: 40%"
