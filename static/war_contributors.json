@@ -330,6 +330,7 @@
 	{
 		"name": "Subway",
 		"logo": "subway.svg",
+		"area": "fast food",
 		"linkedin": "https://www.linkedin.com/company/subway/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/subway",
 		"instagram": "https://www.instagram.com/subway/",
@@ -343,7 +344,7 @@
 		"stillEvil": true
 	},
 	{ "name": "Accor", "logo": "accor.svg", "stillEvil": true },
-	{ "name": "Air Liquide", "logo": "airliquide.svg", "stillEvil": true },
+	{ "name": "Air Liquide", "logo": "airliquide.png", "stillEvil": true },
 	{
 		"name": "Air Products",
 		"logo": "airproducts.svg",
@@ -385,7 +386,7 @@
 	},
 	{
 		"name": "Greif",
-		"logo": "greif.png",
+		"logo": "greif.webp",
 		"area": "packaging",
 		"stillEvil": true
 	},
@@ -405,7 +406,7 @@
 	},
 	{
 		"name": "DDB",
-		"logo": "ddb.png",
+		"logo": "ddb.svg",
 		"area": "advertising",
 		"stillEvil": true
 	},

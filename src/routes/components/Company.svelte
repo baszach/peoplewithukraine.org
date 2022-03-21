@@ -21,7 +21,7 @@
 	}
 </script>
 
-<div class="company-holder" style="height: 100%">
+<div class="company-holder" style="height: 100%;">
 	<div
 		class="grid place-items-center hover:cursor-pointer {killer.children != null
 			? 'companies-group-image-holder'
@@ -35,7 +35,7 @@
 			src="/killers/{killer.pic != null ? killer.pic : killer.logo}"
 			alt=""
 			loading="lazy"
-			class="company-image"
+			class="company-image px-2"
 			style="width: 100%; opacity: {flipped ? '0%' : '100%'}"
 		/>
 		{#if hovering}
@@ -47,47 +47,49 @@
 		{/if}
 
 		<div
-			class="p-6 text-left bg-background-color"
-			style="height: 100%; width: 100%; grid-area: 1/1/1/1; opacity: {flipped
-				? '100%'
-				: '0%'}; min-height: {killer.pic != null ? '16rem' : '8rem'};"
+			class="p-3 text-left bg-spade-200"
+			style="height: 100%; width: 100%; grid-area: 1/1/1/1; opacity: {flipped ? '100%' : '0%'};"
 		>
 			<div class="p-2 m-1 font-bold inline-block bg-white rounded-lg">{killer.name}</div>
-			{#if killer.all_brands != null}<div>
+			{#if killer.all_brands != null}
+				<div>
 					<a
 						class="link p-2 m-1 font-bold bg-ukraine-yellow rounded-lg inline-block"
 						target="_blank"
 						href={killer.all_brands}
 						style="z-index: 40">view all brands</a
 					>
-				</div>{/if}
-			<div class="p-2 m-1 bg-ukraine-blue text-white font-bold rounded-lg inline-block">
-				{killer.area}
-			</div>
+				</div>
+			{/if}
 			<div class="flex">
+				<div class="p-2 m-1 bg-ukraine-blue text-white font-bold rounded-lg inline-block">
+					{killer.area}
+				</div>
 				{#if killer.linkedin != null}<a
 						class="link p-2"
 						target="_blank"
 						href={killer.linkedin}
 						style="z-index: 40"><LinkedInComponent /></a
 					>{/if}
+			</div>
+			<div class="flex">
 				{#if killer.facebook != null}<a
-						class="link p-2"
+						class="link p-1"
 						target="_blank"
 						href={killer.facebook}
-						style="z-index: 40"><FacebookIcon /></a
+						style="z-index: 40;"><FacebookIcon /></a
 					>{/if}
 				{#if killer.twitter != null}<a
-						class="link p-2"
+						class="link p-1"
 						target="_blank"
 						href={killer.twitter}
-						style="z-index: 40"><TwitterIcon /></a
+						style="z-index: 40;"><TwitterIcon /></a
 					>{/if}
 				{#if killer.instagram != null}<a
-						class="link p-2"
+						class="link p-1"
 						target="_blank"
 						href={killer.instagram}
-						style="z-index: 40"><InstagramIcon /></a
+						style="z-index: 40;"><InstagramIcon /></a
 					>{/if}
 			</div>
 		</div>
