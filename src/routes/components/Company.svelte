@@ -21,12 +21,11 @@
 	}
 </script>
 
-<div class="company-holder" style="height: 100%;">
+<div class="company-holder bg-slate-200" style="height: 100%;">
 	<div
 		class="grid place-items-center hover:cursor-pointer {killer.children != null
 			? 'companies-group-image-holder'
 			: 'companies-image-holder'}"
-		style="height: 100%"
 		on:mouseenter={hover}
 		on:mouseleave={unhover}
 		on:click={click}
@@ -47,50 +46,52 @@
 		{/if}
 
 		<div
-			class="p-3 text-left bg-slate-200"
+			class="p-3 text-left bg-slate-200 grid items-center"
 			style="height: 100%; width: 100%; grid-area: 1/1/1/1; opacity: {flipped ? '100%' : '0%'};"
 		>
-			<div class="p-2 m-1 font-bold inline-block bg-white rounded-lg">{killer.name}</div>
-			{#if killer.all_brands != null}
-				<div>
-					<a
-						class="link p-2 m-1 font-bold bg-ukraine-yellow rounded-lg inline-block"
-						target="_blank"
-						href={killer.all_brands}
-						style="z-index: 40">view all brands</a
-					>
+			<div class="">
+				<div class="p-2 m-1 font-bold inline-block bg-white rounded-lg">{killer.name}</div>
+				{#if killer.all_brands != null}
+					<div>
+						<a
+							class="link p-2 m-1 font-bold bg-ukraine-yellow rounded-lg inline-block"
+							target="_blank"
+							href={killer.all_brands}
+							style="z-index: 40">view all brands</a
+						>
+					</div>
+				{/if}
+				<div class="flex justify-between">
+					<div class="p-2 m-1 bg-ukraine-blue text-white font-bold rounded-lg inline-block">
+						{killer.area}
+					</div>
+					{#if killer.linkedin != null}<a
+							class="link p-1"
+							target="_blank"
+							href={killer.linkedin}
+							style="z-index: 40"><LinkedInComponent /></a
+						>{/if}
 				</div>
-			{/if}
-			<div class="flex justify-between">
-				<div class="p-2 m-1 bg-ukraine-blue text-white font-bold rounded-lg inline-block">
-					{killer.area}
+				<div class="flex justify-between">
+					{#if killer.facebook != null}<a
+							class="link p-1"
+							target="_blank"
+							href={killer.facebook}
+							style="z-index: 40;"><FacebookIcon /></a
+						>{/if}
+					{#if killer.twitter != null}<a
+							class="link p-1"
+							target="_blank"
+							href={killer.twitter}
+							style="z-index: 40;"><TwitterIcon /></a
+						>{/if}
+					{#if killer.instagram != null}<a
+							class="link p-1"
+							target="_blank"
+							href={killer.instagram}
+							style="z-index: 40;"><InstagramIcon /></a
+						>{/if}
 				</div>
-				{#if killer.linkedin != null}<a
-						class="link p-1"
-						target="_blank"
-						href={killer.linkedin}
-						style="z-index: 40"><LinkedInComponent /></a
-					>{/if}
-			</div>
-			<div class="flex justify-between">
-				{#if killer.facebook != null}<a
-						class="link p-1"
-						target="_blank"
-						href={killer.facebook}
-						style="z-index: 40;"><FacebookIcon /></a
-					>{/if}
-				{#if killer.twitter != null}<a
-						class="link p-1"
-						target="_blank"
-						href={killer.twitter}
-						style="z-index: 40;"><TwitterIcon /></a
-					>{/if}
-				{#if killer.instagram != null}<a
-						class="link p-1"
-						target="_blank"
-						href={killer.instagram}
-						style="z-index: 40;"><InstagramIcon /></a
-					>{/if}
 			</div>
 		</div>
 	</div>
