@@ -12,7 +12,7 @@
 </svelte:head>
 
 <div>
-	<div class="grid place-items-center text-center lg:flex lg:justify-between">
+	<div class="grid place-items-center text-center lg:flex lg:justify-center">
 		<div class="max-w-lg">
 			<span class="text-xl">
 				On the 24th of February 2022 a free and democratic country was attacked by
@@ -37,7 +37,7 @@
 	</div>
 
 	<div
-		class="mt-80 grid place-items-center lg:flex lg:justify-between lg:mt-96 lg:place-items-start"
+		class="mt-80 grid place-items-center lg:flex lg:justify-center lg:mt-96 lg:place-items-start"
 	>
 		<div class="z-30 lg:mr-6">
 			<IndexCard linkPath="/act" linkText="HOW TO HELP">
@@ -70,7 +70,7 @@
 		</div>
 	</div>
 
-	<div class="grid place-items-center mt-12 lg:flex lg:justify-between lg:mt-24">
+	<div class="grid place-items-center mt-12 lg:flex lg:justify-center lg:mt-24">
 		<div class="grid place-items-center lg:mr-8">
 			<IndexCard linkPath="news" linkText="OFFICIAL NEWS">
 				<p>
