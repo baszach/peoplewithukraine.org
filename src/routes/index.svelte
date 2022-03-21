@@ -3,20 +3,21 @@
 </script>
 
 <svelte:head>
-	<title>The people stand with Ukraine!</title>
+	<title>The world stands with Ukraine!</title>
 	<meta
 		title="description"
-		content="Welcome to peoplewithukraine.org! Help us fight against the aggression against Ukraine.
-	Find ways to help and companies to boycott during this crisis. We also provide some a few resources."
+		content="Welcome to peoplewithukraine.org! Together we can fight against the war in Ukraine.
+	Here you can find ways to help the people of Ukraine and companies to boycott during this crisis. We also provide a few news resources."
 	/>
 </svelte:head>
 
-<div class="py-16">
+<div>
 	<div class="grid place-items-center text-center lg:flex lg:justify-between">
 		<div class="max-w-lg">
 			<span class="text-xl">
 				On the 24th of February 2022 a free and democratic country was attacked by
 				<span class="font-bold text-red-500">Russia</span>.
+				The world has to act right now. 
 			</span>
 			<h1 class="text-5xl pt-4 font-bold text-ukraine-blue lg:pt-24 ">SUPPORT UKRAINE</h1>
 		</div>
@@ -41,11 +42,9 @@
 	>
 		<div class="z-30 lg:mr-6">
 			<IndexCard linkPath="/act" linkText="HOW TO HELP">
-				<p>Stay human.</p>
-				<br />
 				<p>
-					Millions of people from Ukraine are expected to flee from the destruction of their
-					country. We need to help both the people inside Ukraine and the ones who left it.
+					Millions of people from Ukraine have fled the destruction of their
+					country. We need to help both the people inside Ukraine and the ones who left her.
 				</p>
 				<br />
 				<p>
@@ -54,17 +53,17 @@
 					Russia.
 				</p>
 				<br />
-				<p>Go out. Don't be scared.</p>
+				<p>Go out and make a difference.</p>
 			</IndexCard>
 		</div>
 		<div class="z-30 mt-12 lg:mt-0">
 			<IndexCard linkPath="boycott" linkText="BOYCOTT">
 				<p>
-					Businesses continue operating and paying taxes in Russia. This money is being used for
-					weapons to kill civilians. Try to evade these companies as long as they're staying there.
+					Businesses continue operating and paying taxes in Russia. This money is being used by Russia
+					to strengthen it's army. An army that is bombing civilians and blocks humanitarian aid.
 				</p>
 				<br />
-				<p>There are many alternatives to buy from.</p>
+				<p>Boycott them. There are many alternative and better companies to buy from.</p>
 				<br />
 				<p>Call them out. Urge them to stop.</p>
 			</IndexCard>
@@ -73,7 +72,7 @@
 
 	<div class="grid place-items-center mt-12 lg:flex lg:justify-between lg:mt-24">
 		<div class="grid place-items-center lg:mr-8">
-			<IndexCard linkPath="news" linkText="VERIFIED NEWS">
+			<IndexCard linkPath="news" linkText="OFFICIAL NEWS">
 				<p>
 					Putin's regime is spreading a massive amount of misinformation inside and outside of
 					Russia.

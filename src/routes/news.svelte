@@ -15,7 +15,7 @@
 </svelte:head>
 
 <div style="max-width: 64rem; display: inline-block">
-	<h1 class="text-center text-3xl mt-8 font-bold text-accent-gray">NEWS RESOURCES</h1>
+	<h1 class="text-center text-3xl font-bold text-accent-gray">NEWS RESOURCES</h1>
 	<h3 class="text-xl mt-12 font-bold text-accent-gray">NEWSPAPERS</h3>
 	<div class="md:flex mt-6" style="justify-content: space-between">
 		<ul>

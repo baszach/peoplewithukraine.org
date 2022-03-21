@@ -20,31 +20,29 @@
 </script>
 
 <svelte:head>
-	<title>These companies continue business in Russia.</title>
+	<title>Boycott company overview</title>
 	<meta
 		title="description"
-		content="Many companies have found smart ways to either close businesses in Russia or evade paying taxes. These actions
-		contribute to stopping the cruel war in Ukraine. The companies still paying taxes and supporting Russia... are listed here.
-		Boycott them."
+		content="Quickly find companies that continue operating in Russia. Boycott them or contact them via social media."
 	/>
 </svelte:head>
 
-<div class="my-12 text-left">
+<div class="text-left" style="max-width: 64rem; display: inline-block">
 	<h1 class="text-3xl font-bold text-accent-gray text-center">
 		Boycott companies that operate in Russia
 	</h1>
 	<p class="mt-4 text-left">
 		Find the detailed boycott list here: <a sveltekit:prefetch href="/boycott" class="link"
-			>Boycott overview</a
+			>Boycott detail</a
 		>
 	</p>
 	<p class="mt-4 text-left">
 		You may notice that some of these companies announced to draw back from Russia. We will leave
-		them in this list for a bit longer. They kept us and the Ukrainian people waiting too, after
+		them in this list for now. They kept us and the Ukrainian people waiting too, after
 		all.
 	</p>
 	<ul class="mt-8">
-		<p>Below is a list of some contributors to war (<LastUpdatedCompanies />):</p>
+		<p>Below is a list of contributors to war (<LastUpdatedCompanies />):</p>
 		<input
 			bind:value={$term}
 			id="searchbar"

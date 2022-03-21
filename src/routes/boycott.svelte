@@ -5,12 +5,15 @@
 </script>
 
 <svelte:head>
-	<title>Boycott company overview</title>
+	<title>These companies continue business in Russia</title>
 	<meta
 		title="description"
-		content="Quickly find companies that continue operating in Russia. Boycott or contact them via social media."
+		content="Many companies have found smart ways to either close businesses in Russia or evade paying taxes. These actions
+		contribute to stopping the cruel war in Ukraine. The companies still paying taxes and supporting Russia... are listed here.
+		Boycott them."
 	/>
 </svelte:head>
+
 <div style="text-align: center">
 	<div style="max-width: 64rem; display: inline-block">
 		<h1 class="text-3xl font-bold text-accent-gray text-center">
@@ -32,9 +35,9 @@
 			them in this list for a bit longer. They kept us and the Ukrainian people waiting too, after
 			all.
 		</p>
+		<p class="mt-8 text-left">Below is a list of contributors to war (<LastUpdatedCompanies />):</p>
 	</div>
-	<ul class="mt-8">
-		<p>Below is a list of some contributors to war (<LastUpdatedCompanies />):</p>
+	<ul class="mt-4">
 		<div class="companies-group">
 			{#each war_contributors as killer}
 				{#if killer.stillEvil && killer.children != null}

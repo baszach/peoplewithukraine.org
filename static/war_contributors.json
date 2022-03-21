@@ -125,13 +125,16 @@
 				"stillEvil": true
 			}
 		],
+		"all_brands": "https://www.focus-brands.com/brands",
 		"linkedin": "https://www.linkedin.com/company/focus-brands/posts/?feedView=all",
 		"logo": "focus_brands/focusbrands.png",
+		"pic": "focus_brands/focusbrands_img.svg",
 		"stillEvil": true
 	},
 	{
 		"name": "Mondelez",
-		"logo": "mondelez/mondelez_logo.png",
+		"logo": "mondelez/mondelez.svg",
+		"pic": "mondelez/mondelez_img.svg",
 		"stage": 4,
 		"area": "food",
 		"all_brands": "https://www.mondelezinternational.com/Our-Brands",
@@ -226,7 +229,7 @@
 		"name": "Authentic Brands Group",
 		"stage": 3,
 		"area": "retail",
-		"all_brands": "https://www.authenticbrands.com/",
+		"all_brands": "https://www.authenticbrands.com/brand-portfolio",
 		"children": [
 			{
 				"name": "Forever 21",
@@ -242,6 +245,7 @@
 		],
 		"linkedin": "https://www.linkedin.com/company/abg_nyc/posts/?feedView=all",
 		"logo": "authentic_brands/abg.png",
+		"pic": "authentic_brands/abg_img.svg",
 		"facebook": "https://www.facebook.com/AuthenticBrandsGroup/",
 		"twitter": "https://twitter.com/authenticbrands",
 		"instagram": "https://www.instagram.com/abg_nyc/",
@@ -294,12 +298,12 @@
 		"linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all",
 		"stillEvil": true,
 		"twitter": "https://twitter.com/Electrolux",
-		"instagram": "https://www.instagram.com/electrolux/",
-		"linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all"
+		"instagram": "https://www.instagram.com/electrolux/"
 	},
 	{
 		"name": "General Mills",
-		"logo": "general_mills/general_mills_logo.png",
+		"logo": "general_mills/generalmills.svg",
+		"pic": "general_mills/generalmills_img.svg",
 		"stage": 4,
 		"all_brands": "https://www.generalmills.com/food-we-make/brands",
 		"twitter": "https://twitter.com/generalmills",
@@ -321,7 +325,8 @@
 	{
 		"name": "Henkel",
 		"logo": "henkel/henkel_logo.png",
-		"all_brands": "https://www.henkel.com/brands-and-businesses#selectFilterByParameter=",
+		"pic": "henkel/henkel.svg",
+		"all_brands": "https://www.henkel.com/brands-and-businesses",
 		"twitter": "https://twitter.com/henkel",
 		"instagram": "https://www.instagram.com/henkel/",
 		"facebook": "https://www.facebook.com/henkel",
@@ -518,6 +523,7 @@
 	{
 		"name": "Natura and Company",
 		"logo": "natura_and_co/naturacompany.svg",
+		"pic": "natura_and_co/naturacompany_img.svg",
 		"area": "cosmetics",
 		"stage": 3,
 		"children": [
