@@ -61,18 +61,18 @@
 					>
 				</div>
 			{/if}
-			<div class="flex">
+			<div class="flex justify-between">
 				<div class="p-2 m-1 bg-ukraine-blue text-white font-bold rounded-lg inline-block">
 					{killer.area}
 				</div>
 				{#if killer.linkedin != null}<a
-						class="link p-2"
+						class="link p-1"
 						target="_blank"
 						href={killer.linkedin}
 						style="z-index: 40"><LinkedInComponent /></a
 					>{/if}
 			</div>
-			<div class="flex">
+			<div class="flex justify-between">
 				{#if killer.facebook != null}<a
 						class="link p-1"
 						target="_blank"

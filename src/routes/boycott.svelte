@@ -51,7 +51,7 @@
 		</div>
 		<div class="mt-4 companies-with-logo">
 			{#each war_contributors as killer}
-				{#if killer.stillEvil && killer.children == null && killer.pic == null && killer.logo != null}
+				{#if killer.stillEvil && killer.children == null && killer.pic == null && killer.logo != null && killer.stage == 5}
 					<div
 						class="bg-slate-200"
 						style="min-height: {killer.pic != null ? '16rem' : '12rem'};

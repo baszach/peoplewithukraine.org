@@ -43,7 +43,7 @@ a {
 .companies-group,
 .companies-with-pic,
 .companies-with-logo,
-.companies-children-grid{
+.companies-children-grid {
 	display: grid;
 	grid-gap: 2em;
 	justify-content: center;
