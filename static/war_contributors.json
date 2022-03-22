@@ -51,12 +51,9 @@
 			{ "name": "Axe", "logo": "unilever/axe.png", "stillEvil": true },
 			{ "name": "Domestos", "logo": "unilever/domestos.png", "stillEvil": true }
 		],
-		"all_brands": "https://www.danone.com/brands.html",
+		"all_brands": "",
 		"pic": "unilever/unilever.jpg",
 		"logo": "unilever/unilever_logo.png",
-		"linkedin": "https://www.linkedin.com/company/procter-and-gamble/danone/?feedView=all",
-		"twitter": "https://twitter.com/Danone",
-		"facebook": "https://www.facebook.com/Danone/",
 		"stillEvil": true
 	},
 	{
@@ -436,10 +433,6 @@
 		"name": "Baker Tilly",
 		"logo": "bakertilly.svg",
 		"area": "",
-		"twitter": "https://twitter.com/abbvie",
-		"instagram": "https://www.instagram.com//",
-		"facebook": "",
-		"linkedin": "",
 		"stillEvil": false
 	},
 	{
@@ -614,10 +607,6 @@
 		"logo": "linde.png",
 		"area": "gas/engineering",
 		"stage": 4,
-		"twitter": "https://twitter.com/abbvie",
-		"instagram": "https://www.instagram.com//",
-		"facebook": "",
-		"linkedin": "",
 		"stillEvil": true
 	},
 	{
@@ -625,21 +614,13 @@
 		"logo": "mettler.png",
 		"area": "scientific",
 		"stage": 2,
-		"twitter": "https://twitter.com/abbvie",
-		"instagram": "https://www.instagram.com//",
-		"facebook": "",
-		"linkedin": "",
 		"stillEvil": true
 	},
 	{
 		"name": "Nalco",
 		"logo": "nalco.png",
 		"area": "chemicals",
-		"twitter": "https://twitter.com/abbvie",
-		"instagram": "https://www.instagram.com//",
 		"stage": 3,
-		"facebook": "",
-		"linkedin": "",
 		"stillEvil": true
 	},
 	{
@@ -647,10 +628,132 @@
 		"logo": "schlumberger.png",
 		"area": "oil",
 		"stage": 4,
-		"twitter": "https://twitter.com/abbvie",
-		"instagram": "https://www.instagram.com//",
-		"facebook": "",
-		"linkedin": "",
+		"stillEvil": true
+	},
+	{
+		"name": "Arconic",
+		"logo": "arconic_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Barilla",
+		"logo": "barilla_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "BASF SE",
+		"logo": "basf_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Bayer",
+		"logo": "bayer_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Colgate-Palmolive",
+		"logo": "colgate_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Dunkin Donuts",
+		"logo": "dunkin_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Hilton",
+		"logo": "hilton_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Hyatt",
+		"logo": "hyatt_logo.png",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Kellogg's",
+		"logo": "kellogg_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Koch Industries",
+		"logo": "koch_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Marriott",
+		"logo": "marriott_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Merck",
+		"logo": "merck_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Pfizer",
+		"logo": "pfizer_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Raiffeisen",
+		"logo": "raiffeisen_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Renault",
+		"logo": "renault_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Siemens",
+		"logo": "siemens_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Credit Suisse",
+		"logo": "suisse_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Yum Brands",
+		"logo": "yum_logo.svg",
+		"area": "",
+		"stage": 5,
 		"stillEvil": true
 	}
 ]

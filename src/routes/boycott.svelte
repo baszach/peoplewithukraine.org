@@ -1,7 +1,10 @@
 <script>
+	import { writable, derived } from 'svelte/store';
 	import war_contributors from '../../static/war_contributors.json';
 	import Company from './components/Company.svelte';
 	import LastUpdatedCompanies from './components/LastUpdatedCompanies.svelte';
+
+	let toggledStage = 5;
 </script>
 
 <svelte:head>
@@ -52,9 +55,23 @@
 				{/if}
 			{/each}
 		</div>
+		<div class="mt-24 md:flex md:justify-center">
+			<button
+				on:click={() => (toggledStage = 5)}
+				class="mb-8 md:mb-0 md:mr-8 py-2 px-8 text-2xl font-bold rounded-lg text-red-600 bg-slate-200 hover:bg-slate-300"
+			>
+				Ranking F
+			</button>
+			<button
+				on:click={() => (toggledStage = 4)}
+				class="py-2 px-8 text-2xl font-bold rounded-lg text-orange-600 bg-slate-200 hover:bg-slate-300"
+			>
+				Ranking D
+			</button>
+		</div>
 		<div class="mt-4 companies-with-logo">
 			{#each war_contributors as killer}
-				{#if killer.stillEvil && killer.children == null && killer.pic == null && killer.logo != null && killer.stage == 5}
+				{#if killer.stillEvil && killer.children == null && killer.pic == null && killer.logo != null && killer.stage == toggledStage}
 					<div
 						class="bg-slate-200"
 						style="min-height: {killer.pic != null ? '16rem' : '12rem'};

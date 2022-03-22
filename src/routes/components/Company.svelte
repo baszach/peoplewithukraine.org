@@ -3,8 +3,8 @@
 	import FacebookIcon from './FacebookIcon.svelte';
 	import TwitterIcon from './TwitterIcon.svelte';
 	import InstagramIcon from './InstagramIcon.svelte';
-	import {fade} from 'svelte/transition';
-	import DownloadIcon from "./DownloadIcon.svelte";
+	import { fade } from 'svelte/transition';
+	import DownloadIcon from './DownloadIcon.svelte';
 
 	export let killer;
 	let flipped = false;
@@ -42,8 +42,8 @@
 			class="company-image px-2"
 			style="width: 100%; z-index: {flipped ? '10' : '0'}; opacity: {flipped ? '0%' : '100%'}"
 		/>
-<!--		<DownloadIcon style="z-index: {flipped ? '10' : '0'}; opacity: {flipped ? '0%' : '100%'}"-->
-<!--		></DownloadIcon>-->
+		<!--		<DownloadIcon style="z-index: {flipped ? '10' : '0'}; opacity: {flipped ? '0%' : '100%'}"-->
+		<!--		></DownloadIcon>-->
 		{#if hovering}
 			<div
 				style="z-index: 20; grid-area: 1/1/1/1; height: 100%; width: 100%; opacity: 40%"
@@ -62,7 +62,7 @@
 					{#if killer.all_brands != null}
 						<div>
 							<a
-								class="link p-2 m-1 font-bold bg-ukraine-yellow rounded-lg inline-block"
+								class="z-40 relative link p-2 m-1 font-bold bg-ukraine-yellow rounded-lg inline-block"
 								target="_blank"
 								href={killer.all_brands}>view all brands</a
 							>
