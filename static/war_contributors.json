@@ -755,5 +755,54 @@
 		"area": "",
 		"stage": 5,
 		"stillEvil": true
+	},
+	{
+		"name": "Acer",
+		"logo": "acer_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Astra Zeneca",
+		"logo": "astrazeneca_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Knauf",
+		"logo": "knauf_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Lenovo",
+		"logo": "lenovo_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Ball Corporation",
+		"logo": "ballcorp_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "MSI",
+		"logo": "msi_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Deutsche Telekom",
+		"logo": "telekom_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
 	}
 ]
