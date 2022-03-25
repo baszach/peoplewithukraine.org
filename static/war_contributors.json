@@ -22,6 +22,57 @@
 		"stillEvil": true
 	},
 	{
+		"name": "Mondelez",
+		"logo": "mondelez/mondelez.svg",
+		"pic": "mondelez/mondelez_img.svg",
+		"stage": 4,
+		"area": "food",
+		"all_brands": "https://www.mondelezinternational.com/Our-Brands",
+		"children": [
+			{ "name": "Milka", "logo": "mondelez/milka.png", "stillEvil": true },
+			{ "name": "Toblerone", "logo": "mondelez/toblerone.png", "stillEvil": true },
+			{ "name": "Oreo", "logo": "mondelez/oreo.png", "stillEvil": true },
+			{ "name": "Belvita", "logo": "mondelez/belvita.png", "stillEvil": true },
+			{ "name": "Côte d'Or", "logo": "mondelez/cote.jpg", "stillEvil": true },
+			{ "name": "Halls", "logo": "mondelez/halls.png", "stillEvil": true },
+			{ "name": "Trident", "logo": "mondelez/trident_logo.png", "stillEvil": true },
+			{ "name": "Tuc", "logo": "mondelez/tuc_logo.png", "stillEvil": true }
+		],
+		"linkedin": "https://www.linkedin.com/company/mondelezinternational/posts/?feedView=all",
+		"facebook": "https://www.facebook.com/mondelezinternational/",
+		"twitter": "https://twitter.com/MDLZ",
+		"instagram": "https://www.instagram.com/mondelez_international/",
+		"stillEvil": true
+	},
+	{
+		"name": "Henkel",
+		"logo": "henkel/henkel_logo.png",
+		"pic": "henkel/henkel.svg",
+		"all_brands": "https://www.henkel.com/brands-and-businesses",
+		"twitter": "https://twitter.com/henkel",
+		"instagram": "https://www.instagram.com/henkel/",
+		"facebook": "https://www.facebook.com/henkel",
+		"linkedin": "https://www.linkedin.com/company/henkel/posts/?feedView=all",
+		"area": "laundry/cleaning",
+		"children": [
+			{ "name": "Persil", "logo": "henkel/persil.png", "stillEvil": true },
+			{ "name": "Fa", "logo": "henkel/fa.png", "stillEvil": true },
+			{ "name": "Diadermine", "logo": "henkel/diadermine_logo.png", "stillEvil": true },
+			{ "name": "Nature Box", "logo": "henkel/naturebox_logo.png", "stillEvil": true },
+			{ "name": "Perwoll", "logo": "henkel/perwoll_logo.jpg", "stillEvil": true },
+			{ "name": "Pril", "logo": "henkel/pril_logo.png", "stillEvil": true },
+			{ "name": "Pritt", "logo": "henkel/pritt_logo.svg", "stillEvil": true },
+			{ "name": "Schwarzkopf", "logo": "henkel/schwarzkopf_logo.jpg", "stillEvil": true },
+			{ "name": "Snuggle", "logo": "henkel/snuggle_logo.png", "stillEvil": true },
+			{ "name": "Somat", "logo": "henkel/somat_logo.png", "stillEvil": true },
+			{ "name": "Syoss", "logo": "henkel/syoss_logo.png", "stillEvil": true },
+			{ "name": "Taft", "logo": "henkel/taft_logo.png", "stillEvil": true },
+			{ "name": "WD-40", "logo": "henkel/wd40_logo.png", "stillEvil": true },
+			{ "name": "Weisser Riese", "logo": "henkel/weisserriese_logo.png", "stillEvil": true }
+		],
+		"stillEvil": true
+	},
+	{
 		"name": "Danone",
 		"area": "food",
 		"stage": 4,
@@ -30,7 +81,8 @@
 			{ "name": "Activia", "logo": "danone/activia.png", "stillEvil": true },
 			{ "name": "Alpro", "logo": "danone/alpro.png", "stillEvil": true },
 			{ "name": "Evian", "logo": "danone/evian.png", "stillEvil": true },
-			{ "name": "Volvic", "logo": "danone/volvic.png", "stillEvil": true }
+			{ "name": "Volvic", "logo": "danone/volvic.png", "stillEvil": true },
+			{ "name": "Hayt", "logo": "danone/hayat_logo.png", "stillEvil": true }
 		],
 		"all_brands": "https://www.danone.com/brands.html",
 		"pic": "danone/danone.svg",
@@ -51,7 +103,7 @@
 			{ "name": "Axe", "logo": "unilever/axe.png", "stillEvil": true },
 			{ "name": "Domestos", "logo": "unilever/domestos.png", "stillEvil": true }
 		],
-		"all_brands": "",
+		"all_brands": "https://www.unilever.com/brands/all-brands/",
 		"pic": "unilever/unilever.jpg",
 		"logo": "unilever/unilever_logo.png",
 		"stillEvil": true
@@ -122,31 +174,10 @@
 				"stillEvil": true
 			}
 		],
-		"all_brands": "https://www.focus-brands.com/brands",
+		"all_brands": "https://www.focusbrands.com/",
 		"linkedin": "https://www.linkedin.com/company/focus-brands/posts/?feedView=all",
 		"logo": "focus_brands/focusbrands.png",
 		"pic": "focus_brands/focusbrands_img.svg",
-		"stillEvil": true
-	},
-	{
-		"name": "Mondelez",
-		"logo": "mondelez/mondelez.svg",
-		"pic": "mondelez/mondelez_img.svg",
-		"stage": 4,
-		"area": "food",
-		"all_brands": "https://www.mondelezinternational.com/Our-Brands",
-		"children": [
-			{ "name": "Milka", "logo": "mondelez/milka.png", "stillEvil": true },
-			{ "name": "Toblerone", "logo": "mondelez/toblerone.png", "stillEvil": true },
-			{ "name": "Oreo", "logo": "mondelez/oreo.png", "stillEvil": true },
-			{ "name": "Belvita", "logo": "mondelez/belvita.png", "stillEvil": true },
-			{ "name": "Côte d'Or", "logo": "mondelez/cote.jpg", "stillEvil": true },
-			{ "name": "Halls", "logo": "mondelez/halls.png", "stillEvil": true }
-		],
-		"linkedin": "https://www.linkedin.com/company/mondelezinternational/posts/?feedView=all",
-		"facebook": "https://www.facebook.com/mondelezinternational/",
-		"twitter": "https://twitter.com/MDLZ",
-		"instagram": "https://www.instagram.com/mondelez_international/",
 		"stillEvil": true
 	},
 	{
@@ -315,24 +346,8 @@
 				"logo": "general_mills/lucky_charms.png",
 				"stillEvil": true
 			},
-			{ "name": "Cheerios", "logo": "general_mills/cheerios.png", "stillEvil": true }
-		],
-		"stillEvil": true
-	},
-	{
-		"name": "Henkel",
-		"logo": "henkel/henkel_logo.png",
-		"pic": "henkel/henkel.svg",
-		"all_brands": "https://www.henkel.com/brands-and-businesses",
-		"twitter": "https://twitter.com/henkel",
-		"instagram": "https://www.instagram.com/henkel/",
-		"facebook": "https://www.facebook.com/henkel",
-		"linkedin": "https://www.linkedin.com/company/henkel/posts/?feedView=all",
-		"area": "laundry/cleaning",
-		"children": [
-			{ "name": "Persil", "logo": "henkel/persil.png", "stillEvil": true },
-			{ "name": "Fa", "logo": "henkel/fa.png", "stillEvil": true },
-			{ "name": "Ceresit", "logo": "henkel/ceresit.png", "stillEvil": true }
+			{ "name": "Cheerios", "logo": "general_mills/cheerios.png", "stillEvil": true },
+			{ "name": "Cookie Crisps", "logo": "general_mills/cookiecrisp_logo.png", "stillEvil": true }
 		],
 		"stillEvil": true
 	},
@@ -654,13 +669,22 @@
 	{
 		"name": "Bayer",
 		"logo": "bayer_logo.svg",
-		"area": "",
+		"all_brands": "https://www.bayer.com/en/products/products-from-A-to-Z",
+		"area": "Chemical",
 		"stage": 4,
 		"stillEvil": true
 	},
 	{
 		"name": "Colgate-Palmolive",
-		"logo": "colgate_logo.svg",
+		"logo": "colgate/colgate_logo.svg",
+		"all_brands": "https://www.colgatepalmolive.de/local-brands",
+		"children": [
+			{ "name": "Ajax", "logo": "colgate/ajax_logo.png", "stillEvil": true },
+			{ "name": "Colgate", "logo": "colgate/colgate_logo.png", "stillEvil": true },
+			{ "name": "Elmex", "logo": "colgate/elmex_logo.png", "stillEvil": true },
+			{ "name": "Meridol", "logo": "colgate/meridol_logo.jpg", "stillEvil": true },
+			{ "name": "Palmolive", "logo": "colgate/palmolive_logo.png", "stillEvil": true }
+		],
 		"area": "",
 		"stage": 4,
 		"stillEvil": true
@@ -751,7 +775,13 @@
 	},
 	{
 		"name": "Yum Brands",
-		"logo": "yum_logo.svg",
+		"logo": "yum/yum_logo.svg",
+		"all_brands": "https://www.yum.com/wps/portal/yumbrands/Yumbrands",
+		"children": [
+			{ "name": "KFC", "logo": "yum/kfc_logo.svg", "stillEvil": true },
+			{ "name": "Pizza Hut", "logo": "yum/pizzahut_logo.svg", "stillEvil": true },
+			{ "name": "Taco Bell", "logo": "yum/tacobell_logo.png", "stillEvil": true }
+		],
 		"area": "",
 		"stage": 5,
 		"stillEvil": true
@@ -803,6 +833,55 @@
 		"logo": "telekom_logo.svg",
 		"area": "",
 		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Alibaba",
+		"logo": "alibaba_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Carrefour",
+		"logo": "carrefour_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Didi",
+		"logo": "didi_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Huawei",
+		"logo": "huawei_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Xiaomi",
+		"logo": "xiaomi_logo.svg",
+		"area": "",
+		"stage": 5,
+		"stillEvil": true
+	},
+	{
+		"name": "Otis",
+		"logo": "otis_logo.svg",
+		"area": "",
+		"stage": 4,
+		"stillEvil": true
+	},
+	{
+		"name": "Sanofi",
+		"logo": "sanofi_logo.svg",
+		"area": "",
+		"stage": 4,
 		"stillEvil": true
 	}
 ]

@@ -1,5 +1,5 @@
 <script>
-	export const lastUpdated = 'March 24th 2022';
+	export const lastUpdated = 'March 25th 2022';
 </script>
 
 {lastUpdated}

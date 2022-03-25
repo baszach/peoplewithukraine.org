@@ -103,7 +103,7 @@
 	</div>
 
 	{#if killer.children != null}
-		<div class="place-items-center companies-children-grid bg-slate-200">
+		<div class="max-h-96 overflow-scroll place-items-center companies-children-grid bg-slate-200">
 			{#each killer.children as child}
 				<img src="/killers/{child.logo}" alt="" loading="lazy" style="" />
 			{/each}
