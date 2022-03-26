@@ -329,6 +329,7 @@
 		"name": "Electrolux",
 		"pic": "electrolux.jpg",
 		"logo": "electrolux_logo.png",
+		"area" : "electronics",
 		"linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all",
 		"stillEvil": true,
 		"twitter": "https://twitter.com/Electrolux",
