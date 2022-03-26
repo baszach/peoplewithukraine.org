@@ -40,7 +40,7 @@
 		class="mt-80 grid place-items-center lg:flex lg:justify-center lg:mt-96 lg:place-items-start"
 	>
 		<div class="z-30 lg:mr-6">
-			<IndexCard linkPath="/act" linkText="HOW TO HELP">
+			<IndexCard linkPath="/act/boycott" linkText="HOW TO HELP">
 				<p>
 					Millions of people from Ukraine have fled the destruction of their country. We need to
 					help both the people inside Ukraine and the ones who left her.

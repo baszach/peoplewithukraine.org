@@ -7,22 +7,35 @@
 	import DownloadIcon from './DownloadIcon.svelte';
 
 	export let killer;
+	export let onlyLogos = false;
 	let flipped = false;
 	let hovering = false;
 
-	let icon_size = killer.pic != null || killer.children != null ? '2' : '1.5';
+	let icon_size = !onlyLogos && (killer.pic != null || killer.children != null) ? '2' : '1.5';
 
 	function hover() {
+		if (!hasOtherSide()) return;
 		if (!flipped) hovering = true;
 	}
 
 	function unhover() {
+		if (!hasOtherSide()) return;
 		if (!flipped) hovering = false;
 	}
 
 	function click() {
+		if (!hasOtherSide()) return;
 		flipped = !flipped;
-		hovering = !flipped;
+	}
+
+	function hasOtherSide() {
+		return (
+			killer.linkedin != null ||
+			killer.facebook != null ||
+			killer.twitter != null ||
+			killer.instagram != null ||
+			killer.all_brands != null
+		);
 	}
 </script>
 
@@ -36,7 +49,7 @@
 		on:click={click}
 	>
 		<img
-			src="/killers/{killer.pic != null ? killer.pic : killer.logo}"
+			src="/killers/{killer.pic != null && !onlyLogos ? killer.pic : killer.logo}"
 			alt=""
 			loading="lazy"
 			class="company-image px-2"
@@ -44,7 +57,7 @@
 		/>
 		<!--		<DownloadIcon style="z-index: {flipped ? '10' : '0'}; opacity: {flipped ? '0%' : '100%'}"-->
 		<!--		></DownloadIcon>-->
-		{#if hovering}
+		{#if hovering && !flipped}
 			<div
 				style="z-index: 20; grid-area: 1/1/1/1; height: 100%; width: 100%; opacity: 40%"
 				class="bg-white"
@@ -103,7 +116,10 @@
 	</div>
 
 	{#if killer.children != null}
-		<div class="max-h-96 overflow-scroll place-items-center companies-children-grid bg-slate-200">
+		<div
+			class="overflow-auto place-items-center companies-children-grid bg-slate-200"
+			style="max-height: 35rem"
+		>
 			{#each killer.children as child}
 				<img src="/killers/{child.logo}" alt="" loading="lazy" style="" />
 			{/each}

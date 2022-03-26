@@ -44,7 +44,7 @@
 				<a
 					sveltekit:prefetch
 					on:click={() => (linksOpen = false)}
-					href="/act"
+					href="/boycott_graphic"
 					class="hover:text-ukraine-blue text-lg lg:mr-12"
 				>
 					How To Help

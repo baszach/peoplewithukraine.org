@@ -2,6 +2,7 @@
 	{
 		"name": "P&G",
 		"area": "consumer goods",
+		"stage": "d",
 		"children": [
 			{ "name": "Pampers", "logo": "png/pampers.png", "stillEvil": true },
 			{ "name": "Ariel", "logo": "png/ariel.png", "stillEvil": true },
@@ -25,7 +26,7 @@
 		"name": "Mondelez",
 		"logo": "mondelez/mondelez.svg",
 		"pic": "mondelez/mondelez_img.svg",
-		"stage": 4,
+		"stage": "f",
 		"area": "food",
 		"all_brands": "https://www.mondelezinternational.com/Our-Brands",
 		"children": [
@@ -47,6 +48,7 @@
 	{
 		"name": "Henkel",
 		"logo": "henkel/henkel_logo.png",
+		"stage": "d",
 		"pic": "henkel/henkel.svg",
 		"all_brands": "https://www.henkel.com/brands-and-businesses",
 		"twitter": "https://twitter.com/henkel",
@@ -58,7 +60,7 @@
 			{ "name": "Persil", "logo": "henkel/persil.png", "stillEvil": true },
 			{ "name": "Fa", "logo": "henkel/fa.png", "stillEvil": true },
 			{ "name": "Diadermine", "logo": "henkel/diadermine_logo.png", "stillEvil": true },
-			{ "name": "Nature Box", "logo": "henkel/naturebox_logo.png", "stillEvil": true },
+			{ "name": "Nature Box", "logo": "henkel/nature_box_logo.jpeg", "stillEvil": true },
 			{ "name": "Perwoll", "logo": "henkel/perwoll_logo.jpg", "stillEvil": true },
 			{ "name": "Pril", "logo": "henkel/pril_logo.png", "stillEvil": true },
 			{ "name": "Pritt", "logo": "henkel/pritt_logo.svg", "stillEvil": true },
@@ -75,7 +77,7 @@
 	{
 		"name": "Danone",
 		"area": "food",
-		"stage": 4,
+		"stage": "f",
 		"children": [
 			{ "name": "Actimel", "logo": "danone/actimel.png", "stillEvil": true },
 			{ "name": "Activia", "logo": "danone/activia.png", "stillEvil": true },
@@ -95,6 +97,7 @@
 	{
 		"name": "Unilever",
 		"area": "consumer goods",
+		"stage": "d",
 		"children": [
 			{ "name": "Ben & Jerry's", "logo": "unilever/ben_jerry.png", "stillEvil": true },
 			{ "name": "Rexona", "logo": "unilever/rexona.png", "stillEvil": true },
@@ -111,7 +114,7 @@
 	{
 		"name": "Nestle",
 		"area": "food",
-		"stage": 4,
+		"stage": "f",
 		"children": [
 			{ "name": "Kitkat", "logo": "nestle/kitkat.png", "stillEvil": true },
 			{ "name": "Smarties", "logo": "nestle/smarties.png", "stillEvil": true },
@@ -133,7 +136,7 @@
 	},
 	{
 		"name": "The Kraft Heinz Company",
-		"stage": 4,
+		"stage": "f",
 		"children": [
 			{ "name": "Kraft", "logo": "kraft_heinz/kraft.png", "stillEvil": true },
 			{ "name": "Heinz", "logo": "kraft_heinz/heinz.png", "stillEvil": true },
@@ -156,7 +159,7 @@
 	{
 		"name": "Focus Brands",
 		"info": "Moe's Southwest Grill, Cinnabon, Carvel & more",
-		"stage": 4,
+		"stage": "f",
 		"area": "food",
 		"children": [
 			{ "name": "Cinnabon", "logo": "focus_brands/cinnabon.svg", "stillEvil": true },
@@ -181,7 +184,8 @@
 		"stillEvil": true
 	},
 	{
-		"name": "Crédit Agricole",
+		"name": "Credit Agricole",
+		"stage": "d",
 		"pic": "credit_agricole.jpg",
 		"logo": "credit_agricole_logo.png",
 		"stillEvil": true,
@@ -193,7 +197,7 @@
 	},
 	{
 		"name": "Johnson & Johnson",
-		"stage": 4,
+		"stage": "f",
 		"pic": "johnson.jpg",
 		"area": "pharma/consumer healthcare",
 		"logo": "johnson_logo.png",
@@ -206,7 +210,7 @@
 	{
 		"name": "Auchan",
 		"area": "retailer",
-		"stage": 5,
+		"stage": "d",
 		"logo": "auchan_logo.png",
 		"pic": "auchan.jpg",
 		"twitter": "https://twitter.com/Auchannews",
@@ -218,6 +222,7 @@
 		"name": "Metro",
 		"pic": "metro.jpg",
 		"logo": "metro_logo.png",
+		"stage": "f",
 		"area": "retailer",
 		"facebook": "https://www.facebook.com/metro.deutschland",
 		"instagram": "https://www.instagram.com/metro_deutschland/",
@@ -228,7 +233,7 @@
 		"name": "Leroy Merlin",
 		"area": "retailer",
 		"pic": "leroy_merlin.jpg",
-		"stage": 5,
+		"stage": "d",
 		"logo": "leroy_merlin_logo.png",
 		"linkedin": "https://www.linkedin.com/company/leroy-merlin/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/leroymerlin",
@@ -245,7 +250,7 @@
 		"name": "Pirelli",
 		"pic": "pirelli.jpg",
 		"logo": "pirelli_logo.png",
-		"stage": 4,
+		"stage": "f",
 		"area": "automotive",
 		"twitter": "https://twitter.com/pirelli",
 		"facebook": "https://www.facebook.com/Pirelli",
@@ -301,7 +306,7 @@
 	},
 	{
 		"name": "Asus",
-		"stage": 5,
+		"stage": "d",
 		"pic": "ua_asus.svg",
 		"logo": "asus_logo.png",
 		"stillEvil": true,
@@ -314,7 +319,7 @@
 		"name": "Decathlon",
 		"pic": "ua_decathlon.svg",
 		"logo": "decathlon_logo.png",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true,
 		"area": "sport goods",
 		"twitter": "https://twitter.com/Decathlon",
@@ -323,6 +328,7 @@
 	{
 		"name": "Electrolux",
 		"pic": "electrolux.jpg",
+		"logo": "electrolux_logo.png",
 		"linkedin": "https://www.linkedin.com/company/electrolux/posts/?feedView=all",
 		"stillEvil": true,
 		"twitter": "https://twitter.com/Electrolux",
@@ -332,7 +338,7 @@
 		"name": "General Mills",
 		"logo": "general_mills/generalmills.svg",
 		"pic": "general_mills/generalmills_img.svg",
-		"stage": 4,
+		"stage": "f",
 		"all_brands": "https://www.generalmills.com/food-we-make/brands",
 		"twitter": "https://twitter.com/generalmills",
 		"instagram": "https://www.instagram.com/generalmills/",
@@ -355,7 +361,7 @@
 		"name": "Oriflame Cosmetics",
 		"pic": "ua_oriflame.svg",
 		"area": "cosmetics",
-		"stage": 5,
+		"stage": "d",
 		"linkedin": "https://www.linkedin.com/company/oriflame/posts/?feedView=all",
 		"instagram": "https://www.instagram.com/oriflame/",
 		"logo": "oriflame_logo.png",
@@ -383,7 +389,7 @@
 		"name": "Subway",
 		"logo": "subway.svg",
 		"area": "fast food",
-		"stage": 5,
+		"stage": "d",
 		"linkedin": "https://www.linkedin.com/company/subway/posts/?feedView=all",
 		"facebook": "https://www.facebook.com/subway",
 		"instagram": "https://www.instagram.com/subway/",
@@ -404,7 +410,7 @@
 	{
 		"name": "Accor",
 		"logo": "accor.svg",
-		"stage": 4,
+		"stage": "f",
 		"area": "hospitality",
 		"twitter": "https://twitter.com/accor",
 		"instagram": "https://www.instagram.com/accor/",
@@ -415,7 +421,7 @@
 	{
 		"name": "Air Liquide",
 		"logo": "airliquide.png",
-		"stage": 4,
+		"stage": "f",
 		"twitter": "https://twitter.com/AirLiquideGroup",
 		"facebook": "https://www.facebook.com/AirLiquide",
 		"linkedin": "https://www.linkedin.com/company/airliquide/",
@@ -426,7 +432,7 @@
 		"name": "Air Products",
 		"logo": "airproducts.svg",
 		"area": "gas",
-		"stage": 5,
+		"stage": "d",
 		"twitter": "https://twitter.com/AirProducts",
 		"instagram": "https://www.instagram.com/airproductsglobal/",
 		"facebook": "https://www.facebook.com/airproducts",
@@ -436,7 +442,7 @@
 	{
 		"name": "Baker Hughes",
 		"logo": "bakerhughes.svg",
-		"stage": 4,
+		"stage": "f",
 		"area": "gas",
 		"twitter": "https://twitter.com/bakerhughesco",
 		"instagram": "https://www.instagram.com/bakerhughesco/",
@@ -462,7 +468,7 @@
 	{
 		"name": "Cargill",
 		"logo": "cargill.png",
-		"stage": 4,
+		"stage": "f",
 		"area": "agriculture",
 		"twitter": "https://twitter.com/cargill",
 		"facebook": "https://www.facebook.com/Cargill/",
@@ -484,7 +490,7 @@
 		"name": "Cloudflare",
 		"logo": "cloudfare.png",
 		"area": "internet",
-		"stage": 5,
+		"stage": "d",
 		"twitter": "https://twitter.com/cloudflare",
 		"facebook": "https://www.facebook.com/Cloudflare/",
 		"linkedin": "https://www.linkedin.com/company/cloudflare/posts/?feedView=all",
@@ -494,7 +500,7 @@
 		"name": "Greif",
 		"logo": "greif.webp",
 		"area": "packaging",
-		"stage": 5,
+		"stage": "d",
 		"twitter": "https://twitter.com/greifinc",
 		"facebook": "https://www.facebook.com/GreifInc/",
 		"linkedin": "https://www.linkedin.com/company/greif/posts/?feedView=all",
@@ -560,7 +566,7 @@
 		"name": "Gruma",
 		"info": "Tortillas",
 		"logo": "gruma.png",
-		"stage": 5,
+		"stage": "d",
 		"area": "food processing",
 		"twitter": "https://twitter.com/GrumaGlobal",
 		"facebook": "https://www.facebook.com/GrumaGlobal",
@@ -569,7 +575,7 @@
 	{
 		"name": "Halliburton",
 		"logo": "halliburton.png",
-		"stage": 4,
+		"stage": "f",
 		"area": "petroleum",
 		"twitter": "https://twitter.com/halliburton",
 		"instagram": "https://www.instagram.com/halliburton/",
@@ -581,7 +587,7 @@
 		"name": "International Paper",
 		"logo": "paper.png",
 		"area": "paper",
-		"stage": 5,
+		"stage": "d",
 		"twitter": "https://twitter.com/IntlPaperCo",
 		"facebook": "https://www.facebook.com/InternationalPaper",
 		"linkedin": "https://www.linkedin.com/company/international-paper/posts/?feedView=all",
@@ -612,7 +618,7 @@
 	{
 		"name": "IPG Photonics",
 		"logo": "ipg.png",
-		"stage": 5,
+		"stage": "d",
 		"area": "photonics",
 		"linkedin": "https://www.linkedin.com/company/ipg-photonics/posts/?feedView=all",
 		"stillEvil": true
@@ -621,7 +627,7 @@
 		"name": "Linde",
 		"logo": "linde.png",
 		"area": "gas/engineering",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
@@ -642,28 +648,28 @@
 		"name": "Schlumberger",
 		"logo": "schlumberger.png",
 		"area": "oil",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Arconic",
 		"logo": "arconic_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Barilla",
 		"logo": "barilla_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "BASF SE",
 		"logo": "basf_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
@@ -671,7 +677,7 @@
 		"logo": "bayer_logo.svg",
 		"all_brands": "https://www.bayer.com/en/products/products-from-A-to-Z",
 		"area": "Chemical",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
@@ -686,91 +692,91 @@
 			{ "name": "Palmolive", "logo": "colgate/palmolive_logo.png", "stillEvil": true }
 		],
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Dunkin Donuts",
 		"logo": "dunkin_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Hilton",
 		"logo": "hilton_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Hyatt",
 		"logo": "hyatt_logo.png",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Kellogg's",
 		"logo": "kellogg_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Koch Industries",
 		"logo": "koch_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Marriott",
 		"logo": "marriott_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Merck",
 		"logo": "merck_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Pfizer",
 		"logo": "pfizer_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Raiffeisen",
 		"logo": "raiffeisen_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Renault",
 		"logo": "renault_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Siemens",
 		"logo": "siemens_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Credit Suisse",
 		"logo": "suisse_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
@@ -783,105 +789,105 @@
 			{ "name": "Taco Bell", "logo": "yum/tacobell_logo.png", "stillEvil": true }
 		],
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Acer",
 		"logo": "acer_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Astra Zeneca",
 		"logo": "astrazeneca_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Knauf",
 		"logo": "knauf_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Lenovo",
 		"logo": "lenovo_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Ball Corporation",
 		"logo": "ballcorp_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "MSI",
 		"logo": "msi_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Deutsche Telekom",
 		"logo": "telekom_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Alibaba",
 		"logo": "alibaba_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Carrefour",
 		"logo": "carrefour_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Didi",
 		"logo": "didi_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Huawei",
 		"logo": "huawei_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Xiaomi",
 		"logo": "xiaomi_logo.svg",
 		"area": "",
-		"stage": 5,
+		"stage": "d",
 		"stillEvil": true
 	},
 	{
 		"name": "Otis",
 		"logo": "otis_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	},
 	{
 		"name": "Sanofi",
 		"logo": "sanofi_logo.svg",
 		"area": "",
-		"stage": 4,
+		"stage": "f",
 		"stillEvil": true
 	}
 ]

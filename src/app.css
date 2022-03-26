@@ -7,6 +7,10 @@ a {
 	color: black;
 }
 
+main {
+	scrollbar-color: #ffea7f #f3f3f3;
+}
+
 @layer components {
 	.link {
 		@apply text-blue-800 underline hover:text-blue-500;
@@ -50,7 +54,7 @@ a {
 }
 
 .companies-group {
-	grid-template-columns: repeat(auto-fill, 38rem);
+	grid-template-columns: repeat(auto-fill, 41rem);
 }
 
 .companies-with-pic {
@@ -62,10 +66,10 @@ a {
 }
 
 .companies-children-grid {
-	grid-template-columns: repeat(auto-fill, 6em);
+	grid-template-columns: repeat(auto-fill, 8em);
 	width: 50%;
 	padding: 0.5em;
-	margin-left: 2em;
+	margin-left: 1em;
 }
 
 .company-holder {
@@ -89,6 +93,16 @@ a {
 	height: 100%;
 }
 
+.boycott-type {
+	@apply flex justify-center;
+}
+
+.news-source {
+	display: flex;
+	width: 100%;
+	@apply text-left justify-between;
+}
+
 @media screen and (max-width: 550px) {
 	.company-holder {
 		display: block;
@@ -107,10 +121,18 @@ a {
 	.companies-group {
 		grid-template-columns: 1fr;
 	}
+
+	.news-source {
+		display: block;
+	}
 }
 
 @media screen and (max-width: 450px) {
 	.companies-with-pic {
+		grid-template-columns: 1fr;
+	}
+	.boycott-type {
+		@apply grid;
 		grid-template-columns: 1fr;
 	}
 }
