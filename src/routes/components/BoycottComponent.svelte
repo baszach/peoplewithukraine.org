@@ -16,9 +16,10 @@
 		Putin.
 	</p>
 	<p class="mt-4 text-2xl font-bold text-accent-gray">
-		Contact the companies via social media and urge them to stop. All links appear on clicking
-		company's image.
+		Contact the companies via social media and urge them to stop.
 	</p>
+	<p class="italic text-accent-gray">click on company's image to see the links</p>
+
 	<p class="mt-4">
 		You may notice that some of these companies announced to draw back from Russia. We will leave
 		them in this list for a bit longer. They kept us and the Ukrainian people waiting too, after

@@ -40,7 +40,7 @@
 		class="mt-80 grid place-items-center lg:flex lg:justify-center lg:mt-96 lg:place-items-start"
 	>
 		<div class="z-30 lg:mr-6">
-			<IndexCard linkPath="/act/boycott" linkText="HOW TO HELP">
+			<IndexCard linkPath="act" linkText="HOW TO HELP">
 				<p>
 					Millions of people from Ukraine have fled the destruction of their country. We need to
 					help both the people inside Ukraine and the ones who left her.
@@ -56,7 +56,7 @@
 			</IndexCard>
 		</div>
 		<div class="z-30 mt-12 lg:mt-0">
-			<IndexCard linkPath="boycott" linkText="BOYCOTT">
+			<IndexCard linkPath="boycott_graphic" linkText="BOYCOTT">
 				<p>
 					Businesses continue operating and paying taxes in Russia. This money is being used by
 					Russia to strengthen it's army. An army that is bombing civilians and blocks humanitarian
