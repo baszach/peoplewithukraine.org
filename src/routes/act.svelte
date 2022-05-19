@@ -79,7 +79,13 @@
 				</a>.
 			</li>
 			<li>
-				&bull; Find companies that continue operating in Russia
+				&bull; Inform yourself about businesses that retreated/remained in Russia
+				<a href="https://www.yalerussianbusinessretreat.com/" target="_blank" class="link">
+					yalerussianbusinessretreat.com
+				</a>.
+			</li>
+			<li>
+				&bull; Initiative to call out & boycott businesses that operate in Russia
 				<a href="https://www.boycottrussia.info/" target="_blank" class="link">
 					boycottrussia.info
 				</a>.

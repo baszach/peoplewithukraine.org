@@ -15,8 +15,8 @@
 	<div class="grid place-items-center text-center lg:flex lg:justify-center">
 		<div class="max-w-lg">
 			<span class="text-xl">
-				On the 24th of February 2022 a free and democratic country was attacked by
-				<span class="font-bold text-red-500">Russia</span>. The world has to act right now.
+				On the 24th of February 2022 
+				<span class="text-ukraine-blue font-bold">Ukraine</span> was attacked. The world has to fight right now until <span class="text-ukraine-yellow font-bold">Ukraine</span> is free again.
 			</span>
 			<h1 class="text-5xl pt-4 font-bold text-ukraine-blue lg:pt-24 ">SUPPORT UKRAINE</h1>
 		</div>

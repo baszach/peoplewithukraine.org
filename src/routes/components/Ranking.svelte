@@ -25,7 +25,6 @@
 </script>
 
 <ul class="mt-8 text-center">
-	<p>Below is a list of contributors to war (<LastUpdatedCompanies />):</p>
 	<input
 		bind:value={$term}
 		id="searchbar"

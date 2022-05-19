@@ -25,7 +25,7 @@
 		them in this list for a bit longer. They kept us and the Ukrainian people waiting too, after
 		all.
 	</p>
-	<div class="boycott-type place-items-center">
+	<div class="mt-4 boycott-type place-items-center">
 		<a
 			href="boycott_graphic"
 			class="mt-4 py-2 px-8 rounded-2xl text-2xl font-bold text-white bg-ukraine-blue mx-4
@@ -49,4 +49,6 @@
 		</a>
 	</div>
 	<p class="mt-8 text-left">Below is a list of contributors to war (<LastUpdatedCompanies />):</p>
+	<p class="text-xs text-accent-gray">Source: <a href="https://www.yalerussianbusinessretreat.com/" target="_blank"
+		class="text-xs text-accent-gray font-bold link">yalerussianbusinessretreat.com</a></p>
 </div>
