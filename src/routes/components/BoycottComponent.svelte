@@ -49,6 +49,11 @@
 		</a>
 	</div>
 	<p class="mt-8 text-left">Below is a list of contributors to war (<LastUpdatedCompanies />):</p>
-	<p class="text-xs text-accent-gray">Source: <a href="https://www.yalerussianbusinessretreat.com/" target="_blank"
-		class="text-xs text-accent-gray font-bold link">yalerussianbusinessretreat.com</a></p>
+	<p class="text-xs text-accent-gray">
+		Source: <a
+			href="https://www.yalerussianbusinessretreat.com/"
+			target="_blank"
+			class="text-xs text-accent-gray font-bold link">yalerussianbusinessretreat.com</a
+		>
+	</p>
 </div>
