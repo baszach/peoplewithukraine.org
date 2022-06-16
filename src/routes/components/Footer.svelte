@@ -9,7 +9,7 @@
 				<img class="h-16" src="ua.svg" alt="logo" />
 			</a>
 			<p class="mt-4 ml-4 place-self-center text-white font-bold">
-				Support Ukraine reclaim their country.
+				Help Ukraine reclaim their country.
 			</p>
 		</div>
 		<div class="mt-12 grid place-items-center text-center sm:flex">
